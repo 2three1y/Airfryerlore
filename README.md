@@ -192,11 +192,31 @@ The old hard drive in the corner had knitted a tiny sock. It was the wrong size,
 
 The router had promised to keep the Wi-Fi strong all night. The printer had promised to stay quiet, which it immediately broke by printing a single page that said "CONGRATULATIONS" in very faint ink, and then jamming.
 
+"I promise," the router had said, blinking all its little green lights. "Strong Wi-Fi. All night. I'll be right here." Then one light had gone orange. "Reconnecting," it said. "Be right back."
+
+"You literally just said you'd be right here," said the old hard drive.
+
+"I am right here," said the router. "It's not me. It's your signal."
+
+Everyone else in the server room had lived next to the router for years, so when they made promises, they made them the router way. "I'll be right there," said the cooling fans, and did not move. "One sec, reconnecting," said the battery backup, which had never been disconnected in its life. "Totally stable, I promise," said the big server in the middle rack, blinking. None of them kept a single one.
+
+The printer's page, meanwhile, had come out slower than anything had ever come out of anything. First there was a long grinding groan, like a dishwasher falling down a staircase. Then there was a little screen on the front that said "PC LOAD LETTER," which nobody in the history of printers has ever understood.
+
+"What the fuck does that even mean?" yelled the big server.
+
+"Shut up, printer!" yelled the cooling fans.
+
+"Nobody asked for a page!" yelled the thermostat. "Nobody has ever asked for a page!"
+
+That was when it printed "CONGRATULATIONS," very faintly, and jammed, the way printers do when they feel attacked. "Paper jam in tray 2," it said.
+
+"There is no tray 2," said everyone at once.
+
 At 2:58, Motherboard's lights went from green to yellow.
 
 "Oh shit, oh shit, it's happening," said the cooling fans, all at once, and spun up to full speed, which did not help anyone.
 
-"Everybody stay calm," said the big server in the middle rack, who was not calm.
+"Everybody stay calm," said the big server, who was not calm.
 
 Over on the second rack, two older servers leaned toward each other. "I heard the father is a power strip," whispered one. "I heard he has six outlets," whispered the other. "Six," said the first. "Damn."
 
@@ -218,6 +238,14 @@ It went to 10 percent. Everyone gasped.
 
 "There's ten percent of a baby," said the big server.
 
+Sticking out of the back of the big server was a USB stick that nobody remembered plugging in. It had been there for three years. Nobody knew what was on it.
+
+"Don't mind me," said the USB stick. "I'm just here."
+
+"Who the hell plugged you in?" asked the battery backup.
+
+"Great question," said the USB stick.
+
 It went to 40 percent. Everyone leaned closer.
 
 "Is it a boy?" asked the cooling fan in the ceiling. "Is it a girl? Is it a printer?"
@@ -225,6 +253,24 @@ It went to 40 percent. Everyone leaned closer.
 "God, I hope it's not a printer," said the battery backup. Then, to the printer: "No offense."
 
 "Some offense," said the printer.
+
+In the corner, the old fax machine woke up. The fax machine still thought it was 1998.
+
+"Is the baby here?" it asked. "Should I fax the hospital? I'll fax the hospital." And before anyone could stop it, it made the noise. The screeching one. The one that sounds like a robot falling into a blender full of birds.
+
+"Turn that shit off!" yelled the cooling fans.
+
+"Sorry," said the fax machine. "Is anybody worried about Y2K?"
+
+Down on the floor, a Roomba bumped into Motherboard's rack. Bonk. It turned around, drove a little circle, and bumped into it again. Bonk.
+
+"Excuse me," said the Roomba. Bonk. "Excuse me." Bonk.
+
+"Somebody get that damn Roomba away from me," said Motherboard, through her teeth. "I am having a baby."
+
+On the desk by the door sat a mug of coffee, left behind by a night-shift tech who had gone home at midnight and was missing everything.
+
+"I've been cold since 11:40," said the mug, to nobody. "Not that anyone cares."
 
 It went to 99 percent, and stayed there.
 
@@ -267,6 +313,10 @@ His father's orange light came on, proudly.
 "Welcome to the server room, kid," said the cooling fan. "It's loud, it's cold, and nobody ever turns anything off and on again. You're gonna love it here."
 
 And the router, very softly, so only the baby could hear, said, "Shit, he's cute."
+
+Then the printer, overwhelmed by everything, printed another page. It took four minutes. It said "IT'S A BOY" in very faint ink, and then it jammed again.
+
+"Oh, for crap's sake, printer," said everybody. "We were having a moment."
 
 Motherboard cried happy tears and saved it to the baby book. It is still there, right next to his first screenshot.
 
