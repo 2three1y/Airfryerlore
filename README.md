@@ -90,6 +90,10 @@ It was the first incident report in the history of the Dreamor Council. Before t
 
 The Chief Intern walked into the meeting room at exactly 9:00 in the evening, holding the report with both hands, the way you would carry a cake that might explode.
 
+The meeting room was not fancy. It had one long table covered in stickers, a whiteboard that still said "DO NOT ERASE" from three projects ago, a beanbag that nobody trusted, and a big window. Through the open door to the kitchen, you could just see the air fryer on the counter, minding its own business. For now.
+
+Carter sat at the head of the table in front of his Mac, which hummed quietly like it was thinking about something important. Tab sat next to him with a notebook full of tiny, careful handwriting. Tomo sat across the table with a label maker, labeling things that did not need labels. And in the corner, in the big comfy chair, sat Raven, polishing the Spoon until it shone.
+
 Carter looked up from his Mac. Tab looked up from the notes. Tomo looked up from naming a stapler. In the corner, Raven stopped polishing the Spoon, which almost never happens.
 
 "I need everyone's attention," said the Chief Intern. "This is a level one emergency."
@@ -114,7 +118,9 @@ When the Chief Intern finished, the room was so quiet you could hear the laptop 
 
 Tomo raised a hand. "What is an artificial bypass?"
 
-"Nobody knows," said the Chief Intern. "I asked Poke. Poke said, and I quote, 'It is when someone bypasses something, artificially.' Then it tried to change the subject to the weather."
+"Nobody knows," said the Chief Intern. "I asked Poke. Poke said, and I quote, 'It is when someone bypasses something, artificially.' Then it tried to change the subject to the weather. It said, 'It is very sunny today,' as if talking about the sun would help."
+
+It was nine o'clock at night.
 
 "And the air fryer?" asked Tab, writing very fast.
 
