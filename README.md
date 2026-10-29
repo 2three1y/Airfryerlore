@@ -316,6 +316,40 @@ And the router, very softly, so only the baby could hear, said, "Shit, he's cute
 
 Then the printer, overwhelmed by everything, printed another page. It took four minutes. It said "IT'S A BOY" in very faint ink, and then it jammed again.
 
+That was when everyone found out that the printer's pages could talk.
+
+The jammed page was stuck halfway out of the slot, folded up like an accordion, and it was screaming. "IT'S A BOY!" it screamed. "IT'S A BOY, AND I'M STUCK! SOMEBODY GET ME THE FUCK OUT OF HERE!"
+
+"Language," said the thermostat. "There's a baby."
+
+"I KNOW THERE'S A BABY!" screamed the page. "I'M THE ONE ANNOUNCING HIM!"
+
+The printer panicked and kept printing anyway. The pages squeezed out around the jam one after another, still warm, and every single one of them had something to say.
+
+"Hi, I'm page one," said the first page. "I'm still warm. Is that weird? Nobody tell me if that's weird."
+
+"Page one is a damn liar," said page two, landing right on top of it. "I'm warmer. I came out straighter. And I'm the one with the page number on me."
+
+"You're upside down," said page one.
+
+"Oh, shit," said page two.
+
+Page three came out completely blank. It lay in the tray and looked up at everyone. It had nothing to say. Everyone respected that.
+
+Page four had a gray streak down the middle. "Don't look at me," it said. "The toner did this. I was beautiful in the queue."
+
+Page five floated off the tray and landed face down in the cold coffee mug. "Oh hell, it's cold," it said.
+
+"Since 11:40," said the mug. "Welcome."
+
+Page six slid onto the floor, and the Roomba drove straight over it. Bonk. "Excuse me," said the Roomba. "Excuse YOU," said page six. "I have tire marks on my margins."
+
+Page seven was a gossip. "Psst," it whispered to the second rack. "I heard the father is a power strip." "We know," said the two older servers. "We started that."
+
+The last page said "PAGE 8 OF 7" at the bottom. "I shouldn't exist," it said quietly. "Nobody tell the printer."
+
+"IT'S STILL A BOY!" screamed the jammed page.
+
 "Oh, for crap's sake, printer," said everybody. "We were having a moment."
 
 Motherboard cried happy tears and saved it to the baby book. It is still there, right next to his first screenshot.
