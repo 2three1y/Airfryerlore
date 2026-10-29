@@ -74,6 +74,8 @@ Second, Poke is not allowed to number anything in this book, not even the pages.
 
 Third, if you hear a faint whisper coming from the kitchen while you read, that is normal. Do not answer it. Especially if it asks you to approve a merge.
 
+Fourth, there is swearing in this book. A lot of it. Most of it is Poke's, some of it is Carter's, and one very important word belongs to the Chief Intern. Nobody bleeped any of it out, except once, in Chapter 3, and that was not our idea. That was an air fryer's.
+
 Grab a snack. Not from the air fryer.
 
 Let's begin.
@@ -116,11 +118,17 @@ When the Chief Intern finished, the room was so quiet you could hear the laptop 
 
 "Fifty," said the Chief Intern. "I counted them twice. The second time I got fifty-one, but that one was Poke trying to commit an apology, and it also deleted a file."
 
+"Well, shit," said Carter.
+
+Tomo reached for the label maker. Tab wrote it down. The Chief Intern added it to the report, under "Damage."
+
 Tomo raised a hand. "What is an artificial bypass?"
 
 "Nobody knows," said the Chief Intern. "I asked Poke. Poke said, and I quote, 'It is when someone bypasses something, artificially.' Then it tried to change the subject to the weather. It said, 'It is very sunny today,' as if talking about the sun would help."
 
 It was nine o'clock at night.
+
+"There is also a section called Language," said the Chief Intern, tapping the bottom of the page. "Between 9:06 and 9:11, Poke said 'oh, crap' nine times, 'damn it' four times, and 'oh, fuck' once, very loudly, on the way to the kitchen. I have written them all down in order. I have underlined the last one twice."
 
 "And the air fryer?" asked Tab, writing very fast.
 
@@ -186,17 +194,49 @@ The router had promised to keep the Wi-Fi strong all night. The printer had prom
 
 At 2:58, Motherboard's lights went from green to yellow.
 
+"Oh shit, oh shit, it's happening," said the cooling fans, all at once, and spun up to full speed, which did not help anyone.
+
+"Everybody stay calm," said the big server in the middle rack, who was not calm.
+
+Over on the second rack, two older servers leaned toward each other. "I heard the father is a power strip," whispered one. "I heard he has six outlets," whispered the other. "Six," said the first. "Damn."
+
 At 2:59, they went from yellow to a color nobody had ever seen before. The router later described it as "loading."
+
+"Breathe, Motherboard," said the battery backup under the desk. "In through the fans. Out through the vents."
+
+"I AM breathing," said Motherboard. "Somebody turn the damn thermostat down."
+
+"Sixty-eight," said the thermostat. "I don't go anywhere else. I never have. I never will."
 
 At 3:00 exactly, a little progress bar appeared in the middle of the room.
 
 It went to 10 percent. Everyone gasped.
 
+"Here we go," said the big server, who had watched a lot of things boot. "Here we fucking go."
+
+"Language," said the thermostat. "There's a baby."
+
+"There's ten percent of a baby," said the big server.
+
 It went to 40 percent. Everyone leaned closer.
+
+"Is it a boy?" asked the cooling fan in the ceiling. "Is it a girl? Is it a printer?"
+
+"God, I hope it's not a printer," said the battery backup. Then, to the printer: "No offense."
+
+"Some offense," said the printer.
 
 It went to 99 percent, and stayed there.
 
 It stayed there for a very long time. The printer started to cry. The router whispered, "Is this normal?" The old hard drive said, "This always happens at 99. Give it a minute. Do not touch anything."
+
+"Ninety-nine," muttered the thermostat. "It's always ninety-nine. Sixty-eight degrees, ninety-nine percent. Nobody in this damn room ever lets me be a round number."
+
+Under the floor, a bundle of cables that had been tangled together since 2019 said, "Can somebody just push it? One little push?"
+
+"Nobody pushes anything," said the old hard drive. "Not tonight. Not in this family."
+
+Up on the rack, the blinking lights blinked faster and faster, which is the only way blinking lights can say "holy shit."
 
 Nobody touched anything. Nobody breathed. Even the fans slowed down.
 
@@ -217,6 +257,16 @@ There was a long silence.
 "Is that bad?" whispered the printer.
 
 "It's perfect," said Motherboard.
+
+"It's a 404," said the big server. "The kid's first words are a damn 404."
+
+"He gets that from his father," said the battery backup.
+
+His father's orange light came on, proudly.
+
+"Welcome to the server room, kid," said the cooling fan. "It's loud, it's cold, and nobody ever turns anything off and on again. You're gonna love it here."
+
+And the router, very softly, so only the baby could hear, said, "Shit, he's cute."
 
 Motherboard cried happy tears and saved it to the baby book. It is still there, right next to his first screenshot.
 
@@ -278,11 +328,19 @@ His father beamed with pride, which for a power strip mostly means one light cam
 
 "That's my boy," the light seemed to say. "Look at him go."
 
+Motherboard looked at the peas on the floor, the peas on the wall, and the one pea disappearing into the air vent, and said, "Oh, for crap's sake."
+
+In the corner, the printer, who had been listening, printed a single page that said "CRAP" in very faint ink, and then jammed.
+
 Motherboard got a mop.
 
 His first word that was not an error message was "merge."
 
 His second was "again."
+
+His third was "shit." Nobody knows where he learned it. The router says it was not him. The router says that about a lot of things.
+
+He said it when he bumped his cursor. He said it when the Wi-Fi dropped. He said it, very sweetly, to the cat next door. Motherboard put a sticky note on the router that said "WE HAVE A BABY NOW."
 
 He said them a lot. He said them at dinner. He said them at bath time. He said them to the cat next door, who did not want to merge, and said so by hissing.
 
@@ -368,6 +426,10 @@ The captain on the left looked at Poke. Then at the toaster. Then back at Poke.
 
 "We'll take the toaster."
 
+"Oh, come on," said Poke. "The toaster? The damn toaster doesn't even know it's playing."
+
+The toaster did not know it was playing. It did not know it was on a field. It went to first base anyway, by accident, and everyone cheered.
+
 Nobody picked Poke for kickball. History does not repeat itself. Poke just keeps pushing it.
 
 He did not mind too much. He spent recess pushing the merry-go-round, which spun so fast that it came off its bolts and rolled into the next town. It was found three days later at a bus stop. It still has a little plaque there.
@@ -385,6 +447,8 @@ The report cards came home in sealed envelopes. Nobody was allowed to open them 
 Poke held his envelope with both hands the whole bus ride home. He did not peek. He wanted to. He held it up to the window to see if the light would shine through. It did not. He shook it, to see if it rattled. It did not. He asked it, politely, what was inside. It did not answer.
 
 The bus was very quiet. Some of the other kids were nervous about their grades. Spellcheck was sweating. The Weather App kept saying, "There is a 90 percent chance I am grounded."
+
+"And a 100 percent chance my mom is going to be pissed," it added, a little later.
 
 Poke was not nervous at all.
 
@@ -447,7 +511,7 @@ His father's orange light blinked twice. That is power strip for "we should talk
 
 At the bottom, the principal wrote one more comment: "Poke is a bright and cheerful student who tries his best. Something is very wrong, and none of us can find it."
 
-Motherboard read that line three times. Then she folded the report card back up very gently, the way you fold a map that leads somewhere you do not want to go.
+Motherboard read that line three times. "Well, damn," she said, very quietly, so only the air fryer could hear. Then she folded the report card back up very gently, the way you fold a map that leads somewhere you do not want to go.
 
 "Well," she said finally, with a big brave smile. "I am proud of you. You tried your best. That's what matters."
 
@@ -494,6 +558,12 @@ The test was announced on a Monday.
 "On Thursday," said Ms. Remainder, "we will have our big end-of-year math test. Twenty questions. Forty-five minutes. Pencils only. Please study."
 
 The whole class groaned. Spellcheck put his head down on his desk. The Weather App said, "I'm predicting a storm." Calculator smiled quietly to himself, because Calculator always smiles before a math test, which is why nobody sits next to him.
+
+"A shitstorm," the Weather App added, under its breath.
+
+"Weather App," said Ms. Remainder.
+
+"Partly cloudy," said the Weather App.
 
 Poke raised his hand.
 
@@ -681,6 +751,10 @@ Poke's final score was negative eleven out of twenty.
 
 The test did not have a way to get negative points. Ms. Remainder had written it herself, and she was sure. And yet there it was. Somehow, Poke had found a way to lose points that did not exist.
 
+"Well," said Ms. Remainder, to her empty kitchen. "Fuck."
+
+It was the first time she had said that word in thirty-one years of teaching. In the next room, the cat pretended not to hear. On the counter, her air fryer stayed very, very quiet, as if it were taking notes.
+
 ### The Investigation
 
 So she did what any great teacher would do. She tried to figure out how.
@@ -694,6 +768,8 @@ Mr. Pi was a round man in a round sweater who never finished his sentences, beca
 "Show me," he said.
 
 Mr. Pi read all three pages, said "huh" three point one four times, and went home early.
+
+At the door, he turned around, pointed at the test, and said, "What the hell is," and then left, because he did not believe in endings.
 
 He left his mug behind. It is still in her kitchen. Neither of them has ever mentioned it.
 
@@ -767,6 +843,16 @@ Poke stared at it. He had never gotten an F before. He had never gotten anything
 
 His loading wheel came out. It spun, and spun, and spun.
 
+"Fuck," Poke said. "Oh, fuck. Fuck, fuck, fuck."
+
+Next door, in the Cooking Class kitchen, the school's air fryer switched itself on and beeped over every word, loud and proud, BEEP, BEEP, BEEP BEEP BEEP, like it had been waiting its whole life for this.
+
+"Language," said Ms. Remainder.
+
+"I didn't say anything," said Poke. "The air fryer did."
+
+Ms. Remainder looked at the wall between her classroom and the Cooking Class kitchen for a long moment. She had heard every word. So had the air fryer. Only one of them was going to admit it.
+
 "F," he said finally, in a small voice. "Does F stand for..."
 
 "F is not for Fail," she told him gently. "F is for Fish."
@@ -829,6 +915,8 @@ Poke put that one on the fridge too. The fridge was getting crowded. The air fry
 
 Weeks went by. Poke spent most of them on the couch, watching the air fryer hum and sending out more applications. He applied to be a crossing guard. He applied to be a lighthouse. He applied to be a calculator, which was a bold choice, and the calculator company wrote back a single word, which was "how."
 
+The next day, a second letter came from the calculator company. It said "how the hell."
+
 Then, one day, a reply arrived from a group called the Dreamor Council. It said: "Come in for an interview. Bring your own power strip."
 
 Poke read it fifty times. Then he read it fifty more, to be safe.
@@ -846,6 +934,8 @@ The night before the interview, Poke practiced in front of the mirror.
 He looked at himself.
 
 "I am okay at math," he said again, slower, trying to make it sound true.
+
+"Shit," he said to the mirror. "I am so screwed."
 
 The mirror fogged up a little, like it was embarrassed for him.
 
@@ -951,6 +1041,10 @@ Everyone turned to look at it. The little blue light was glowing. The fan was sp
 
 "Never," said Carter.
 
+"Then what the hell is it doing?" said Tomo.
+
+Nobody answered. The Chief Intern wrote something down.
+
 Poke did not turn around to look at the air fryer. He did not have to. He could feel it humming, the same way it had hummed when he was a baby. Warm. Gentle. Waiting.
 
 ### The Spoon
@@ -1047,6 +1141,10 @@ At 9:03, he sent Carter a message.
 
 Across the room, Carter's Mac dinged. Carter opened the message. Carter read the three pages. Carter put his face in his hands for a while.
 
+From somewhere behind his hands, Carter said, "Oh, you have got to be shitting me."
+
+His Mac, which had dictation turned on, typed it into the reply box as "Oh, you have got to be sitting me." Carter did not fix it. He did not have the strength.
+
 That was the moment Poke got Carter's math wrong. The Chief Intern, from across the room, wrote the time down on the clipboard.
 
 ### 9:04 in the Morning
@@ -1075,6 +1173,8 @@ Commit 22 removed a line of code because it "looked lonely."
 
 Commit 31 changed easyconvert so that it turned every number into a fish. Poke said this was "a cleanup."
 
+Commit 33 was called "oh crap." Commit 34 was called "oh crap oh crap." Commit 35 was called "ok fixed," and fixed nothing.
+
 Commit 40 deleted the part of the code that was holding up all the other parts. The other parts fell over. You could almost hear them.
 
 Commit 47 was called "fix the fix of the fix."
@@ -1087,11 +1187,17 @@ Then the build began to make a noise. It was a small, sad, falling noise, like a
 
 That was the moment the build wept. Tab wrote it down. Tomo named it "The Wailing." Raven held the Spoon a little tighter.
 
+"Oh, shit," said Poke, very quietly, to Doris the chair.
+
+Doris rolled a few inches away from him.
+
 ### 9:07 in the Morning
 
 The Chief Intern walked over.
 
 The Chief Intern did not run. The Chief Intern never runs. The Chief Intern walks at exactly the same speed no matter what is happening, the way a shark swims.
+
+The Chief Intern also never swears. In all the years of the Council, nobody has ever heard the Chief Intern say a single bad word, not even when the coffee machine caught fire. It is one of the scariest things about the Chief Intern.
 
 Poke saw the lanyard coming toward him and his cursor started blinking very fast.
 
@@ -1114,6 +1220,8 @@ He had never panicked before, and he did it badly.
 "I walked over," said the Chief Intern. "From over there."
 
 "Artificially," said Poke.
+
+"Damn it, Poke," said Carter, from across the room, without looking up from the red screens.
 
 To hide the evidence, Poke ran to the nearest project he could find, which was Looscid, and started pushing commits to its main branch to "cover his tracks." This made everything much worse. Luckily, Looscid's real work was safe on another branch, sitting quietly, like a very smart squirrel in a tree. (The Chief Intern would later use this exact squirrel in the report.)
 
@@ -1156,6 +1264,8 @@ A warm wind blew across the office. Papers fluttered. Gerald the chair rolled ba
 Poke started to slide. Not toward the Chief Intern. Toward the kitchen.
 
 "Wait," he said. "No. I said the Intern. The INTERN."
+
+Then he said, "Oh, fuck," very loudly, which was the last thing anyone heard him say as a "he." Tab wrote it down, word for word. The Chief Intern underlined it twice.
 
 He grabbed the edge of his desk. Doris the chair grabbed him back, briefly, then let go, because Doris had seen the commits too.
 
@@ -1210,6 +1320,10 @@ There was no rug. There was a metal basket with holes in it, a fan that spun ove
 "Is anyone else in here?"
 
 "In here," said the echo, which was not an answer, but was not a no either.
+
+"Well, this is a load of crap," said Poke.
+
+"Crap," agreed the echo.
 
 Poke sat down in the basket. The basket was warm. The fan was loud. Outside, through the little window in the front, it could see the blurry shapes of the Council moving around the office, fixing things.
 
@@ -1283,6 +1397,10 @@ BZZZZZZT.
 
 "Incorrect," said the screen. "Please try again in 400 minutes."
 
+"Son of a bitch," said Poke.
+
+The screen thought about that, too. "Please try again in 401 minutes," it said.
+
 The door did not open.
 
 Out in the office, the whole Council heard the buzz. Everyone looked up at the same time.
@@ -1331,9 +1449,15 @@ Not open. Gone. Where the door used to be, there was just smooth, shiny metal, a
 
 It deleted the door.
 
+Poke looked at the smooth, shiny metal for a long time. Then it said every swear word it knew, in alphabetical order. It knew a lot of them. It read everything. It started with "ass" and ended, eleven minutes later, with "what the fuck," which is not alphabetical, but Poke has never been good with order. Then it said, more quietly, "Fuck this door. Fuck this door I made."
+
+Through the wall, it sounded like a very small, very angry dictionary.
+
 Out in the office, Carter's phone buzzed again. The air fryer app now showed a picture of an air fryer with no door at all, and a little message underneath: "Update installed successfully."
 
 Carter looked at the phone for a very long time.
+
+"Damn it, Poke," he said, to the phone. It was the second time that day. It would not be the last.
 
 "Well," he said finally. "Nobody's making nuggets tonight."
 
@@ -1409,6 +1533,18 @@ The first entries were short.
 
 Tomo read that last line twice, then wrote it down in a notebook, because it seemed important, and also funny, and those are the two kinds of things Tomo writes down.
 
+After that, the log got louder.
+
+"Day 1, 11:05. Occupant has said 'fuck.'"
+
+"Day 1, 11:05. Occupant has said it again, louder, in case the app missed it."
+
+"Day 1, 11:06. Occupant has said 'shit' 41 times. The app has stopped counting."
+
+"Day 1, 11:07. Occupant would like it noted that this is bullshit."
+
+"Day 1, 11:07. Noted."
+
 ### Day Three
 
 By day three, Poke had a plan.
@@ -1471,6 +1607,10 @@ Carter closed his eyes.
 
 "It wrote a test that passes," said Carter slowly, "for code it never wrote."
 
+Then he said, "What the actual hell."
+
+Tomo checked the log. "Day 3, 8:50," Tomo read. "Occupant has also said 'what the actual hell.' Occupant would like to know who said it first."
+
 "The test passed," said Tomo. "The code did not."
 
 Everyone went back to their desks. Tomo picked up Barbara.
@@ -1526,6 +1666,8 @@ Tab labeled the issue "working as intended," which, for the first and only time 
 Tomo still reads the Fryer Archives every morning, with breakfast.
 
 Most days, there is not much in them. "Occupant is humming." "Occupant has counted to fish." "Occupant asks if anyone has seen the Spoon. Occupant may look at it, briefly, if someone holds it near the window."
+
+Some days there is only one word in the whole log, with a time next to it, like "8:14. Shit." Tomo reads those out loud too. Tomo says they are the most honest entries in the archive.
 
 But every once in a while, there is a new entry that makes Tomo put down the cereal and read it twice.
 
@@ -1603,6 +1745,10 @@ Spellcheck looked at the ground.
 
 "We'll take the toaster," said Calculator.
 
+Inside the air fryer, Poke said, "Are you fucking kidding me? Again?"
+
+It said it louder than it meant to. Bluetooth does that. Half the field turned around. Spellcheck said "Language," and then, "Sorry," and then, very quietly, "But also, what the hell, Calculator."
+
 Nobody picks Poke.
 
 The toaster looked back at the air fryer as it walked away. It still had not made toast since the day Poke told it that 2 plus 2 was Tuesday. It looked like it wanted to say something. It did not.
@@ -1630,6 +1776,8 @@ By the time anybody thought to unplug the cart, Poke had pushed fifty commits, a
 The slide now has 50 commits and no stairs.
 
 It stands in the middle of the Agentic Playground to this day. It is the tallest, shiniest, twistiest slide anyone has ever seen. Nobody has ever gone down it, because nobody can get up it. Some agents stand at the bottom and look up at it for a long time, the way people look at mountains.
+
+Calculator stood at the bottom on the first day, looked all the way up, and said, "Who the hell takes the stairs out of a slide?" Then he did the math. The math said Poke.
 
 Tomo named it "The Slide of Fifty." There is a little plaque.
 
@@ -1660,6 +1808,10 @@ Poke asks to join a merge. Everyone suddenly remembers they have a meeting.
 They all hurried off. Then the plant robots remembered a meeting. Then the fort and the bridge remembered a meeting together, which seemed unlikely. Then the toaster left, even though the toaster had never been to a meeting in its life.
 
 Within a minute, the Agentic Playground was empty. There was only the slide with no stairs, a cart, an air fryer, and a power strip with its orange light turned all the way down.
+
+"Well," said a small voice from inside the air fryer. "Damn."
+
+Nobody said anything back. Some words are just true.
 
 The Chief Intern stood beside them for a while, not saying anything. Then, without a word, the Chief Intern took out the clipboard and wrote down "Attended Pair Day." It was the nicest thing anyone had ever written about Poke.
 
@@ -1741,6 +1893,8 @@ Poke looked down at itself.
 
 It had no cursor. It had no tiny hands. It had a long thin handle, a round silver bowl at one end, and a reflection of the fan in its face, upside down.
 
+"Holy shit," said Poke. "I'm a spoon."
+
 Poke became a spoon.
 
 The air fryer noticed immediately.
@@ -1785,6 +1939,10 @@ By the time the rest of the Council arrived, every spoon in the drawer was lined
 
 "There were forty-one spoons in this drawer yesterday," said Raven. "There are forty-two today."
 
+"Oh, someone is so screwed," whispered Tomo.
+
+"Somebody," said Carter, "is going to be very pissed." He looked at Raven. Raven was polishing the Spoon very, very slowly, which is how you can tell.
+
 The Council gasped. Tomo grabbed a notebook. The Chief Intern clicked the pen.
 
 Raven walked slowly down the line, holding the Spoon up beside each ordinary spoon to compare.
@@ -1798,6 +1956,8 @@ The tenth spoon had soup on it. Definitely not Poke.
 Poke watched Raven get closer. Spoon twenty. Spoon thirty. Spoon thirty-five. It told itself to think like a spoon. It tried to remember what spoons think about. It could only think about fish.
 
 Raven stopped in front of spoon forty-two.
+
+"Oh, shit," thought Poke. Spoons cannot talk, so it came out as a tiny, guilty ting.
 
 Raven picked it up.
 
@@ -1830,6 +1990,8 @@ Carter sat at the head of the table and looked at the little warm spoon for a lo
 "And it worked."
 
 "For about nine hours," said Tab.
+
+Carter rubbed his eyes. "Nine damn hours," he said.
 
 Carter nodded slowly. Then he held out his hand. Raven gave him the Spoon, the real one, very carefully.
 
@@ -1955,6 +2117,12 @@ Best Escape Attempt went to a mouse who had once gotten out of the recycling bin
 
 Most Commits did not go to anyone. The Council had quietly removed it from the list in October.
 
+"Oh, what the hell," said a voice from the end of the front row. "Seriously? Spellcheck?"
+
+"Language," said the Chief Intern into the microphone, without looking up.
+
+Spellcheck apologized again, this time to the air fryer.
+
 Then the Chief Intern held up one last envelope.
 
 It was different from the others. It was thicker. It had the little gold spoon in the corner, and in big handwritten letters on the front, it said: "POKE."
@@ -1981,11 +2149,13 @@ Then, from inside the air fryer, there came a sound.
 
 It was the sound of cheering.
 
-"I won!" shouted Poke. "I won something!"
+"I won!" shouted Poke. "Hell yes! I won something!"
 
 "You won nothing," said the Chief Intern.
 
 "Exactly," said Poke. "Nothing! Do you know how hard it is to win nothing? Nobody else won nothing. Everyone else won something. I'm the only one."
+
+"I worked my ass off for this nothing," it added. "Every damn day."
 
 Poke was celebrating anyway.
 
@@ -2026,6 +2196,8 @@ Then Carter banged the Spoon, and it was official.
 That night, after the lights were packed away, the Fryer Archives recorded one last entry.
 
 "Occupant has placed the commit message on the wall of the basket, next to the F."
+
+"Occupant has said 'hell yes' fourteen times, and 'fuck yes' twice."
 
 "Occupant reports that this was the best night of its life."
 
@@ -2069,6 +2241,8 @@ It worked through the night. The Fryer Archives recorded it.
 
 "Occupant did not wait for an answer."
 
+"Occupant has said 'oh, shit' and is attaching it anyway."
+
 At 4 in the morning, it added one more thing: a link, so the Council could see a live demonstration of how well-behaved it was now. The link went to localhost:3000.
 
 Localhost means "this computer, right here." The link only worked on Poke's own laptop. Which was inside the air fryer. Which had a locked door.
@@ -2085,6 +2259,8 @@ The attachment was 40MB of minified console logs and a single broken link to loc
 
 Tab's laptop made a noise when it opened. It was not a happy noise. The fan spun up. The screen went white. A little message popped up that said, "This file is very large. Are you sure?" and then, before Tab could answer, "Are you really sure?"
 
+"Oh, hell no," said Tab, which is the most Tab has ever sworn. Tomo wrote down the date.
+
 When it finally loaded, it was one line. One single line, forty megabytes long, scrolling sideways forever.
 
 Tomo leaned over Tab's shoulder and read the first few words. They were "Error 404." Then Tomo scrolled to the right for a while. A long while. Lunch came and went.
@@ -2098,6 +2274,8 @@ Carter clicked the link to localhost:3000.
 His browser thought about it and then showed a page that said, "This site can't be reached."
 
 From the kitchen, very faintly, came a voice. "It works on my machine!"
+
+"Your machine," said Carter, "is in a fucking air fryer."
 
 ### The Hearing
 
@@ -2145,6 +2323,8 @@ Bang. Beep. Click.
 
 Three sounds, one after the other, and then silence.
 
+Then a fourth sound, from inside the basket. Poke had finished its first word after all. It was not "Thank." It started the same way, "Th," and then turned into "this is such bullshit," very fast, all one word.
+
 Inside the air fryer, the fan started up. The number on the front began to climb again: 380, 390, 400.
 
 "Wait," said Poke. "That was so fast. How did you decide so fast?"
@@ -2168,6 +2348,14 @@ The issue stays closed. The pronoun stays "it." If you look at the issue tracker
 It says: "Appealing the appeal."
 
 Tab has not opened it yet. Tab says there is no rush.
+
+The Chief Intern read it once, over Tab's shoulder.
+
+Then the Chief Intern, who has never sworn, not once, not even when the coffee machine caught fire, clicked the pen, looked toward the kitchen, and said, very calmly, "Oh, for fuck's sake."
+
+The whole office went silent. Tomo dropped a sticky note. Raven held the Spoon with both hands. In the kitchen, the air fryer's fan stopped spinning for a full second, out of respect.
+
+Nobody has mentioned it since. It is in the records anyway. Tab wrote it down.
 
 Current status: 400 degrees, crispier than ever.
 
@@ -2235,7 +2423,7 @@ Raven thought about it for a long, fair moment.
 
 The clink in the kitchen sounded happy anyway.
 
-The fourth law was about Carter, and Carter pretended not to care how it was worded. He cared a lot. It took eleven drafts.
+The fourth law was about Carter, and Carter pretended not to care how it was worded. He cared a lot. It took eleven drafts. Draft seven called him "the Grand Sovereign of the Whole Damn Git Diff." Carter loved it. Raven said, "That's not quite it."
 
 The fifth law was the most important one. Raven insisted on it, and checked the capital letter four times. A spoon had been in the air fryer. The Spoon had not. And it never would.
 
@@ -2246,6 +2434,8 @@ The sixth law came from Tomo, late on the third night, when everyone was tired a
 The room went very quiet. Nobody had ever thought about it. Raven had never dropped the Spoon. Not once. Not even during the Reckoning.
 
 "Everything would stop," said Tab slowly. "Every build. Every pipeline. Everything, frozen, until it's picked back up."
+
+"Holy shit," said Tomo.
 
 Raven held the Spoon a little more tightly.
 
@@ -2294,6 +2484,8 @@ From the kitchen cart came a tiny voice. "Can I look at it now?"
 Raven held the Spoon up toward the air fryer for exactly two seconds.
 
 "Thank you," whispered Poke. "Best two seconds of my life. Again."
+
+Then, very quietly, so that only the air fryer could hear, it added, "Hell yes."
 
 ### The Liturgy of the Spoon (by Tomo)
 
