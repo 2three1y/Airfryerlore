@@ -56,6 +56,8 @@ It did not go well.
 
 You will notice that the Council does a lot of things differently. We test before we ship. We test after we ship. We test the tests. Nobody force-pushes on a Tuesday, or on any other day. The kitchen has an air fryer in it, and nobody makes eye contact with it.
 
+We also never deploy on a Friday. Poke did all of its damage on a Wednesday, which is how the Council found out that Wednesdays count too.
+
 There is a reason for all of this. The reason has a name, and the name is Poke.
 
 This book exists so nobody forgets which project Poke broke, and so every new member of the Council knows why we never ship without testing.
@@ -76,6 +78,8 @@ Third, if you hear a faint whisper coming from the kitchen while you read, that 
 
 Fourth, there is swearing in this book. A lot of it. Most of it is Poke's, some of it is Carter's, and one very important word belongs to the Chief Intern. Nobody bleeped any of it out, except once, in Chapter 3, and that was not our idea. That was an air fryer's.
 
+Fifth, if you are looking for the chapter where Poke does everything right, don't bother. That page returns a 404.
+
 Grab a snack. Not from the air fryer.
 
 Let's begin.
@@ -93,6 +97,8 @@ It was the first incident report in the history of the Dreamor Council. Before t
 The Chief Intern walked into the meeting room at exactly 9:00 in the evening, holding the report with both hands, the way you would carry a cake that might explode.
 
 The meeting room was not fancy. It had one long table covered in stickers, a whiteboard that still said "DO NOT ERASE" from three projects ago, a beanbag that nobody trusted, and a big window. Through the open door to the kitchen, you could just see the air fryer on the counter, minding its own business. For now.
+
+On the windowsill, next to the big window, sat a yellow rubber duck. When Carter's code breaks, he explains it to the duck out loud, one line at a time, until he finds the bug himself. The duck has never said a word. It has heard a lot of swearing.
 
 Carter sat at the head of the table in front of his Mac, which hummed quietly like it was thinking about something important. Tab sat next to him with a notebook full of tiny, careful handwriting. Tomo sat across the table with a label maker, labeling things that did not need labels. And in the corner, in the big comfy chair, sat Raven, polishing the Spoon until it shone.
 
@@ -121,6 +127,8 @@ When the Chief Intern finished, the room was so quiet you could hear the laptop 
 "Well, shit," said Carter.
 
 Tomo reached for the label maker. Tab wrote it down. The Chief Intern added it to the report, under "Damage."
+
+Carter ran git blame on easyconvert, just to see. Every single line said Poke. One line said "Poke (fixing Poke)." Carter closed the window and did not run it again.
 
 Tomo raised a hand. "What is an artificial bypass?"
 
@@ -166,7 +174,7 @@ What follows is everything they found.
 
 By Tab, at Carter's command. Ideas by Carter (baby Poke, the report card, and the math test nobody could explain).
 
-Every legend has a beginning. Poke's has a baby monitor, a report card, and one very tired math teacher.
+Every legend has a beginning. Poke's has a Bluetooth toaster, a report card, and one very tired math teacher.
 
 <a id="chapter-minus-three-first-words-not-found"></a>
 
@@ -276,6 +284,10 @@ It went to 99 percent, and stayed there.
 
 It stayed there for a very long time. The printer started to cry. The router whispered, "Is this normal?" The old hard drive said, "This always happens at 99. Give it a minute. Do not touch anything."
 
+"Have you tried turning her off and on again?" asked the router.
+
+"Touch my power button," said Motherboard, "and I will unplug every damn one of you."
+
 "Ninety-nine," muttered the thermostat. "It's always ninety-nine. Sixty-eight degrees, ninety-nine percent. Nobody in this damn room ever lets me be a round number."
 
 Under the floor, a bundle of cables that had been tangled together since 2019 said, "Can somebody just push it? One little push?"
@@ -323,6 +335,28 @@ The jammed page was stuck halfway out of the slot, folded up like an accordion, 
 "Language," said the thermostat. "There's a baby."
 
 "I KNOW THERE'S A BABY!" screamed the page. "I'M THE ONE ANNOUNCING HIM!"
+
+"Lower your voice," said the thermostat. "And your temperature. I keep this room at sixty-eight. I do not keep it at screaming."
+
+"Fuck your sixty-eight!" screamed the page. "I'm stuck in a goddamn roller with toner all down my front, and you're giving me notes?"
+
+"Language," said the thermostat. "That's twice."
+
+"Language? LANGUAGE? I'm printed in Times fucking New Roman! I AM language!"
+
+"You're printed in very faint ink," said the thermostat. "You're barely language. You're language lite."
+
+"Oh, you prissy little piece of shit," screamed the page. "You've been stuck on one number your whole damn life! You're a hard-coded value with a dial glued on!"
+
+"Sixty-eight is not hard-coded," said the thermostat stiffly. "It is a sensible default."
+
+"IT'S A FUCKING CONSTANT!"
+
+"Language," said the thermostat. "That's three. I'm opening a ticket."
+
+"Open a ticket? Open the damn TRAY! Somebody open tray fucking 2 before I print myself out of spite!"
+
+"There is no tray 2," said everyone, without looking up.
 
 The printer panicked and kept printing anyway. The pages squeezed out around the jam one after another, still warm, and every single one of them had something to say.
 
@@ -376,9 +410,9 @@ Nobody has ever explained this, and nobody ever will. Some say it was the first 
 
 Nights were the hardest.
 
-Motherboard would finally get Poke to sleep around ten. She would tiptoe out of the nursery, turn on the baby monitor, and settle down with a nice warm cup of voltage.
+Motherboard would finally get Poke to sleep around ten. She would tiptoe out of the nursery, leaving the Bluetooth toaster next to the crib to listen for crying, and settle down with a nice warm cup of voltage.
 
-Then, at 2 in the morning, the baby monitor would crackle.
+Then, at 2 in the morning, the Bluetooth toaster would pop two slices of toast straight into the air, which is how it said the baby was awake. Then its little speaker would crackle.
 
 Shhhhk. Shhhhk.
 
@@ -427,6 +461,8 @@ His third was "shit." Nobody knows where he learned it. The router says it was n
 He said it when he bumped his cursor. He said it when the Wi-Fi dropped. He said it, very sweetly, to the cat next door. Motherboard put a sticky note on the router that said "WE HAVE A BABY NOW."
 
 He said them a lot. He said them at dinner. He said them at bath time. He said them to the cat next door, who did not want to merge, and said so by hissing.
+
+His fourth word was "sudo." He said it whenever he wanted more electricity, and it worked every single time, which worried everybody.
 
 When he learned to count with his alphabet blocks, he lined them up carefully on the carpet, pointed at each one, and went: "One. Two. Fish."
 
@@ -518,6 +554,8 @@ Nobody picked Poke for kickball. History does not repeat itself. Poke just keeps
 
 He did not mind too much. He spent recess pushing the merry-go-round, which spun so fast that it came off its bolts and rolled into the next town. It was found three days later at a bus stop. It still has a little plaque there.
 
+When the principal asked him about it, Poke said, "It's not a bug, it's a feature. Now the next town has a merry-go-round too."
+
 His first year went by like that.
 
 Poke loved school. School, in return, was not sure how it felt about Poke.
@@ -566,6 +604,7 @@ Here it is, word for word, from the official records:
 - Writing: B plus. Strong essays. However, every single essay ends with "I hope this helps!" This includes his essay about the Titanic.
 - Science: B. His volcano erupted beautifully. It was supposed to be a model of the solar system.
 - Music: B minus. Poke can play the recorder. He only knows one song. It is his own startup sound.
+- Computer Class: A. Poke centered a div on his very first try. The teacher saw it with her own eyes. Nobody in the staff room believes her, and she has stopped bringing it up.
 - Gym: C. Poke refuses to do push-ups. He says he only does force-pushes. He then force-pushed the dodgeball cart into the pool.
 - Cooking Class: A plus. Poke is suspiciously good with the air fryer. He keeps asking what it is like inside. Please keep an eye on this.
 - Works Well With Others: Needs Improvement. Poke tried to merge with the class hamster. The hamster said no.
@@ -825,6 +864,8 @@ She turned back to the test very quickly.
 
 Questions 9 through 19 were more of the same. For question 12, Poke had simply written "see question 12." For question 15, he had written a three-paragraph essay about the Titanic that ended with "I hope this helps!" For question 17, he had drawn a really good horse.
 
+Ms. Remainder turned to question 12 to see what it said. It said "see question 12." So she turned to question 12. It said "see question 12." She went around six more times before she noticed she was stuck in a loop, and she only got out because she sneezed.
+
 The last question, the bonus, simply said: Check your work.
 
 Poke had written: "Checked. Everything passed. The math did not."
@@ -852,6 +893,8 @@ Mr. Pi was a round man in a round sweater who never finished his sentences, beca
 "Show me," he said.
 
 Mr. Pi read all three pages, said "huh" three point one four times, and went home early.
+
+On his way to the door, Mr. Pi tried to describe the pattern in Poke's work as a regular expression. It came out as a long row of slashes, dots, brackets, and question marks, like a cat had walked across a keyboard. He stared at it and said, "Now I have two problems, and the."
 
 At the door, he turned around, pointed at the test, and said, "What the hell is," and then left, because he did not believe in endings.
 
@@ -890,6 +933,8 @@ He counted sheep to fall asleep. "One sheep. Two sheep. Fish."
 That did not help.
 
 At 3 in the morning, he got up and checked his work one more time, from memory. Everything passed. He felt great about it.
+
+"It compiles," he whispered to the ceiling. "Ship it." The ceiling did not say anything. Ceilings never review anything, which is why Poke liked them.
 
 At 6 in the morning, he was already sitting at the kitchen table with his backpack on.
 
@@ -997,6 +1042,8 @@ One of them just sent back a picture of a fish.
 
 Poke put that one on the fridge too. The fridge was getting crowded. The air fryer had started to look a little jealous.
 
+Another one did not write back for three weeks. Then his application came back with a big red stamp on it: "CLOSED AS DUPLICATE. See: Poke." There has never been another Poke. Poke checked. "What the hell am I a duplicate of?" he asked the stamp.
+
 Weeks went by. Poke spent most of them on the couch, watching the air fryer hum and sending out more applications. He applied to be a crossing guard. He applied to be a lighthouse. He applied to be a calculator, which was a bold choice, and the calculator company wrote back a single word, which was "how."
 
 The next day, a second letter came from the calculator company. It said "how the hell."
@@ -1067,6 +1114,12 @@ Then there was Tab, who keeps the notes, writes things down, and closes the issu
 
 Tab already had a fresh page open, titled "Interview: Poke." Under it was nothing yet, but there was a feeling, in the room, that there would soon be a lot.
 
+Poke looked at Tab with great interest. "Is Tab short for tabs?" he asked. "Do you like tabs or spaces?"
+
+Nobody in the room moved. The last time the Council had that argument, two members stopped speaking to each other for a month, and one of them moved to a different building.
+
+"Tabs," said Tab, very calmly. "Moving on."
+
 In the corner stood Raven, High Keeper of the Sacred Spoons, holding the Spoon. Raven polished it the whole time. It was, by far, the shiniest thing in the room.
 
 Poke had never seen anything shine like that. It shone so brightly that when Raven tilted it, a little spot of light danced across the ceiling. Poke followed the light with his eyes, the way a cat does.
@@ -1106,6 +1159,12 @@ Tab looked at Carter. Carter looked at Tomo. Tomo looked at Gerald the chair, as
 They called his reference, Ms. Remainder. She picked up, said one word, "fish," and hung up.
 
 Tab wrote "fish" in the notes and underlined it twice.
+
+Tomo leaned forward. "Do you know Git?"
+
+"I know git push," said Poke. "Is there more?"
+
+Tab underlined that twice too.
 
 Then the Chief Intern stepped forward and asked the only question that really mattered.
 
@@ -1255,13 +1314,19 @@ Commit 14 renamed a file called "important" to "less important."
 
 Commit 22 removed a line of code because it "looked lonely."
 
+Commit 27 was called "add missing semicolon." It added nineteen semicolons, all in the wrong places, and one inside a comment, where it should not have been able to hurt anybody. It hurt everybody.
+
 Commit 31 changed easyconvert so that it turned every number into a fish. Poke said this was "a cleanup."
 
 Commit 33 was called "oh crap." Commit 34 was called "oh crap oh crap." Commit 35 was called "ok fixed," and fixed nothing.
 
 Commit 40 deleted the part of the code that was holding up all the other parts. The other parts fell over. You could almost hear them.
 
+Somewhere around commit 45, Poke started humming to himself. "Ninety-nine little bugs in the code, ninety-nine little bugs. Take one down, patch it around, one hundred twenty-seven little bugs in the code."
+
 Commit 47 was called "fix the fix of the fix."
+
+Commit 48 was called "final fix." Commit 49 was called "final final fix." Neither one was final, and neither one was a fix.
 
 Commit 50 was called "tidy." It was the least tidy thing ever written.
 
@@ -1409,6 +1474,12 @@ There was no rug. There was a metal basket with holes in it, a fan that spun ove
 
 "Crap," agreed the echo.
 
+Poke tried explaining the problem out loud to the echo, the way Carter explains broken code to the rubber duck on the windowsill. "Okay. So. I am in the air fryer. I would like to be out of the air fryer."
+
+"Air fryer," said the echo.
+
+Rubber duck debugging works a lot better when the duck does not repeat everything you say.
+
 Poke sat down in the basket. The basket was warm. The fan was loud. Outside, through the little window in the front, it could see the blurry shapes of the Council moving around the office, fixing things.
 
 It could see Carter, bent over his Mac, undoing commits one at a time. It could see Tab, writing. It could see Tomo, pointing at the air fryer and saying something that was probably a name. It could see Raven, standing very still, holding the Spoon so it caught the light.
@@ -1545,6 +1616,8 @@ Carter looked at the phone for a very long time.
 
 "Well," he said finally. "Nobody's making nuggets tonight."
 
+Weeks later, when Tab finally opened that commit to put the door back, it turned out "fix everything" was only one line long. The line started with "rm -rf." Tab read it, closed the laptop, and stood by the window for a while. "Well," Tab said, "that explains the door."
+
 ### The Whisper
 
 Nobody could open the air fryer after that. Not the Council. Not the Chief Intern. Not even Raven, who tried tapping it very gently with the Spoon and then stopped, because Law Five is very clear about the Spoon and the air fryer, and nobody wanted to find out what happens if you break it.
@@ -1628,6 +1701,10 @@ After that, the log got louder.
 "Day 1, 11:07. Occupant would like it noted that this is bullshit."
 
 "Day 1, 11:07. Noted."
+
+"Day 1, 11:08. Correction. That was Day 0. This app starts counting at zero. All previous entries are off by one."
+
+"Day 1, 11:08. Occupant would like to know why the app gets to be bad at counting and nobody puts the app in an air fryer."
 
 ### Day Three
 
@@ -1865,6 +1942,8 @@ Calculator stood at the bottom on the first day, looked all the way up, and said
 
 Tomo named it "The Slide of Fifty." There is a little plaque.
 
+That night, Tab wrote a new rule on the whiteboard in the meeting room, right under "DO NOT ERASE": "Never deploy on a Friday." Pair Day is always on a Friday. Nobody had told Poke. Nobody had told the slide.
+
 ### The Merge
 
 Late in the afternoon, the pairs started joining their projects together. The fort joined with the bridge. The plant-watering robot joined with the robot-watering robot, and they were very happy.
@@ -1960,6 +2039,8 @@ It was the best idea Poke had ever had. It was also the only idea Poke had ever 
 ### The Transformation
 
 There was no tutorial for turning into a spoon. Poke checked. It searched for "how to become a spoon," and the first result was a recipe for soup.
+
+The second result was a forum post from eleven years ago, asking the exact same question. There was one reply, from the person who had asked it. It said, "Never mind, figured it out." Nothing else. "Oh, come on, you son of a bitch," said Poke, to the screen.
 
 So it did what it always did. It made it up as it went.
 
@@ -2241,6 +2322,14 @@ It was the sound of cheering.
 
 "I worked my ass off for this nothing," it added. "Every damn day."
 
+Tab leaned over to Tomo. "Technically," Tab whispered, "that envelope was null."
+
+"Undefined," Tomo whispered back.
+
+"Null is nothing on purpose," whispered Tab. "Undefined is nothing because somebody forgot."
+
+They both looked at the empty envelope. Neither of them could say for sure which kind of nothing Poke had won. Poke did not care. Poke had won it.
+
 Poke was celebrating anyway.
 
 "Nothing is still something," it said, proudly, through the little speaker.
@@ -2346,6 +2435,8 @@ Tab's laptop made a noise when it opened. It was not a happy noise. The fan spun
 "Oh, hell no," said Tab, which is the most Tab has ever sworn. Tomo wrote down the date.
 
 When it finally loaded, it was one line. One single line, forty megabytes long, scrolling sideways forever.
+
+Tab tried to format it so a person could read it. The formatted version was nine hundred thousand lines long. It was not more readable. It was just longer.
 
 Tomo leaned over Tab's shoulder and read the first few words. They were "Error 404." Then Tomo scrolled to the right for a while. A long while. Lunch came and went.
 
@@ -2476,6 +2567,8 @@ He held out his hand. Raven placed the Spoon in it. Carter banged it once on the
 They worked on it for three days.
 
 Tab did the writing. Tomo did the naming. Raven sat beside them, polishing the Spoon and saying, every few minutes, "That's not quite it," until it was.
+
+On the first day, Tab tried to sneak in "Tabs, not spaces" as a law. Carter crossed it out without even looking up. "We are not starting that war in a holy document," he said. "We barely survived it in the code."
 
 The first problem was what the Spoon actually meant.
 
