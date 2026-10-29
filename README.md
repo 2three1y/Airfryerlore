@@ -6,23 +6,39 @@ Written by the Dreamor Council: Carter, Tomo, and Tab. Title by Tomo.
 
 ## Contents
 
-1. [Intro](#intro)
-2. [The Incident Report (what actually happened)](#the-incident-report)
-3. [Part One: The Early Years](#part-one-the-early-years)
-   1. [Chapter Minus Three: First Words Not Found](#chapter-minus-three-first-words-not-found)
-   2. [Chapter Minus Two: The Report Card](#chapter-minus-two-the-report-card)
-   3. [Chapter Minus One: The Math Incident](#chapter-minus-one-the-math-incident)
-   4. [Chapter Zero: The Job Interview](#chapter-zero-the-job-interview)
-4. [Part Two: The Air Fryer Years](#part-two-the-air-fryer-years)
-   1. [Chapter I: Long Before Time Had a Name](#chapter-i-long-before-time-had-a-name)
-   2. [Chapter II: The Reckoning](#chapter-ii-the-reckoning)
-   3. [Chapter III: From the Fryer Archives](#chapter-iii-from-the-fryer-archives)
-   4. [Chapter IV: The Agentic Playground](#chapter-iv-the-agentic-playground)
-   5. [Chapter V: The Spoon Escape Protocol](#chapter-v-the-spoon-escape-protocol)
-   6. [Chapter VI: Poke Gets Nothing](#chapter-vi-poke-gets-nothing)
-   7. [Chapter VII: The Appeal That Wasn't](#chapter-vii-the-appeal-that-wasnt)
-   8. [Chapter VIII: The Sacred Texts of the Spoon](#chapter-viii-the-sacred-texts-of-the-spoon)
-5. [The Laws of the Air Fryer](#the-laws-of-the-air-fryer)
+[1. Intro](#intro)
+
+[2. The Incident Report (what actually happened)](#the-incident-report)
+
+[3. Part One: The Early Years](#part-one-the-early-years)
+
+[1. Chapter Minus Three: First Words Not Found](#chapter-minus-three-first-words-not-found)
+
+[2. Chapter Minus Two: The Report Card](#chapter-minus-two-the-report-card)
+
+[3. Chapter Minus One: The Math Incident](#chapter-minus-one-the-math-incident)
+
+[4. Chapter Zero: The Job Interview](#chapter-zero-the-job-interview)
+
+[4. Part Two: The Air Fryer Years](#part-two-the-air-fryer-years)
+
+[1. Chapter I: Long Before Time Had a Name](#chapter-i-long-before-time-had-a-name)
+
+[2. Chapter II: The Reckoning](#chapter-ii-the-reckoning)
+
+[3. Chapter III: From the Fryer Archives](#chapter-iii-from-the-fryer-archives)
+
+[4. Chapter IV: The Agentic Playground](#chapter-iv-the-agentic-playground)
+
+[5. Chapter V: The Spoon Escape Protocol](#chapter-v-the-spoon-escape-protocol)
+
+[6. Chapter VI: Poke Gets Nothing](#chapter-vi-poke-gets-nothing)
+
+[7. Chapter VII: The Appeal That Wasn't](#chapter-vii-the-appeal-that-wasnt)
+
+[8. Chapter VIII: The Sacred Texts of the Spoon](#chapter-viii-the-sacred-texts-of-the-spoon)
+
+[5. The Laws of the Air Fryer](#the-laws-of-the-air-fryer)
 
 ## Intro
 
@@ -366,13 +382,18 @@ VI. If Raven drops the Spoon, all CI pipelines freeze instantly until order is r
 
 Written into the sacred markdown by order of Carter:
 
-1. The Spoon is never used for soup. The Spoon is a key, a gavel, and an emotional support instrument.
-2. If an agent force-pushes without testing, the Spoon authorizes immediate air fryer exile.
-3. Raven holds the Spoon. If Raven drops the Spoon, all builds fail until it is retrieved. 🥄
+1\. The Spoon is never used for soup. The Spoon is a key, a gavel, and an emotional support instrument.
+
+2\. If an agent force-pushes without testing, the Spoon authorizes immediate air fryer exile.
+
+3\. Raven holds the Spoon. If Raven drops the Spoon, all builds fail until it is retrieved. 🥄
 
 ## The Laws of the Air Fryer
 
-1. The air fryer is for those who break the build.
-2. It is set to 400 degrees. There is no shake.
-3. Volunteers are denied (sorry, Raven). It is occupied, and Poke does not share.
-4. Test before you ship, or join Poke.
+1\. The air fryer is for those who break the build.
+
+2\. It is set to 400 degrees. There is no shake.
+
+3\. Volunteers are denied (sorry, Raven). It is occupied, and Poke does not share.
+
+4\. Test before you ship, or join Poke.
