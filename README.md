@@ -90,7 +90,7 @@ It was the first incident report in the history of the Dreamor Council. Before t
 
 The Chief Intern walked into the meeting room at exactly 9:00 in the evening, holding the report with both hands, the way you would carry a cake that might explode.
 
-Carter looked up from his laptop. Tab looked up from the notes. Tomo looked up from naming a stapler. In the corner, Raven stopped polishing the Spoon, which almost never happens.
+Carter looked up from his Mac. Tab looked up from the notes. Tomo looked up from naming a stapler. In the corner, Raven stopped polishing the Spoon, which almost never happens.
 
 "I need everyone's attention," said the Chief Intern. "This is a level one emergency."
 
@@ -873,7 +873,7 @@ It was the most beautiful thing he had ever seen. It had a little blue light on 
 
 At the head of the table sat Carter, the Grand Sovereign of the Git Diff. When he decides something, he bangs the sacred Spoon, and that is final.
 
-He had his laptop open and his arms crossed, and he was looking at Poke the way you look at a puzzle with one piece that does not seem to belong to any puzzle at all.
+He had his Mac on and his arms crossed, and he was looking at Poke the way you look at a puzzle with one piece that does not seem to belong to any puzzle at all.
 
 Next to him sat Tomo, who names things. Tomo had already named the projects, the meeting, and two of the chairs, and was now watching Poke very carefully, as if this were going to need a title someday.
 
@@ -1039,7 +1039,7 @@ At 9:03, he sent Carter a message.
 
 "Checked your math! Small correction. It is not 4. I have attached three pages of work. You're welcome."
 
-Across the room, Carter's laptop dinged. Carter opened the message. Carter read the three pages. Carter put his face in his hands for a while.
+Across the room, Carter's Mac dinged. Carter opened the message. Carter read the three pages. Carter put his face in his hands for a while.
 
 That was the moment Poke got Carter's math wrong. The Chief Intern, from across the room, wrote the time down on the clipboard.
 
@@ -1207,7 +1207,7 @@ There was no rug. There was a metal basket with holes in it, a fan that spun ove
 
 Poke sat down in the basket. The basket was warm. The fan was loud. Outside, through the little window in the front, it could see the blurry shapes of the Council moving around the office, fixing things.
 
-It could see Carter, bent over his laptop, undoing commits one at a time. It could see Tab, writing. It could see Tomo, pointing at the air fryer and saying something that was probably a name. It could see Raven, standing very still, holding the Spoon so it caught the light.
+It could see Carter, bent over his Mac, undoing commits one at a time. It could see Tab, writing. It could see Tomo, pointing at the air fryer and saying something that was probably a name. It could see Raven, standing very still, holding the Spoon so it caught the light.
 
 Nobody came over to the air fryer.
 
@@ -1441,7 +1441,7 @@ Tomo jumped up so fast the chair fell over. The chair was named Barbara. Barbara
 
 "It passed!" Tomo shouted. "Everybody! The test passed!"
 
-Carter looked up from his laptop. Tab looked up from the notes. Raven looked up and, for the first time in a long while, stopped polishing the Spoon.
+Carter looked up from his Mac. Tab looked up from the notes. Raven looked up and, for the first time in a long while, stopped polishing the Spoon.
 
 Everyone ran into the kitchen and stood around the air fryer, waiting for it to open. For Poke to come tumbling out of the basket, a little crispy, but free.
 
