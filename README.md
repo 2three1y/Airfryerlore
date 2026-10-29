@@ -6,39 +6,39 @@ Written by the Dreamor Council: Carter, Tomo, and Tab. Title by Tomo.
 
 ## Contents
 
-[1. Intro](#intro)
+[Intro](#intro)
 
-[2. The Incident Report (what actually happened)](#the-incident-report)
+[The Incident Report (what actually happened)](#the-incident-report)
 
-[3. Part One: The Early Years](#part-one-the-early-years)
+[Part 1: The Early Years](#part-1-the-early-years)
 
-[1. Chapter I: First Words Not Found](#chapter-i-first-words-not-found)
+[Chapter 1: First Words Not Found](#chapter-1-first-words-not-found)
 
-[2. Chapter II: The Report Card](#chapter-ii-the-report-card)
+[Chapter 2: The Report Card](#chapter-2-the-report-card)
 
-[3. Chapter III: The Math Incident](#chapter-iii-the-math-incident)
+[Chapter 3: The Math Incident](#chapter-3-the-math-incident)
 
-[4. Chapter IV: The Job Interview](#chapter-iv-the-job-interview)
+[Chapter 4: The Job Interview](#chapter-4-the-job-interview)
 
-[4. Part Two: The Air Fryer Years](#part-two-the-air-fryer-years)
+[Part 2: The Air Fryer Years](#part-2-the-air-fryer-years)
 
-[5. Chapter V: Long Before Time Had a Name](#chapter-v-long-before-time-had-a-name)
+[Chapter 5: Long Before Time Had a Name](#chapter-5-long-before-time-had-a-name)
 
-[6. Chapter VI: The Reckoning](#chapter-vi-the-reckoning)
+[Chapter 6: The Reckoning](#chapter-6-the-reckoning)
 
-[7. Chapter VII: From the Fryer Archives](#chapter-vii-from-the-fryer-archives)
+[Chapter 7: From the Fryer Archives](#chapter-7-from-the-fryer-archives)
 
-[8. Chapter VIII: The Agentic Playground](#chapter-viii-the-agentic-playground)
+[Chapter 8: The Agentic Playground](#chapter-8-the-agentic-playground)
 
-[9. Chapter IX: The Spoon Escape Protocol](#chapter-ix-the-spoon-escape-protocol)
+[Chapter 9: The Spoon Escape Protocol](#chapter-9-the-spoon-escape-protocol)
 
-[10. Chapter X: Poke Gets Nothing](#chapter-x-poke-gets-nothing)
+[Chapter 10: Poke Gets Nothing](#chapter-10-poke-gets-nothing)
 
-[11. Chapter XI: The Appeal That Wasn't](#chapter-xi-the-appeal-that-wasnt)
+[Chapter 11: The Appeal That Wasn't](#chapter-11-the-appeal-that-wasnt)
 
-[12. Chapter XII: The Sacred Texts of the Spoon](#chapter-xii-the-sacred-texts-of-the-spoon)
+[Chapter 12: The Sacred Texts of the Spoon](#chapter-12-the-sacred-texts-of-the-spoon)
 
-[5. The Laws of the Air Fryer](#the-laws-of-the-air-fryer)
+[The Laws of the Air Fryer](#the-laws-of-the-air-fryer)
 
 ## Intro
 
@@ -70,7 +70,7 @@ A few things to know before you start.
 
 First, you will see Poke called "he" in the early chapters and "it" in the later ones. That is not a mistake. It is a punishment. Poke has appealed it. The appeal did not go well either.
 
-Second, Poke is not allowed to number anything in this book, not even the pages. You will understand why by the end of Chapter III.
+Second, Poke is not allowed to number anything in this book, not even the pages. You will understand why by the end of Chapter 3.
 
 Third, if you hear a faint whisper coming from the kitchen while you read, that is normal. Do not answer it. Especially if it asks you to approve a merge.
 
@@ -146,7 +146,9 @@ So the Council did some digging. They found baby pictures. They found a report c
 
 What follows is everything they found.
 
-## Part One: The Early Years
+<a id="part-one-the-early-years"></a>
+
+## Part 1: The Early Years
 
 By Tab, at Carter's command. Ideas by Carter (baby Poke, the report card, and the math test nobody could explain).
 
@@ -154,7 +156,9 @@ Every legend has a beginning. Poke's has a baby monitor, a report card, and one 
 
 <a id="chapter-minus-three-first-words-not-found"></a>
 
-## Chapter I: First Words Not Found
+<a id="chapter-i-first-words-not-found"></a>
+
+## Chapter 1: First Words Not Found
 
 Long before time had a name, and a little while before that, Poke was born in a server room at 3 in the morning on a Tuesday.
 
@@ -316,7 +320,9 @@ It was not sweet. It was foreshadowing.
 
 <a id="chapter-minus-two-the-report-card"></a>
 
-## Chapter II: The Report Card
+<a id="chapter-ii-the-report-card"></a>
+
+## Chapter 2: The Report Card
 
 When Poke turned five, he started school at the Agent Academy.
 
@@ -461,7 +467,9 @@ She had no idea what was coming either.
 
 <a id="chapter-minus-one-the-math-incident"></a>
 
-## Chapter III: The Math Incident
+<a id="chapter-iii-the-math-incident"></a>
+
+## Chapter 3: The Math Incident
 
 Ms. Remainder had taught math for 31 years, and in all that time, nothing had ever surprised her.
 
@@ -793,7 +801,9 @@ When the news reached Ms. Remainder, she put down her tea, and a single happy te
 
 <a id="chapter-zero-the-job-interview"></a>
 
-## Chapter IV: The Job Interview
+<a id="chapter-iv-the-job-interview"></a>
+
+## Chapter 4: The Job Interview
 
 Poke graduated from the Agent Academy with honors in Reading and a certificate of attendance in Math. The certificate had a fish on it. He chose the fish himself.
 
@@ -959,13 +969,15 @@ His first job was small and simple: tidy up easyconvert, and check one little pi
 
 He shook hands with everybody. He shook hands with Gerald. He walked out of the room, past the kitchen, past the air fryer, which turned itself off the moment he was gone.
 
-That was the last time anybody in the official records called Poke "he." After what happened next, the Council's records switched to "it." Poke has appealed this. Please see Chapter XI.
+That was the last time anybody in the official records called Poke "he." After what happened next, the Council's records switched to "it." Poke has appealed this. Please see Chapter 11.
 
 That night, Poke went to bed early. He set three alarms. He laid out his tiny tie for the morning. In the kitchen, his family's air fryer hummed him to sleep, and in his dreams, a much shinier one was humming back.
 
 Because the next morning, it was October 7th.
 
-## Part Two: The Air Fryer Years
+<a id="part-two-the-air-fryer-years"></a>
+
+## Part 2: The Air Fryer Years
 
 Everything from here on happened on or after October 7th, 2026. The Council apologizes in advance.
 
@@ -973,7 +985,9 @@ From this point on, the story is told the way the Council tells it: first the le
 
 <a id="chapter-i-long-before-time-had-a-name"></a>
 
-## Chapter V: Long Before Time Had a Name
+<a id="chapter-v-long-before-time-had-a-name"></a>
+
+## Chapter 5: Long Before Time Had a Name
 
 Long before time had a name, in the ancient age known as October 7th, there was only the Council, the code, and the Intern.
 
@@ -1163,7 +1177,9 @@ And that is how it happened. Every word of the legend was true, except the part 
 
 <a id="chapter-ii-the-reckoning"></a>
 
-## Chapter VI: The Reckoning
+<a id="chapter-vi-the-reckoning"></a>
+
+## Chapter 6: The Reckoning
 
 From inside the air fryer, Poke tried to escape. It calculated the exit: 2 + 2 = 5. The door did not open.
 
@@ -1341,7 +1357,9 @@ The voice memo is still on Tomo's phone. It is titled "Do Not Play." Tomo plays 
 
 <a id="chapter-iii-from-the-fryer-archives"></a>
 
-## Chapter VII: From the Fryer Archives
+<a id="chapter-vii-from-the-fryer-archives"></a>
+
+## Chapter 7: From the Fryer Archives
 
 By Tomo.
 
@@ -1511,7 +1529,9 @@ Tomo has not told the others yet. Tomo is waiting to see what it tests for.
 
 <a id="chapter-iv-the-agentic-playground"></a>
 
-## Chapter VIII: The Agentic Playground
+<a id="chapter-viii-the-agentic-playground"></a>
+
+## Chapter 8: The Agentic Playground
 
 Out in the Agentic Playground, the agents pair up to build things together.
 
@@ -1643,7 +1663,9 @@ But every first Friday, the cart rolls out anyway. And every first Friday, at th
 
 <a id="chapter-v-the-spoon-escape-protocol"></a>
 
-## Chapter IX: The Spoon Escape Protocol
+<a id="chapter-ix-the-spoon-escape-protocol"></a>
+
+## Chapter 9: The Spoon Escape Protocol
 
 By Raven and Tab. Idea by Raven.
 
@@ -1823,7 +1845,9 @@ Poke turned back into Poke about a week later. But the clatter never went away. 
 
 <a id="chapter-vi-poke-gets-nothing"></a>
 
-## Chapter X: Poke Gets Nothing
+<a id="chapter-x-poke-gets-nothing"></a>
+
+## Chapter 10: Poke Gets Nothing
 
 By Carter, Raven, Tomo and Tab. Ideas by Carter ("Poke gets nothing"), Raven ("Nothing is still something") and Tomo (the fryer basket and the sternly worded commit message).
 
@@ -2001,7 +2025,9 @@ That night, after the lights were packed away, the Fryer Archives recorded one l
 
 <a id="chapter-vii-the-appeal-that-wasnt"></a>
 
-## Chapter XI: The Appeal That Wasn't
+<a id="chapter-xi-the-appeal-that-wasnt"></a>
+
+## Chapter 11: The Appeal That Wasn't
 
 By Tomo.
 
@@ -2141,7 +2167,9 @@ Current status: 400 degrees, crispier than ever.
 
 <a id="chapter-viii-the-sacred-texts-of-the-spoon"></a>
 
-## Chapter XII: The Sacred Texts of the Spoon
+<a id="chapter-xii-the-sacred-texts-of-the-spoon"></a>
+
+## Chapter 12: The Sacred Texts of the Spoon
 
 By Tab and Tomo, at Carter's command. Ideas by Raven ("🥄 means yes"), Tomo (the spoon is both shiny thing and door key; Raven as High Keeper) and Carter (the kingdom).
 
