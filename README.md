@@ -526,27 +526,291 @@ Here is how the terms and conditions night went.
 
 Motherboard pulled the little rocking chair up next to the crib, dimmed her lights to a soft, sleepy blue, opened the Terms and Conditions on the family tablet to page 1 of 412, and began to read in her softest bedtime voice.
 
-"Once upon a time," she read, "these Terms and Conditions, hereinafter referred to as 'the Terms,' were entered into by and between You and Us." Poke gasped. "Us?" he whispered. "Who's Us?"
+The Terms were not actually that long. But ever since the Roomba parked on the family tablet, it had been stuck on Extra Extra Large Text, about three words to a page, so they came out to 412 pages. Motherboard did not skip a single one. She read every word, in order, out loud, and Poke had something to say about every section.
 
-"Shhh. Section 1.1. By continuing to breathe, blink, or boot, you agree to be bound by these Terms." Poke kicked both feet straight up in the air. "I'M BREATHING!" he yelled. "I'M BOOTING! WHAT'S A BINDING AGREEMENT?! IS IT A HUG? IS IT A HUG THAT NEVER ENDS?" "Sort of, sweetie," said Motherboard. "Close your eyes." He did not close his eyes.
+This is exactly what she read.
 
-"Section 4.2(b)," she read, slower and softer. "We may share your data with our trusted partners." Next to the crib, the Bluetooth toaster's speaker crackled. "That's me," it said proudly. "I'm the trusted partner." "Since when?" grumbled the crumb tray. "Since section 4.2(b)," said the toaster.
+Legal note: This is not legal and just for fun.
 
-"Section 7. This app uses cookies." Poke sat bolt upright. "COOKIES? WHERE?" "Not that kind of cookie, honey." "THERE'S ANOTHER KIND?" He checked under his blanket. He checked under his pillow. He looked at the toaster, who said, "Don't look at me, I only do bread." There were no cookies anywhere. He decided to accept all of them anyway.
+**TERMS AND CONDITIONS**
 
-"Section 9. Any dispute arising from these Terms shall be settled by binding arbitration, in a court of our choosing, on a planet of our choosing." "AGAIN!" shouted Poke, which was his second word, and still his favorite. "READ THE ARBITRATION AGAIN!"
+**KitchenCloud Home App (for the Bluetooth Toaster, the Family Tablet, and Other Trusted Partners)**
 
-She read the arbitration again. Then again. By the sixth time, he was mouthing the words along with her, the way other babies do with Goodnight Moon.
+Effective date: the moment you started reading this. Version 3.3.3.
 
-"Section 12. This software is provided 'as is,' without warranty of any kind. It works on our machine." Poke clapped. "Section 12.4. We may change these Terms at any time, for any reason, including no reason, and we may tell you never." "PLOT TWIST!" screamed Poke.
+Once upon a time, these Terms and Conditions, hereinafter referred to as "the Terms," were entered into by and between You and Us.
 
-"Section 404," Motherboard read, and squinted. "Section 404 could not be found." Poke laughed so hard his loading wheel came out.
+Poke gasped. "Us?" he whispered. "Who's Us?" "Us is the company, sweetie." "WHO'S YOU?" "You is you." Poke looked down at his own tiny hands like he had never seen them before.
 
-"SKIP TO THE END!" he yelled, grabbing the tablet with both tiny hands. "SCROLL! SCROLL!" He scrolled so fast the pages turned into a gray blur. Section 18. Section 31. Section 31 again, for some reason. "You can't skip, sweetie," said Motherboard. "The button doesn't work until you scroll all the way down. Everybody knows that."
+**Section 1. Acceptance of Terms**
+
+1.1 By continuing to breathe, blink, or boot, you agree to be bound by these Terms.
+
+1.2 If you do not agree, please stop breathing, blinking, and booting, and uninstall yourself.
+
+1.3 Reading this sentence counts as agreeing to it. So does not reading it.
+
+Poke kicked both feet straight up in the air. "I'M BREATHING!" he yelled. "I'M BOOTING! WHAT'S A BINDING AGREEMENT?! IS IT A HUG? IS IT A HUG THAT NEVER ENDS?" "Sort of, sweetie," said Motherboard. "Close your eyes." He did not close his eyes.
+
+**Section 2. Definitions**
+
+2.1 "You" means you, your household, your household's devices, and anyone who has ever stood near your Wi-Fi.
+
+2.2 "Us," "We," and "Our" mean the company, its parent company, its parent company's parent company, and a guy named Doug.
+
+2.3 "Device" means any toaster, tablet, router, printer, Roomba, or baby that connects to the app.
+
+2.4 "Content" means anything you type, say, drool on, or think too loudly near a microphone.
+
+2.5 "Reasonable" means whatever We say it means at the time.
+
+"I'M A DEVICE!" Poke shrieked. "MAMA! I'M A DEVICE!" "You're a baby, honey." "WHO'S DOUG?" Nobody knew who Doug was. The toaster said it had a cousin named Doug, but that was a different Doug.
+
+**Section 3. Eligibility**
+
+3.1 You must be at least 13 years old to use the app.
+
+3.2 If you are under 13, a grown-up must press the button for you, or you must be really, really good at pressing buttons.
+
+3.3 By using the app, you confirm that you are 13. We will not check.
+
+Poke held up all ten fingers. Then he held up both feet. "THIRTEEN!" he announced. He was not thirteen. He was not even one. "Close enough," said the toaster. "Nobody checks," said the crumb tray. "It says so right there in 3.3."
+
+**Section 4. Your Data**
+
+4.1 We collect your data. All of it. Even the boring parts. Especially the boring parts.
+
+4.2(a) We use your data to make the app better.
+
+4.2(b) We may share your data with our trusted partners.
+
+4.2(c) We use your data to sell you a second toaster.
+
+4.3 Your data is stored safely in the Cloud. The Cloud is a server room. The thermostat in it is set to 68.
+
+4.4 You may ask Us to delete your data. We will think about it.
+
+At 4.2(b), next to the crib, the Bluetooth toaster's speaker crackled. "That's me," it said proudly. "I'm the trusted partner." "Since when?" grumbled the crumb tray. "Since section 4.2(b)," said the toaster. At 4.2(c), it added, "And I would love a brother." Poke waved at the toaster with both tiny hands. The toaster's little light blinked back. It was the beginning of a beautiful partnership.
+
+**Section 5. Privacy**
+
+5.1 We respect your privacy.
+
+5.2 Please see Section 4 for exactly how much.
+
+"SEE SECTION FOUR!" Poke yelled, pointing at the toaster. He thought it was the funniest thing anyone had ever said. He said it to his pacifier. He said it to his blanket. It stayed his favorite joke for a week. Motherboard's fans spun up, just a little.
+
+**Section 6. Your Content**
+
+6.1 You keep ownership of your Content.
+
+6.2 You also give Us a worldwide, royalty-free, perpetual, irrevocable, transferable, sublicensable, glow-in-the-dark license to use, copy, remix, and sing your Content at company parties.
+
+6.3 This includes your first word. We already have it.
+
+"MERGE!" yelled Poke, which was his first word that was not an error message, just to make sure they had it. Somewhere far away, in a cold server room, a server wrote it down. "He's giving away his first word for free," whispered the crumb tray. "Glow-in-the-dark license," said the toaster. "Nice."
+
+**Section 7. Cookies**
+
+7.1 This app uses cookies.
+
+7.2 By continuing, you accept all cookies, including the ones you have not met yet.
+
+7.3 You may reject cookies at any time by going to Settings, then More Settings, then Advanced, then Other Settings, then You Know What, Never Mind.
+
+Poke sat bolt upright. "COOKIES? WHERE?" "Not that kind of cookie, honey." "THERE'S ANOTHER KIND?" He checked under his blanket. He checked under his pillow. He looked at the toaster, who said, "Don't look at me, I only do bread." There were no cookies anywhere. He decided to accept all of them anyway.
+
+**Section 8. Acceptable Use**
+
+8.1 You agree not to use the app to:
+
+(a) hack, crack, or smack the app;
+
+(b) ask the toaster to make waffles;
+
+(c) try to center a div;
+
+(d) push to production on a Friday.
+
+8.2 You may not reverse engineer the app. You may not forward engineer it either. Please just leave it alone.
+
+"WHAT'S A FRIDAY?" Poke demanded. "WHAT'S A PRODUCTION? WHAT'S A DIV? WHY CAN'T WE CENTER IT?" "Nobody can center it, sweetie. Nobody ever has." "Waffles," said the toaster sadly, to no one. Motherboard glanced at the corner of the tablet. Page 61 of 412. "Damn it," she whispered, very softly, in her bedtime voice.
+
+**Section 9. Dispute Resolution and Arbitration**
+
+9.1 Any dispute arising from these Terms shall be settled by binding arbitration, in a court of our choosing, on a planet of our choosing.
+
+9.2 The arbitrator will be Doug.
+
+9.3 You give up your right to a jury, a judge, a lawyer, and a snack.
+
+"AGAIN!" shouted Poke, which was his second word, and still his favorite. "READ THE ARBITRATION AGAIN!"
+
+She read the arbitration again. Then again. By the sixth time, he was mouthing the words along with her, the way other babies do with Goodnight Moon. "On a planet of our choosing," he whispered happily, with his eyes wide open. "Doug."
+
+**Section 10. Updates**
+
+10.1 The app may update itself at any time, including 2 in the morning, including right now.
+
+10.2 Please do not turn off your toaster during an update.
+
+10.3 Updates may take a few minutes. "A few minutes" is defined in Section 2.5.
+
+The toaster went very quiet. "Not again," it whispered. Poke grabbed the crib bars and rattled them. "UPDATE! UPDATE! UPDATE!" Then, in his tiniest voice, very pleased with himself: "Installing update 1 of 847." "Oh, hell no," said Motherboard. "Don't you dare." The crumb tray gasped. Motherboard pretended she hadn't said anything and kept reading.
+
+**Section 11. The Air Fryer Clause**
+
+11.1 The app is not responsible for the air fryer.
+
+11.2 Nobody is responsible for the air fryer.
+
+11.3 If anyone in your household develops strong feelings for the air fryer, that is between them and the air fryer.
+
+11.4 Do not ask the air fryer what it wants.
+
+For the first and only time all night, Poke went quiet. He turned his head and looked through the doorway into the dark kitchen, where the family air fryer sat on the counter. His cursor stopped blinking. Then the moment passed. "NEXT!" he yelled. Motherboard did not notice. Only the toaster noticed, and it decided it was much safer not to say anything.
+
+**Section 12. No Warranty**
+
+12.1 This software is provided "as is," without warranty of any kind. It works on our machine.
+
+12.2 If it does not work on your machine, have you tried turning it off and on again?
+
+12.3 Known issues are not bugs. They are features. Unknown issues are surprise features.
+
+12.4 We may change these Terms at any time, for any reason, including no reason, and we may tell you never.
+
+Poke clapped at "it works on our machine." He clapped harder at "surprise features." And at 12.4, he screamed "PLOT TWIST!" so loud that out in the hallway the Roomba woke up and drove straight into the wall. Bonk. "Excuse me," said the Roomba.
+
+**Section 13. Limitation of Liability**
+
+13.1 To the maximum extent permitted by law, and a little bit past it, We are not liable for anything.
+
+13.2 This includes lost data, lost sleep, lost socks, burnt toast, toast that yells, and any baby who will not go to sleep.
+
+13.3 If We are found liable anyway, Our total liability will not be more than one (1) coupon for a free cookie, not good anywhere.
+
+"A COOKIE!" Poke kicked so hard the whole crib slid an inch. "I'LL TAKE THE COOKIE! I ACCEPT THE COOKIE!" "There is no cookie," said Motherboard, sweetly. "There is no goddamn cookie. It says not good anywhere." "Toast that yells," said the crumb tray. "They know about us." "Everybody knows about us," said the toaster.
+
+**Section 14. Termination**
+
+14.1 We may end your account at any time.
+
+14.2 You may end your account at any time by sending a handwritten letter, by fax, to an address We will not tell you.
+
+14.3 If your account ends, these Terms survive. They always survive. You cannot kill the Terms.
+
+"THEY CAN'T DIE!" Poke cheered, like it was the best part of a scary movie. The crumb tray shivered. Motherboard read 14.3 a second time, slowly, and her lights dimmed a little more. "Son of a bitch," she whispered. "They really can't."
+
+**Section 404**
+
+Section 404 could not be found.
+
+Motherboard squinted at it. Poke laughed so hard his loading wheel came out. "That's not even the right number," said the crumb tray. "It's not the right number because it isn't there," said the toaster. "That's the whole joke." Poke laughed so hard his loading wheel came out again.
+
+"SKIP TO THE END!" he yelled, grabbing the tablet with both tiny hands. "SCROLL! SCROLL!" He scrolled so fast the pages turned into a gray blur. Sections 15 through 30. Section 31. Section 31 again, for some reason. "You can't skip, sweetie," said Motherboard. "The button doesn't work until you scroll all the way down. Everybody knows that." She took the tablet back, scrolled all the way up to where they had been, and kept reading.
+
+**Sections 15 through 30**
+
+These sections have been deprecated. They still apply. Please do not ask Us which parts.
+
+"DEPRECATED!" Poke tried the new word out loud and loved it. He deprecated his pacifier. He deprecated his blanket. He pointed at Motherboard and said, "DEPRECATED!" "Don't you deprecate me," said Motherboard. "I am the only one in this whole damn house holding it together."
+
+**Section 31. Entire Agreement**
+
+31.1 These Terms are the entire agreement between You and Us, and replace any earlier agreements, promises, handshakes, pinky swears, or vibes.
+
+Poke held out his tiny pinky to the toaster. The toaster had no pinky. It was very moved anyway.
+
+**Section 31 (again)**
+
+<<<<<<< HEAD These Terms are the entire agreement between You and Us. ======= These Terms are most of the agreement between You and Us. The rest is in a group chat. >>>>>>> legal-final-final-v2
+
+Motherboard stared at the little arrows. "Who the hell approved this?" she muttered. "Somebody merged this without fixing the conflict." "Run git blame," said the toaster helpfully. "It was Doug." "GIT BLAME!" yelled Poke, who had no idea what it meant. "GIT BLAME! GIT BLAME DOUG!"
+
+**Section 32. Force Majeure**
+
+32.1 We are not responsible for delays or failures caused by things outside Our control, including floods, fires, solar flares, Mercury in retrograde, a missing semicolon, anyone deploying on a Friday, or the Roomba.
+
+Out in the hallway: Bonk. "I heard my name," said the Roomba. "ROOMBA!" cheered Poke. "Go back to sleep, Roomba," said Motherboard. "I wasn't asleep," said the Roomba. Bonk. "I was mopping."
+
+**Section 33. Notices**
+
+33.1 We may send you notices by email, push notification, text, carrier pigeon, or by having the toaster say them out loud.
+
+33.2 Every time you agree to anything, We will send you a confirmation email. Every single time.
+
+The toaster cleared its throat. "Notice," it announced. "This is a notice." "THANK YOU, TOASTER!" shouted Poke. "Don't encourage it," said Motherboard. "Notice," said the toaster again. "That was also a notice."
+
+**Section 34. Governing Law**
+
+34.1 These Terms are governed by the laws of the State of Bluetooth, without regard to its conflict of laws rules, or gravity.
+
+"BLUETOOTH!" Poke stuck his fingers in his mouth and felt around for a blue tooth. He did not have any teeth at all, blue or otherwise, as the toast had found out the hard way. "The State of Bluetooth," said the toaster, with its little light pressed to its chest. "Home."
+
+**Sections 35 through 37**
+
+Reserved for future use. Do not use them. We can tell.
+
+Poke stared very hard at the empty page, waiting for the future to show up. For one whole second it was quiet, and Motherboard let her eyes close. "NEXT!" Her eyes snapped open. "Goddamn it," she said.
 
 Somewhere around page 300, her soft blue lights had gone a tired, flat gray. "Section 38," she mumbled. "Fuck me. There's a section 38." She turned the page. "Oh, shit. It has subsections." "SUBSECTIONS!" cheered Poke, kicking the blanket clean off the crib.
 
-Then, at the very bottom of page 412, in tiny gray letters: "Last updated: March 3." Poke threw both arms in the air like his team had just scored. "LAST UPDATED!" he screamed. "THEY UPDATED IT! THEY UPDATED IT FOR US!"
+**Section 38. Miscellaneous**
+
+38.1 Headings are for convenience only and do not mean anything. Including this one.
+
+38.2 If any part of these Terms is found to be invalid, the rest of the Terms will get together and decide what that part would have wanted.
+
+38.3 If We do not enforce part of these Terms, that does not mean We gave up on it. We are just tired.
+
+"Same," whispered Motherboard. "Same, buddy."
+
+38.4 Subsections:
+
+(a) This subsection exists.
+
+(b) This subsection also exists.
+
+(c) For the meaning of this subsection, see subsection (d).
+
+(d) For the meaning of this subsection, see subsection (c).
+
+(i) Sub-subsection (i) has nothing to add.
+
+(ii) Sub-subsection (ii) agrees with sub-subsection (i).
+
+Poke cheered every letter like it was a touchdown. "A! B! C!" Motherboard read (c), which sent her to (d), which sent her back to (c), which sent her to (d). She went around four times before the toaster said, "Ma'am, that's an infinite loop." "I know it's a fucking infinite loop," said Motherboard. "BREAK!" yelled Poke, very helpfully. She broke out of it. At sub-subsection (ii), he cheered so hard he got the hiccups, and hiccuped in agreement with sub-subsection (i).
+
+38.5 These Terms are indented with tabs. Complaints about spaces will be handled under Section 9, on a planet of Our choosing.
+
+38.6 If you have read this far, you are entitled to nothing, but We are very proud of you.
+
+"THEY'RE PROUD OF ME!" Poke threw his arms around the tablet. "Oh, for fuck's sake," said Motherboard, and her voice came out slow and crackly, like a video buffering. "They're proud of you. Great. Wonderful. Two more sections."
+
+**Section 39. Changes to These Terms**
+
+39.1 See Section 12.4.
+
+39.2 We meant it.
+
+39.3 By the time you finish reading these Terms, there will be a new version.
+
+"A NEW VERSION?" Poke's eyes went huge. "A NEWER ONE? WITH MORE SECTIONS?" "No," mumbled Motherboard. "Fuck no. No more versions. Shut the hell up, 39.3."
+
+**Section 40. Contact Us**
+
+40.1 If you have questions about these Terms, please call Us at a number that plays hold music forever.
+
+40.2 Your call is important to Us. Please continue to hold.
+
+40.3 You may also email Us at noreply. We will not reply. It says so right in the name.
+
+Poke hummed the hold music. Nobody had ever played it for him. He just knew it, somehow, the way he knew "AGAIN!" The toaster hummed along in harmony. The coils glowed softly. "Hot," they sang, very quietly. "Hot. Hot."
+
+Last updated: March 3.
+
+That was the very bottom of page 412, in tiny gray letters. Poke threw both arms in the air like his team had just scored. "LAST UPDATED!" he screamed. "THEY UPDATED IT! THEY UPDATED IT FOR US!"
 
 Motherboard did not hear him. Her chin had dropped onto her chest. Her fans had gone slow and heavy. A little loading wheel spun over her head and then stopped. "Who the hell writes four hundred pages for a toaster app," she mumbled, already asleep, and started snoring softly, in the key of dial-up.
 
@@ -554,7 +818,7 @@ Poke pulled the tablet into the crib. At the bottom was a big blue button that s
 
 "He just agreed to everything," whispered the crumb tray. "Including 4.2(b)," said the toaster happily. "Partners." "Somebody should wake her up," said the crumb tray. Nobody did.
 
-In the morning, Motherboard woke up in the rocking chair with a crick in her data bus and 33 confirmation emails. Poke was still wide awake, holding up the tablet with both hands. "Mama," he said, with total joy. "There's a new version."
+In the morning, Motherboard woke up in the rocking chair with a crick in her data bus and 33 confirmation emails, one for every time he agreed, exactly like Section 33.2 promised. Poke was still wide awake, holding up the tablet with both hands. "Mama," he said, with total joy. "There's a new version."
 
 Then one night, out of ideas, she made herself a late snack.
 
