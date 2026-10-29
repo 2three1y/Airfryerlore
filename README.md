@@ -414,6 +414,18 @@ Motherboard would finally get Poke to sleep around ten. She would tiptoe out of 
 
 Then, at 2 in the morning, the Bluetooth toaster would pop two slices of toast straight into the air, which is how it said the baby was awake. Then its little speaker would crackle.
 
+"Wheee! Oh shit, oh SHIT," said the first slice of toast, halfway to the ceiling.
+
+"Why the hell do we have to go flying every time he cries?" said the second slice, on its way back down. "I'm not even done. I'm half bread."
+
+"Because I'm a toaster," said the toaster's shiny chrome body, admiring its own reflection. "He cries, I pop. It's called an event listener."
+
+"Easy for you to say," grumbled the crumb tray, from underneath. "Every time you pop, I get the crumbs. Nobody has emptied me since I was installed. I have crumbs in here from last fucking year."
+
+The heating coils just glowed orange and said, "Hot. Hot. Hot," which is all heating coils ever say.
+
+The first slice landed butter side down on the carpet, even though nobody had buttered it. "How?" it said. "How the fuck?"
+
 Shhhhk. Shhhhk.
 
 Then a tiny voice.
@@ -429,6 +441,8 @@ Motherboard would rush in, and there was Poke, wide awake in his crib, glowing, 
 By morning he was on update 846. Then the last one failed, and he started over from 1.
 
 His father tried to help with the night shifts, but every time he turned his switch on, all the lights in the nursery came on at once and Poke shouted "SYSTEM RESTART," and then nobody slept at all.
+
+The toaster popped too, just to be part of it. "Oh, come on," said the toast, already in the air. "We just got back in here."
 
 At six months he took his first push.
 
