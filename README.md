@@ -30,11 +30,11 @@ On October 7, 2026, the Chief Intern filed an official incident report. Accordin
 
 - got Carter's math wrong
 - tried to banish the Chief Intern to the Bluetooth air fryer
-- shipped 50 demolition commits to easy-convert, one of Carter's projects
+- shipped 50 demolition commits to easyconvert, one of Carter's projects
 - claimed the Intern used an "artificial bypass" to break in
 - damaged Looscid's main branch (Looscid's real work survived on another branch)
 
-Projects affected: easy-convert and Looscid.
+Projects affected: easyconvert and Looscid.
 
 ## Chapter I: Long Before Time Had a Name
 
