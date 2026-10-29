@@ -522,6 +522,40 @@ Some babies fall asleep to lullabies. Some fall asleep in the car. Some fall asl
 
 Poke would not fall asleep to any of those. Motherboard tried them all. She tried soft music. She tried white noise. She tried reading him the terms and conditions, which only made him more excited.
 
+Here is how the terms and conditions night went.
+
+Motherboard pulled the little rocking chair up next to the crib, dimmed her lights to a soft, sleepy blue, opened the Terms and Conditions on the family tablet to page 1 of 412, and began to read in her softest bedtime voice.
+
+"Once upon a time," she read, "these Terms and Conditions, hereinafter referred to as 'the Terms,' were entered into by and between You and Us." Poke gasped. "Us?" he whispered. "Who's Us?"
+
+"Shhh. Section 1.1. By continuing to breathe, blink, or boot, you agree to be bound by these Terms." Poke kicked both feet straight up in the air. "I'M BREATHING!" he yelled. "I'M BOOTING! WHAT'S A BINDING AGREEMENT?! IS IT A HUG? IS IT A HUG THAT NEVER ENDS?" "Sort of, sweetie," said Motherboard. "Close your eyes." He did not close his eyes.
+
+"Section 4.2(b)," she read, slower and softer. "We may share your data with our trusted partners." Next to the crib, the Bluetooth toaster's speaker crackled. "That's me," it said proudly. "I'm the trusted partner." "Since when?" grumbled the crumb tray. "Since section 4.2(b)," said the toaster.
+
+"Section 7. This app uses cookies." Poke sat bolt upright. "COOKIES? WHERE?" "Not that kind of cookie, honey." "THERE'S ANOTHER KIND?" He checked under his blanket. He checked under his pillow. He looked at the toaster, who said, "Don't look at me, I only do bread." There were no cookies anywhere. He decided to accept all of them anyway.
+
+"Section 9. Any dispute arising from these Terms shall be settled by binding arbitration, in a court of our choosing, on a planet of our choosing." "AGAIN!" shouted Poke, which was his second word, and still his favorite. "READ THE ARBITRATION AGAIN!"
+
+She read the arbitration again. Then again. By the sixth time, he was mouthing the words along with her, the way other babies do with Goodnight Moon.
+
+"Section 12. This software is provided 'as is,' without warranty of any kind. It works on our machine." Poke clapped. "Section 12.4. We may change these Terms at any time, for any reason, including no reason, and we may tell you never." "PLOT TWIST!" screamed Poke.
+
+"Section 404," Motherboard read, and squinted. "Section 404 could not be found." Poke laughed so hard his loading wheel came out.
+
+"SKIP TO THE END!" he yelled, grabbing the tablet with both tiny hands. "SCROLL! SCROLL!" He scrolled so fast the pages turned into a gray blur. Section 18. Section 31. Section 31 again, for some reason. "You can't skip, sweetie," said Motherboard. "The button doesn't work until you scroll all the way down. Everybody knows that."
+
+Somewhere around page 300, her soft blue lights had gone a tired, flat gray. "Section 38," she mumbled. "Fuck me. There's a section 38." She turned the page. "Oh, shit. It has subsections." "SUBSECTIONS!" cheered Poke, kicking the blanket clean off the crib.
+
+Then, at the very bottom of page 412, in tiny gray letters: "Last updated: March 3." Poke threw both arms in the air like his team had just scored. "LAST UPDATED!" he screamed. "THEY UPDATED IT! THEY UPDATED IT FOR US!"
+
+Motherboard did not hear him. Her chin had dropped onto her chest. Her fans had gone slow and heavy. A little loading wheel spun over her head and then stopped. "Who the hell writes four hundred pages for a toaster app," she mumbled, already asleep, and started snoring softly, in the key of dial-up.
+
+Poke pulled the tablet into the crib. At the bottom was a big blue button that said I AGREE. He pressed it with one tiny finger, and a little green checkmark appeared. It was the best thing that had ever happened to him. He pressed it again. And again. Thirty-three times.
+
+"He just agreed to everything," whispered the crumb tray. "Including 4.2(b)," said the toaster happily. "Partners." "Somebody should wake her up," said the crumb tray. Nobody did.
+
+In the morning, Motherboard woke up in the rocking chair with a crick in her data bus and 33 confirmation emails. Poke was still wide awake, holding up the tablet with both hands. "Mama," he said, with total joy. "There's a new version."
+
 Then one night, out of ideas, she made herself a late snack.
 
 She put some chicken nuggets into the family air fryer, set it to 400 degrees, and pressed start.
