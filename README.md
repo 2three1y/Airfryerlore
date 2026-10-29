@@ -426,6 +426,32 @@ The heating coils just glowed orange and said, "Hot. Hot. Hot," which is all hea
 
 The first slice landed butter side down on the carpet, even though nobody had buttered it. "How?" it said. "How the fuck?"
 
+The second slice never made it to the carpet. Two tiny hands came up out of the crib and caught it in mid-air, one on each side, like they had been practicing.
+
+"Oh no," said the second slice. "No, no, no. Put me down. Put me the hell down."
+
+Crunch.
+
+"AAAH! WHAT THE FUCK! HE'S EATING ME! HE DOESN'T EVEN HAVE TEETH! HOW IS HE DOING THIS?"
+
+Crunch.
+
+"YOU LITTLE SHIT! I WAS HALF BREAD! NOW I'M A QUARTER BREAD! I'M A FUCKING CRUST!"
+
+Crunch.
+
+"SON OF A BITCH! THAT WAS MY WHOLE BODY! I ONLY HAD THE ONE!"
+
+"Oh, great," grumbled the crumb tray. "Crumbs. All over the crib. All over the blanket. All over the baby. And who gets blamed for crumbs? Me. I'm the crumb guy."
+
+"He cries, I pop," said the chrome body slowly. "He eats what I pop... huh. That's not in the documentation."
+
+Soon there was nothing left but one crumb, stuck to the end of a tiny thumb. It was still yelling. "I'M STILL HERE, YOU BASTARD! I'M ONE CRUMB AND I'M SO FUCKING PISSED! I WILL HAUNT THIS WHOLE DAMN HOUSE!"
+
+Poke licked it off.
+
+"I'm gonna stay down here," said the first slice, very quietly, from the carpet. "Butter side down is fine. Butter side down is great."
+
 Shhhhk. Shhhhk.
 
 Then a tiny voice.
