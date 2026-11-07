@@ -1,0 +1,72 @@
+/* Airfryerlore: looks like a book. Purely visual; the HTML stays plain. */
+:root{color-scheme:light dark;
+ --desk:#e7dfcf;--paper:#fbf7ee;--ink:#1e1b16;--muted:#5a5247;--link:#7a2e12;--rule:#d9cdb8;
+ --tab:#e9f0f7;--tab-edge:#4a6f94;--poke:#f6ece0;--poke-edge:#a0612b;--shadow:0 1px 2px rgba(60,40,10,.12),0 8px 30px rgba(60,40,10,.12)}
+@media (prefers-color-scheme:dark){:root{
+ --desk:#141310;--paper:#211f1a;--ink:#ece5d6;--muted:#b9af9c;--link:#f0a77f;--rule:#3b372e;
+ --tab:#1f2a35;--tab-edge:#7fa7cf;--poke:#2e251c;--poke-edge:#d49a63;--shadow:0 1px 2px rgba(0,0,0,.5),0 8px 30px rgba(0,0,0,.4)}}
+*{box-sizing:border-box}
+html{font-size:112.5%}
+body{margin:0;background:var(--desk);color:var(--ink);
+ font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;line-height:1.7;
+ -webkit-text-size-adjust:100%}
+.desk{max-width:44rem;margin:0 auto;padding:1rem .75rem 3rem}
+.paper{background:var(--paper);box-shadow:var(--shadow);border-radius:3px;padding:2.5rem clamp(1.25rem,5vw,3.25rem) 2rem;margin-top:.75rem}
+main{max-width:65ch;margin:0 auto}
+a{color:var(--link);text-underline-offset:.18em}
+a:focus-visible,button:focus-visible{outline:3px solid var(--link);outline-offset:3px}
+/* Book Selector */
+.selector{position:relative}
+.selector-button{font:inherit;font-size:.95rem;letter-spacing:.04em;color:var(--ink);background:var(--paper);
+ border:1px solid var(--rule);border-radius:999px;padding:.45rem 1.1rem;cursor:pointer;box-shadow:var(--shadow)}
+.selector-list{list-style:none;margin:.5rem 0 0;padding:.5rem 0;background:var(--paper);border:1px solid var(--rule);border-radius:6px}
+.js .selector-list{position:absolute;z-index:5;left:0;min-width:17rem;box-shadow:var(--shadow)}
+.selector-list li{margin:0}
+.selector-list a{display:block;padding:.5rem 1rem;text-decoration:none}
+.selector-list a[aria-current="page"]{font-weight:bold;text-decoration:underline}
+/* Title page */
+.title-page{text-align:center;padding:3rem 0 3.5rem;margin-bottom:2rem;border-bottom:1px solid var(--rule);min-height:55vh;
+ display:flex;flex-direction:column;justify-content:center}
+.title-page .series{font-variant:small-caps;letter-spacing:.25em;color:var(--muted);margin:0 0 1.5rem}
+.title-page h1{font-size:clamp(1.9rem,6vw,2.7rem);line-height:1.2;font-weight:normal;margin:0 0 1.25rem}
+.title-page .author{font-style:italic;font-size:1.15rem;margin:0 0 2rem}
+.title-page p{margin:.4rem 0;color:var(--muted)}
+/* Contents */
+.toc h2,.end-nav h2{text-align:center;font-variant:small-caps;letter-spacing:.15em;font-weight:normal}
+.toc ul,.book-list,.end-nav ul{list-style:none;padding:0}
+.toc li,.book-list li,.end-nav li{margin:.55rem 0}
+.toc{margin-bottom:3rem}
+/* Chapters */
+h1,h2,h3{font-family:inherit}
+.story h2{text-align:center;font-weight:normal;font-size:1.55rem;line-height:1.3;margin:4.5rem 0 1.5rem;padding-top:2.5rem;border-top:1px solid var(--rule)}
+.story section:first-child h2{margin-top:1rem;border-top:0}
+.story h3{font-size:1.1rem;font-variant:small-caps;letter-spacing:.06em;text-align:center;margin:2.5rem 0 1rem;font-weight:normal;color:var(--muted)}
+h2{font-size:1.4rem;line-height:1.3}
+.story p{margin:0;text-indent:1.5em;hyphens:auto}
+.story h2+p,.story h3+p,.story .byline+p,.story blockquote+p,.story ul+p,.story .msg+p,.story .note+p,.story .note,.story .byline{text-indent:0}
+.story h2+p:not(.byline)::first-letter{font-size:3.1em;float:left;line-height:.85;padding:.08em .08em 0 0}
+.byline{font-style:italic;color:var(--muted);text-align:center;margin:0 0 1.5rem!important}
+.note{text-align:center;font-variant:small-caps;letter-spacing:.06em;margin:1rem 0!important}
+.story ul{margin:.75rem 0;padding-left:1.5em}
+.story li{margin:.3rem 0}
+.story .num,.story .toc-plain{list-style:none;padding-left:1.5em}
+.commit{margin:1.25rem 0}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.88em}
+blockquote{margin:1rem 1.5em;font-style:italic}
+/* Chat messages in Tab vs Poke */
+.msg{margin:1.25rem 0;padding:.75rem 1rem;border-radius:12px;border-left:4px solid}
+.msg-tab{background:var(--tab);border-color:var(--tab-edge);margin-left:12%}
+.msg-poke{background:var(--poke);border-color:var(--poke-edge);margin-right:12%}
+.msg .msg-who{font-variant:small-caps;letter-spacing:.06em;color:var(--muted);text-indent:0;margin:0 0 .3rem}
+.msg-text p{text-indent:0;margin:.2rem 0}
+.msg-text ul{margin:.2rem 0;padding-left:1.2em}
+/* End of book */
+.end-nav{margin-top:4rem;padding-top:2rem;border-top:1px solid var(--rule);text-align:center}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--rule);color:var(--muted);font-size:.9rem;text-align:center}
+section+section{margin-top:0}
+/* Plain text versions */
+body.plain{background:var(--paper)}
+body.plain main{padding:1.5rem 1.25rem 3rem}
+body.plain h1{font-size:1.6rem;line-height:1.25}
+body.plain h2{margin-top:2.5rem}
+@media print{.selector,.end-nav{display:none}.paper{box-shadow:none}}
