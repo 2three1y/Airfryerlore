@@ -11,9 +11,9 @@ synopsis, title_page) and then the book itself as plain HTML: <section>s with
 word for word, with <tvp-msg ref="MESSAGE-ID"></tvp-msg> (from src/data/tab-vs-poke.json).
 
 This regenerates: index.html (welcome screen + old link redirects),
-books/book-N.html (web version), books/book-N.txt (plain text download of that
-book), airfryerlore-complete-series.txt (the whole series as one plain text
-download), stats.html, and the book list in README.md. Only the Python standard library.
+books/book-N.html (web version), the offline downloads for each book and for the
+whole series (see FORMATS: books/book-N.txt + books/book-N-offline.html,
+airfryerlore-complete-series.txt + .html), stats.html, and the book list in README.md. Only the Python standard library.
 """
 import datetime, html, json, math, os, re
 from html.parser import HTMLParser
@@ -45,8 +45,6 @@ def load_books():
         meta["body"] = raw[head.end():]
         meta["label"] = f"Book {meta['n']}: {meta['title']}"
         meta["page"] = f"books/book-{meta['n']}.html"
-        meta["txt"] = f"books/book-{meta['n']}.txt"
-        meta["txt_name"] = f"{series['series']} Book {meta['n']} - {meta['title']}.txt"
         books.append(meta)
     books.sort(key=lambda b: b["n"])
     return books
@@ -102,31 +100,56 @@ def count(book):
             "pages": max(1, math.ceil(words / WORDS_PER_PAGE))}
 
 
-# ---- Plain text downloads (.txt): no HTML, no Markdown, one paragraph per line ----
+# ---- Offline downloads: one file per book + one file for the whole series, per format ----
+# FORMATS is the one list of download formats. To drop a format, delete its line here
+# (and, if you like, its *_file function below); the footer links and the files follow.
 
-SERIES_TXT = "airfryerlore-complete-series.txt"
-SERIES_TXT_NAME = f"{series['series']} - The Complete Series.txt"
+def _fmt(ext, label):
+    return {"ext": ext, "label": label}
+
+
+FORMATS = [
+    _fmt("txt", "(.txt, plain)"),                # plain text, no formatting at all
+    _fmt("html", "(with headings, .html)"),      # one self-contained page: headings + contents links
+]
+SERIES_FILE = "airfryerlore-complete-series"     # + .txt / .html, at the top of the site
 BLOCKS = {"p", "li", "h2", "h3", "h4", "blockquote", "div"}
 
 
-class _Lines(HTMLParser):
-    """Turns a book's HTML into plain text blocks, in reading order."""
+def book_file(b, ext):
+    return f"books/book-{b['n']}.{ext}" if ext == "txt" else f"books/book-{b['n']}-offline.{ext}"
+
+
+def book_file_name(b, ext):
+    return f"{series['series']} Book {b['n']} - {b['title']}.{ext}"
+
+
+def series_file(ext):
+    return f"{SERIES_FILE}.{ext}"
+
+
+def series_file_name(ext):
+    return f"{series['series']} - The Complete Series.{ext}"
+
+
+class _Blocks(HTMLParser):
+    """Turns a book's HTML into blocks (tag, text, id), in reading order."""
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.out, self.buf, self.tag, self.lists = [], [], None, []
+        self.out, self.buf, self.tag, self.id, self.lists = [], [], None, None, []
 
     def flush(self):
         t = re.sub(r"\s+", " ", "".join(self.buf)).strip()
         if t:
-            self.out.append((self.tag or "p", t))
-        self.buf = []
+            self.out.append((self.tag or "p", t, self.id))
+        self.buf, self.id = [], None
 
     def handle_starttag(self, tag, attrs):
         if tag == "ul":
             self.lists.append(dict(attrs).get("class"))
         if tag in BLOCKS:
             self.flush()
-            self.tag = tag
+            self.tag, self.id = tag, dict(attrs).get("id")
             if tag == "li" and self.lists and not self.lists[-1]:
                 self.buf.append("\u2022 ")  # a plain bullet character, for the bullet points in real messages
         elif tag == "br":
@@ -143,31 +166,31 @@ class _Lines(HTMLParser):
         self.buf.append(data)
 
 
-def book_txt_lines(b):
-    """The book as plain text: title block, contents, then every chapter."""
-    p = _Lines()
+def book_blocks(b):
+    p = _Blocks()
     p.feed(render_msgs(b["body"], "text"))  # the same words the Stats page counts
     p.flush()
-    blocks = p.out
-    chapters = [t for tag, t in blocks if tag == "h2"]
-    out = [series["series"], b["label"], f"by {series['author']}"]
-    out += list(b.get("title_page", []))
-    out += [f"Read it online: {series['site_url']}{b['page']}", "", "", "Contents", ""]
-    out += chapters
-    for tag, t in blocks:
-        if tag in ("h2", "h3", "h4"):
-            out += ["", "", t, ""]
-        else:
-            out += [t, ""]
-    out += ["", f"This is the end of {b['label']}."]
-    return out
+    return [(("p" if tag in ("li", "blockquote", "div") else tag), t, i) for tag, t, i in p.out]
+
+
+def title_lines(b):
+    return [series["series"], b["label"], f"by {series['author']}"] + list(b.get("title_page", []))
+
+
+# -- .txt: no HTML, no Markdown, one paragraph per line with a blank line between --
+
+def book_txt_lines(b):
+    blocks = book_blocks(b)
+    out = title_lines(b) + [f"Read it online: {series['site_url']}{b['page']}", "", "", "Contents", ""]
+    out += [t for tag, t, _ in blocks if tag == "h2"]
+    for tag, t, _ in blocks:
+        out += ["", "", t, ""] if tag != "p" else [t, ""]
+    return out + ["", f"This is the end of {b['label']}."]
 
 
 def tidy(lines):
     """Paragraphs separated by one blank line, headings by two. Never more."""
-    text = "\n".join(lines)
-    text = re.sub(r"\n{4,}", "\n\n\n", text).strip("\n")
-    return text + "\n"
+    return re.sub(r"\n{4,}", "\n\n\n", "\n".join(lines)).strip("\n") + "\n"
 
 
 def book_txt(b):
@@ -180,21 +203,80 @@ def series_txt(books):
     out += [b["label"] for b in books]
     for b in books:
         out += ["", "", "", ""] + book_txt_lines(b)
-    out += ["", "", f"This is the end of the {series['series']} series, for now."]
-    return tidy(out)
+    return tidy(out + ["", "", f"This is the end of the {series['series']} series, for now."])
+
+
+# -- .html: one self-contained page, headings + a Contents list, nothing else --
+
+OFFLINE_STYLE = ("body{font-family:Georgia,serif;line-height:1.6;max-width:40em;margin:0 auto;padding:1em}")
+
+
+def offline_doc(title, body):
+    return (f'<!DOCTYPE html>\n<html lang="en-US">\n<head>\n<meta charset="utf-8">\n'
+            f'<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+            f'<title>{esc(title)}</title>\n<style>{OFFLINE_STYLE}</style>\n</head>\n<body>\n'
+            f'{body}</body>\n</html>\n')
+
+
+def book_html_body(b, shift, idp=""):
+    """The book's headings and paragraphs. shift=0: chapters are h2; shift=1: h3 (series file)."""
+    out = []
+    for tag, t, i in book_blocks(b):
+        if tag == "p":
+            out.append(f"<p>{esc(t)}</p>")
+        else:
+            h = min(6, int(tag[1]) + shift)
+            out.append(f'<h{h} id="{esc(idp + i)}">{esc(t)}</h{h}>' if i else f"<h{h}>{esc(t)}</h{h}>")
+    return "\n".join(out) + "\n"
+
+
+def chapters(b):
+    return [(i, t) for tag, t, i in book_blocks(b) if tag == "h2" and i]
+
+
+def book_html(b):
+    tp = "".join(f"<p>{esc(x)}</p>\n" for x in [series["series"], f"by {series['author']}"] + list(b.get("title_page", [])))
+    toc_rows = "\n".join(f'<li><a href="#{esc(i)}">{esc(t)}</a></li>' for i, t in chapters(b))
+    body = (f"<h1>{esc(b['label'])}</h1>\n{tp}"
+            f'<h2 id="contents">Contents</h2>\n<ul>\n{toc_rows}\n</ul>\n' +
+            book_html_body(b, 0) + f"<p>This is the end of {esc(b['label'])}.</p>\n")
+    return offline_doc(f"{b['label']} - {series['series']}", body)
+
+
+def series_html(books):
+    toc_rows = []
+    for b in books:
+        sub = "\n".join(f'<li><a href="#{esc(i)}">{esc(t)}</a></li>' for i, t in chapters(b))
+        toc_rows.append(f'<li><a href="#book-{b["n"]}">{esc(b["label"])}</a>\n<ul>\n{sub}\n</ul>\n</li>')
+    parts = []
+    for b in books:
+        tp = "".join(f"<p>{esc(x)}</p>\n" for x in b.get("title_page", []))
+        parts.append(f'<h2 id="book-{b["n"]}">{esc(b["label"])}</h2>\n{tp}' + book_html_body(b, 1) +
+                     f"<p>This is the end of {esc(b['label'])}.</p>\n")
+    body = (f"<h1>{esc(series['series'])}: The Complete Series</h1>\n<p>by {esc(series['author'])}</p>\n"
+            f"<p>{esc(series['tagline'])}</p>\n"
+            f'<h2 id="contents">Contents</h2>\n<ul>\n' + "\n".join(toc_rows) + "\n</ul>\n" + "".join(parts) +
+            f"<p>This is the end of the {esc(series['series'])} series, for now.</p>\n")
+    return offline_doc(f"{series['series']}: The Complete Series", body)
+
+
+BUILDERS = {"txt": (book_txt, series_txt), "html": (book_html, series_html)}
 
 
 def downloads(books, prefix, current=None):
-    """Footer download links: real <a href download> links, no JavaScript."""
-    links = []
+    """Footer Download group: real <a href download> links, no JavaScript.
+    A book page downloads that book; the welcome and Stats pages download the whole series."""
     if current is not None:
         b = next(x for x in books if x["n"] == current)
-        links.append(f'<li><a href="{prefix}{b["txt"]}" download="{esc(b["txt_name"])}" type="text/plain">'
-                     f'Download this book (.txt)</a></li>')
-    links.append(f'<li><a href="{prefix}{SERIES_TXT}" download="{esc(SERIES_TXT_NAME)}" type="text/plain">'
-                 f'Download the whole series (.txt)</a></li>')
-    return ('<nav class="downloads" aria-label="Downloads">\n<ul>\n' + "\n".join(links) + "\n</ul>\n"
-            '<p>Plain text files for offline reading, with no formatting.</p>\n</nav>\n')
+        what, files = "Download this book", [(prefix + book_file(b, f["ext"]), book_file_name(b, f["ext"]), f) for f in FORMATS]
+    else:
+        what, files = "Download the whole series", [(prefix + series_file(f["ext"]), series_file_name(f["ext"]), f) for f in FORMATS]
+    mime = {"txt": "text/plain", "html": "text/html"}
+    links = "\n".join(f'<li><a href="{href}" download="{esc(name)}" type="{mime.get(f["ext"], "")}">{what} {esc(f["label"])}</a></li>'
+                      for href, name, f in files)
+    return ('<nav class="downloads" aria-labelledby="download">\n<h2 id="download">Download</h2>\n'
+            '<p>For offline reading. The .txt file is plain text with no formatting. The .html file has headings and a Contents list.</p>\n'
+            f'<ul>\n{links}\n</ul>\n</nav>\n')
 
 
 def nice_date(iso):
@@ -325,7 +407,7 @@ def welcome(books):
 <p class="author">by {esc(series['author'])}</p>
 <p>{esc(series['tagline'])}</p>
 </header>
-<p>Welcome to the Dreamor Council. Start with Book 1 and keep going, or jump to any book. To read offline, the bottom of every page has a download link for the whole series as a plain text file, and every book page has one for that book.</p>
+<p>Welcome to the Dreamor Council. Start with Book 1 and keep going, or jump to any book. To read offline, the Download section at the bottom of this page has the whole series as one file, and every book page has a Download section for that book.</p>
 <nav aria-labelledby="select-a-book">
 <h2 id="select-a-book">Books</h2>
 {picker(books, "")}</nav>
@@ -386,9 +468,9 @@ def stats_page(books, counts):
 def readme(books, counts):
     p = os.path.join(ROOT, "README.md")
     old = open(p, encoding="utf-8").read() if os.path.exists(p) else ""
-    rows = "\n".join(f"- [{b['label']}]({series['site_url']}{b['page']}) ([download as .txt]({series['site_url']}{b['txt']}))"
+    rows = "\n".join(f"- [{b['label']}]({series['site_url']}{b['page']}) (download: " + ", ".join(f"[.{f['ext']}]({series['site_url']}{book_file(b, f['ext'])})" for f in FORMATS) + ")"
                      for b in books)
-    rows += f"\n\nThe whole series as one plain text file: [{SERIES_TXT}]({series['site_url']}{SERIES_TXT})"
+    rows += "\n\nThe whole series as one file: " + ", ".join(f"[{series_file(f['ext'])}]({series['site_url']}{series_file(f['ext'])})" for f in FORMATS)
     block = f"<!-- books:start -->\n{rows}\n<!-- books:end -->"
     if "<!-- books:start -->" in old:
         new = re.sub(r"<!-- books:start -->.*?<!-- books:end -->", block, old, flags=re.S)
@@ -408,8 +490,15 @@ def main():
     counts = {b["n"]: count(b) for b in books}
     for b in books:
         write(b["page"], book_page(books, b))
-        write(b["txt"], book_txt(b))
-    write(SERIES_TXT, series_txt(books))
+        for f in FORMATS:
+            write(book_file(b, f["ext"]), BUILDERS[f["ext"]][0](b))
+    for f in FORMATS:
+        write(series_file(f["ext"]), BUILDERS[f["ext"]][1](books))
+    dropped = [ext for ext in BUILDERS if ext not in {f["ext"] for f in FORMATS}]
+    for ext in dropped:  # a format taken out of FORMATS: remove its old files too
+        for rel in [book_file(b, ext) for b in books] + [series_file(ext)]:
+            if os.path.exists(os.path.join(ROOT, rel)):
+                os.remove(os.path.join(ROOT, rel))
     for name in os.listdir(os.path.join(ROOT, "books")):
         if re.fullmatch(r"book-\d+-text\.html", name):  # the old plain text pages, replaced by the .txt downloads
             os.remove(os.path.join(ROOT, "books", name))
