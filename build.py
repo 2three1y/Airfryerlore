@@ -120,13 +120,33 @@ def head(title, prefix, extra=""):
 """
 
 
-def selector(books, prefix, current=None):
-    items = []
+PICKER_JS = ('<script>(function(){var f=document.getElementById("book-picker-form");if(!f)return;'
+             'f.hidden=false;f.addEventListener("submit",function(e){e.preventDefault();'
+             'location.href=f.elements.book.value;});})();</script>')
+
+
+def picker(books, prefix, current=None):
+    """The book menu: a native <select> (the iPhone picker) plus a Read button.
+    The small script right after it shows it and opens the chosen book.
+    Without JavaScript the menu stays hidden and the <noscript> links show instead."""
+    opts = []
+    for b in books:
+        sel = " selected" if current == b["n"] else ""
+        opts.append(f'<option value="{prefix}{b["page"]}"{sel}>{esc(b["label"])}</option>')
+    links = []
     for b in books:
         cur = ' aria-current="page"' if current == b["n"] else ""
-        items.append(f'<li><a href="{prefix}{b["page"]}"{cur}>{esc(b["label"])}</a></li>')
-    return ('<div class="selector">\n<button type="button" class="selector-button" aria-expanded="true">Book Selector</button>\n'
-            '<ul class="selector-list">\n' + "\n".join(items) + "\n</ul>\n</div>\n")
+        links.append(f'<li><a href="{prefix}{b["page"]}"{cur}>{esc(b["label"])}</a></li>')
+    return ('<form class="picker" id="book-picker-form" method="get" action="#" hidden>\n'
+            '<label for="book-picker">Choose a book</label>\n'
+            '<select id="book-picker" name="book">\n' + "\n".join(opts) + '\n</select>\n'
+            '<button type="submit">Read</button>\n</form>\n' + PICKER_JS + '\n'
+            '<noscript>\n<ul class="book-list">\n' + "\n".join(links) + '\n</ul>\n</noscript>\n')
+
+
+def selector(books, prefix, current=None):
+    """The book menu at the top of a book page (and the stats page)."""
+    return '<nav class="selector" aria-label="Books">\n' + picker(books, prefix, current) + '</nav>\n'
 
 
 def footer(prefix):
@@ -154,7 +174,7 @@ def book_page(books, b):
         ends.append(f'<li><a href="book-{nxt["n"]}.html">Next book: {esc(nxt["label"])}</a></li>')
     ends.append('<li><a href="../index.html">Welcome screen</a></li>')
     tp = "".join(f'<p>{esc(x)}</p>\n' for x in b.get("title_page", []))
-    return (head(f'{b["label"]} - {series["series"]}', "../", '<script src="../assets/selector.js" defer></script>\n') +
+    return (head(f'{b["label"]} - {series["series"]}', "../") +
             f"""<body>
 <div class="desk">
 {selector(books, "../", b["n"])}<div class="paper">
@@ -214,13 +234,11 @@ def old_links(books):
 def welcome(books):
     where = json.dumps(old_links(books), separators=(",", ":"))
     redirect = ('<script>(function(){var m=' + where +
-                ';var h=decodeURIComponent(location.hash.slice(1));if(h&&m[h]){location.replace(m[h]+"#"+encodeURIComponent(h));}})();</script>\n'
-                '<script src="assets/selector.js" defer></script>\n')
-    lst = "\n".join(f'<li><a href="{b["page"]}">{esc(b["label"])}</a></li>' for b in books)
+                ';var h=decodeURIComponent(location.hash.slice(1));if(h&&m[h]){location.replace(m[h]+"#"+encodeURIComponent(h));}})();</script>\n')
     txt = "\n".join(f'<li><a href="{b["text_page"]}">{esc(b["label"])}, plain text</a></li>' for b in books)
     return (head(series["series"], "", redirect) + f"""<body>
 <div class="desk">
-{selector(books, "")}<div class="paper">
+<div class="paper">
 <main>
 <header class="title-page">
 <p class="series">A book series</p>
@@ -230,11 +248,8 @@ def welcome(books):
 </header>
 <p>Welcome to the Dreamor Council. Start with Book 1 and keep going, or jump to any book. Every book also has a plain text version with no buttons.</p>
 <nav aria-labelledby="select-a-book">
-<h2 id="select-a-book">Select a book</h2>
-<ul class="book-list">
-{lst}
-</ul>
-</nav>
+<h2 id="select-a-book">Books</h2>
+{picker(books, "")}</nav>
 <nav aria-labelledby="plain-text">
 <h2 id="plain-text">Plain text versions</h2>
 <ul class="book-list">
@@ -269,7 +284,7 @@ def stats_page(books, counts):
 </ul>
 </section>""")
     tot = {k: sum(c[k] for c in counts.values()) for k in ("pages", "words", "lines", "chapters")}
-    return (head(f'Stats - {series["series"]}', "", '<script src="assets/selector.js" defer></script>\n') + f"""<body>
+    return (head(f'Stats - {series["series"]}', "") + f"""<body>
 <div class="desk">
 {selector(books, "")}<div class="paper">
 <main>

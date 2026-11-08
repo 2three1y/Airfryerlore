@@ -14,16 +14,17 @@ body{margin:0;background:var(--desk);color:var(--ink);
 .paper{background:var(--paper);box-shadow:var(--shadow);border-radius:3px;padding:2.5rem clamp(1.25rem,5vw,3.25rem) 2rem;margin-top:.75rem}
 main{max-width:65ch;margin:0 auto}
 a{color:var(--link);text-underline-offset:.18em}
-a:focus-visible,button:focus-visible{outline:3px solid var(--link);outline-offset:3px}
-/* Book Selector */
-.selector{position:relative}
-.selector-button{font:inherit;font-size:.95rem;letter-spacing:.04em;color:var(--ink);background:var(--paper);
- border:1px solid var(--rule);border-radius:999px;padding:.45rem 1.1rem;cursor:pointer;box-shadow:var(--shadow)}
-.selector-list{list-style:none;margin:.5rem 0 0;padding:.5rem 0;background:var(--paper);border:1px solid var(--rule);border-radius:6px}
-.js .selector-list{position:absolute;z-index:5;left:0;min-width:17rem;box-shadow:var(--shadow)}
-.selector-list li{margin:0}
-.selector-list a{display:block;padding:.5rem 1rem;text-decoration:none}
-.selector-list a[aria-current="page"]{font-weight:bold;text-decoration:underline}
+a:focus-visible,button:focus-visible,select:focus-visible{outline:3px solid var(--link);outline-offset:3px}
+/* Book menu ("Choose a book") */
+.selector{margin:0 0 1rem}
+.picker{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem .6rem;margin:.75rem 0}
+.picker[hidden]{display:none}
+.picker label{font-size:.95rem;letter-spacing:.04em}
+.picker select,.picker button{font:inherit;font-size:1rem;color:var(--ink);background:var(--paper);
+ border:1px solid var(--rule);border-radius:999px;padding:.5rem 1rem;min-height:44px;box-shadow:var(--shadow)}
+.picker select{max-width:100%}
+.picker button{cursor:pointer}
+.book-list a[aria-current="page"]{font-weight:bold;text-decoration:underline}
 /* Title page */
 .title-page{text-align:center;padding:3rem 0 3.5rem;margin-bottom:2rem;border-bottom:1px solid var(--rule);min-height:55vh;
  display:flex;flex-direction:column;justify-content:center}

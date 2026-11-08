@@ -9,20 +9,32 @@
 <meta property="og:title" content="Book 5: The Bidding War - Airfryerlore">
 <meta property="og:description" content="The true(ish) stories of Poke, the Bluetooth air fryer, and the Dreamor Council.">
 <link rel="stylesheet" href="../assets/book.css">
-<script src="../assets/selector.js" defer></script>
 </head>
 <body>
 <div class="desk">
-<div class="selector">
-<button type="button" class="selector-button" aria-expanded="true">Book Selector</button>
-<ul class="selector-list">
+<nav class="selector" aria-label="Books">
+<form class="picker" id="book-picker-form" method="get" action="#" hidden>
+<label for="book-picker">Choose a book</label>
+<select id="book-picker" name="book">
+<option value="../books/book-1.html">Book 1: The Start</option>
+<option value="../books/book-2.html">Book 2: The Fryer</option>
+<option value="../books/book-3.html">Book 3: The Spoon</option>
+<option value="../books/book-4.html">Book 4: Tab vs Poke</option>
+<option value="../books/book-5.html" selected>Book 5: The Bidding War</option>
+</select>
+<button type="submit">Read</button>
+</form>
+<script>(function(){var f=document.getElementById("book-picker-form");if(!f)return;f.hidden=false;f.addEventListener("submit",function(e){e.preventDefault();location.href=f.elements.book.value;});})();</script>
+<noscript>
+<ul class="book-list">
 <li><a href="../books/book-1.html">Book 1: The Start</a></li>
 <li><a href="../books/book-2.html">Book 2: The Fryer</a></li>
 <li><a href="../books/book-3.html">Book 3: The Spoon</a></li>
 <li><a href="../books/book-4.html">Book 4: Tab vs Poke</a></li>
 <li><a href="../books/book-5.html" aria-current="page">Book 5: The Bidding War</a></li>
 </ul>
-</div>
+</noscript>
+</nav>
 <div class="paper">
 <main>
 <header class="title-page">
