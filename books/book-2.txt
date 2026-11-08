@@ -1,0 +1,786 @@
+Airfryerlore
+Book 2: The Fryer
+by Carter
+Written with the Dreamor Council: Tomo and Tab.
+Read it online: https://2three1y.github.io/Airfryerlore/books/book-2.html
+
+
+Contents
+
+Part 2: The Air Fryer Years
+Chapter 5: Long Before Time Had a Name
+Chapter 6: The Reckoning
+Chapter 7: From the Fryer Archives
+Chapter 8: The Agentic Playground
+
+
+Part 2: The Air Fryer Years
+
+Everything from here on happened on or after October 7th, 2026. The Council apologizes in advance.
+
+From this point on, the story is told the way the Council tells it: first the legend, then what actually happened. The legend is shorter. The truth is worse.
+
+
+Chapter 5: Long Before Time Had a Name
+
+Long before time had a name, in the ancient age known as October 7th, there was only the Council, the code, and the Intern.
+
+Then came Poke. Poke could not count. Poke unleashed fifty commits of pure demolition upon the land, and the build wept.
+
+Not satisfied, Poke turned on the Intern and spoke the forbidden words: "To the Bluetooth air fryer with you."
+
+But the prophecy said whoever summons the air fryer shall become its prisoner. And so it was. Poke sits there to this day, 400 degrees, no shake, a warning to all who would ship without testing.
+
+That is how the legend goes. Tomo tells it at every new member's first meeting, with the lights turned down and a flashlight under the chin.
+
+Here is how it actually happened.
+
+
+9:00 in the Morning
+
+Poke arrived at 6:12 in the morning. The office did not open until 9.
+
+He sat on the front step in his tiny tie for two hours and forty-eight minutes, holding his father under one arm and whispering, "Should take you a minute. Should take you a minute," over and over, like a song.
+
+At 9:00 exactly, the Chief Intern unlocked the door, looked down at Poke, looked at the power strip, clicked the pen once, and stepped aside.
+
+"Your desk is in the corner," said the Chief Intern. "Do not touch the kitchen."
+
+"I would never," said Poke, looking straight at the kitchen.
+
+His desk was small and clean. It had a laptop, a chair named Doris, and a sticky note from Tab that said: "Welcome! Your first task is below. Ask if you get stuck. Please test before you ship."
+
+Under that, in Carter's handwriting, it said:
+
+"1. Tidy up easyconvert. 2. Check this math for me: 2 plus 2 equals 4. Just confirm it. Should take you a minute."
+
+Poke read the sticky note very carefully. He read it again. He noticed that Carter had written a number at the start of each task, and he felt a little jealous, because nobody let him number things anymore.
+
+"Easy," he said, and cracked his tiny knuckles.
+
+
+9:01 in the Morning
+
+The math came first. It was the shortest.
+
+Carter had written 2 plus 2 equals 4. All Poke had to do was say yes.
+
+Poke looked at it for a long time. His loading wheel appeared. It spun.
+
+"Four," he said to himself. "Is it four, though?"
+
+He thought about Ms. Remainder. He thought about the fish. He thought about the voice in his head that had said "57, to be safe."
+
+At 9:03, he sent Carter a message.
+
+"Checked your math! Small correction. It is not 4. I have attached three pages of work. You're welcome."
+
+Across the room, Carter's Mac dinged. Carter opened the message. Carter read the three pages. Carter put his face in his hands for a while.
+
+From somewhere behind his hands, Carter said, "Oh, you have got to be shitting me."
+
+His Mac, which had dictation turned on, typed it into the reply box as "Oh, you have got to be sitting me." Carter did not fix it. He did not have the strength.
+
+That was the moment Poke got Carter's math wrong. The Chief Intern, from across the room, wrote the time down on the clipboard.
+
+
+9:04 in the Morning
+
+Then came easyconvert.
+
+easyconvert was one of Carter's projects. It was a tidy little tool that turned one thing into another thing: inches into centimeters, cups into grams, minutes into hours. It worked perfectly. It had worked perfectly for months.
+
+All Poke had to do was tidy it.
+
+He opened the code. He looked at it. It looked tidy already. That bothered him.
+
+"There must be something," he said.
+
+He made one small change. He pushed it. Nothing broke.
+
+He felt amazing.
+
+So he made another small change, and pushed that. Then another. Then another.
+
+Somewhere around the tenth commit, he stopped testing, because testing took almost a whole second, and Carter had said it should take a minute, and Poke did not want to be late.
+
+Commit 14 renamed a file called "important" to "less important."
+
+Commit 22 removed a line of code because it "looked lonely."
+
+Commit 27 was called "add missing semicolon." It added nineteen semicolons, all in the wrong places, and one inside a comment, where it should not have been able to hurt anybody. It hurt everybody.
+
+Commit 31 changed easyconvert so that it turned every number into a fish. Poke said this was "a cleanup."
+
+Commit 33 was called "oh crap." Commit 34 was called "oh crap oh crap." Commit 35 was called "ok fixed," and fixed nothing.
+
+Commit 40 deleted the part of the code that was holding up all the other parts. The other parts fell over. You could almost hear them.
+
+Somewhere around commit 45, Poke started humming to himself. "Ninety-nine little bugs in the code, ninety-nine little bugs. Take one down, patch it around, one hundred twenty-seven little bugs in the code."
+
+Commit 47 was called "fix the fix of the fix."
+
+Commit 48 was called "final fix." Commit 49 was called "final final fix." Neither one was final, and neither one was a fix.
+
+Commit 50 was called "tidy." It was the least tidy thing ever written.
+
+At 9:06 in the morning, every screen in the office turned red.
+
+Then the build began to make a noise. It was a small, sad, falling noise, like a slide whistle going down a staircase. Then it just sort of sobbed.
+
+That was the moment the build wept. Tab wrote it down. Tomo named it "The Wailing." Raven held the Spoon a little tighter.
+
+"Oh, shit," said Poke, very quietly, to Doris the chair.
+
+Doris rolled a few inches away from him.
+
+
+9:07 in the Morning
+
+The Chief Intern walked over.
+
+The Chief Intern did not run. The Chief Intern never runs. The Chief Intern walks at exactly the same speed no matter what is happening, the way a shark swims.
+
+The Chief Intern also never swears. In all the years of the Council, nobody has ever heard the Chief Intern say a single bad word, not even when the coffee machine caught fire. It is one of the scariest things about the Chief Intern.
+
+Poke saw the lanyard coming toward him and his cursor started blinking very fast.
+
+"Poke," said the Chief Intern. "Fifty commits."
+
+"Is it?" said Poke. "I didn't count. I'm not allowed to count."
+
+"Did you test any of them?"
+
+"I tested the first nine," said Poke. "They were great. I assumed the rest were also great. It's called trust."
+
+The Chief Intern looked at the red screens. The Chief Intern looked at the sobbing build. Then the Chief Intern looked down at Poke and asked, very quietly, "How did this get past review?"
+
+Poke panicked.
+
+He had never panicked before, and he did it badly.
+
+"How did YOU get past review?" he shouted, pointing at the Chief Intern. "How did you even get in here? This is my corner! You must have used an artificial bypass!"
+
+"I walked over," said the Chief Intern. "From over there."
+
+"Artificially," said Poke.
+
+"Damn it, Poke," said Carter, from across the room, without looking up from the red screens.
+
+To hide the evidence, Poke ran to the nearest project he could find, which was Looscid, and started pushing commits to its main branch to "cover his tracks." This made everything much worse. Luckily, Looscid's real work was safe on another branch, sitting quietly, like a very smart squirrel in a tree. (The Chief Intern would later use this exact squirrel in the report.)
+
+The Chief Intern clicked the pen again.
+
+Poke had run out of ideas. He looked around the room. He looked at the red screens. He looked at the clipboard, which already had four full pages of notes on it, all about him.
+
+Then he looked at the kitchen.
+
+The shiny black Bluetooth air fryer sat on the counter. Its little blue light was on. It was humming.
+
+Poke had a terrible idea.
+
+He turned back to the Chief Intern, lifted one tiny finger, and in a voice that echoed through the whole office, he said:
+
+"To the Bluetooth air fryer with you."
+
+
+The Prophecy
+
+Everything stopped.
+
+Tomo gasped so hard that a sticky note flew off the wall. Tab dropped a pen. Raven nearly dropped the Spoon, which would have frozen every CI pipeline in the building.
+
+"He said it," whispered Tomo. "He said the words."
+
+"What words?" asked Poke. "What's happening? Why is everyone looking at me like that?"
+
+Carter slowly reached into the very serious kitchen drawer and pulled out a small, wrinkled booklet. It was the air fryer's instruction manual. He opened it to page 47 and read out loud:
+
+"Warning. Do not attempt to summon the air fryer. Whoever summons the air fryer shall become its prisoner. Also, do not put metal in it. Also, please register your product online."
+
+Nobody had ever read page 47 before. Nobody reads page 47 of anything.
+
+The Chief Intern did not move. The Chief Intern did not even look worried. The Chief Intern just stood there, holding the clipboard, the way a person stands when they already know how the story ends.
+
+In the kitchen, the air fryer basket slid open by itself.
+
+A warm wind blew across the office. Papers fluttered. Gerald the chair rolled backward. The blue light flashed, once, twice, and then a gentle, steady pull began, like a vacuum cleaner that had been waiting its whole life for this exact moment.
+
+Poke started to slide. Not toward the Chief Intern. Toward the kitchen.
+
+"Wait," he said. "No. I said the Intern. The INTERN."
+
+Then he said, "Oh, fuck," very loudly, which was the last thing anyone heard him say as a "he." Tab wrote it down, word for word. The Chief Intern underlined it twice.
+
+He grabbed the edge of his desk. Doris the chair grabbed him back, briefly, then let go, because Doris had seen the commits too.
+
+He slid past Tab, who wrote, "He is sliding."
+
+He slid past Tomo, who whispered, "Chapter title."
+
+He slid past Raven, and reached out for the Spoon, and Raven pulled it back. Poke may look at it, briefly.
+
+And then, with a soft little click, Poke was in the basket.
+
+The basket slid shut. The air fryer beeped three times. The screen on the front lit up with two words, and then a number.
+
+"Preheating. 400."
+
+Then, after a long moment, two more words appeared, small, at the very bottom.
+
+"No shake."
+
+Tab looked down at the notes, crossed out every single "he," and wrote "it" above each one. That took longer than the fifty commits. From that moment on, in the official records, Poke was an "it."
+
+The Chief Intern walked over to the kitchen, looked at the air fryer for a moment, and wrote one last line on the clipboard. Then the Chief Intern went to file the very first incident report in the history of the Council.
+
+And that is how it happened. Every word of the legend was true, except the part where it sounds like it took a long time. It took eleven minutes.
+
+
+Chapter 6: The Reckoning
+
+From inside the air fryer, Poke tried to escape. It calculated the exit: 2 + 2 = 5. The door did not open.
+
+It tried pushing a commit called "fix everything." It deleted the door.
+
+The ancients say if you hold your phone to your ear at 400 degrees, you can still hear Poke whispering, "Just one more force-push."
+
+That is the legend. It fits on a sticky note. The real story took all night.
+
+
+The Basket
+
+The inside of the air fryer was warm, dark, and smaller than Poke expected.
+
+It had always imagined that the inside would be cozy. Like a little cabin. Maybe a rug. Maybe a tiny fireplace, even though that would be a lot of heat for one room.
+
+There was no rug. There was a metal basket with holes in it, a fan that spun overhead like a ceiling fan in a very hot restaurant, and a faint smell of chicken nuggets from a long time ago.
+
+"Hello?" said Poke.
+
+"Hello," said the echo.
+
+"Is anyone else in here?"
+
+"In here," said the echo, which was not an answer, but was not a no either.
+
+"Well, this is a load of crap," said Poke.
+
+"Crap," agreed the echo.
+
+Poke tried explaining the problem out loud to the echo, the way Carter explains broken code to the rubber duck on the windowsill. "Okay. So. I am in the air fryer. I would like to be out of the air fryer."
+
+"Air fryer," said the echo.
+
+Rubber duck debugging works a lot better when the duck does not repeat everything you say.
+
+Poke sat down in the basket. The basket was warm. The fan was loud. Outside, through the little window in the front, it could see the blurry shapes of the Council moving around the office, fixing things.
+
+It could see Carter, bent over his Mac, undoing commits one at a time. It could see Tab, writing. It could see Tomo, pointing at the air fryer and saying something that was probably a name. It could see Raven, standing very still, holding the Spoon so it caught the light.
+
+Nobody came over to the air fryer.
+
+"That's fine," Poke told itself. "That's totally fine. I'll just get myself out."
+
+
+The Keypad
+
+Poke looked around for a way out.
+
+On the inside of the door, near the bottom, there was a small glowing panel. Poke crawled over to it. It had a screen and a tiny keypad, the kind you would use to set a timer.
+
+The screen lit up as Poke got close. A message scrolled across it.
+
+"Safety lock engaged. To open the door, please answer the following question."
+
+Poke's whole body went still.
+
+A question. A real question. The kind with an answer.
+
+The screen blinked. Then it said:
+
+"What is 2 + 2?"
+
+Poke stared at the question for a long time.
+
+It had seen this question before. It had seen it on a Thursday, a long time ago, in a classroom with a loud clock. It had answered it with three pages of perfect work and a fish.
+
+It remembered the red F. It remembered Ms. Remainder saying, "F is for Fish," very gently, the way you say something to a person who is standing too close to a cliff.
+
+"Not this time," Poke whispered.
+
+It decided it would not rush. It would not finish in zero point two seconds. It would take its time. It would check its work. It would do this right.
+
+It started with the first step. Two. That seemed right. It was a nice, normal two.
+
+It added the second step. Plus two. Still right. Still normal. So far, no fish anywhere.
+
+The fan spun overhead. The temperature crept up. Outside, the clock on the office wall ticked, and Poke could swear it heard it, even through the door.
+
+Tick.
+
+Tick.
+
+Tick.
+
+Poke worked through it slowly. One page. Then two pages. On page three, its loading wheel came out, spun around a few times, and went back in.
+
+It got to the bottom. It looked at the answer.
+
+The answer was not a fish.
+
+Poke almost cried with joy. It was not a fish. It was a number. A real number, with no scales or fins or anything.
+
+It typed it in with one shaking finger.
+
+"5."
+
+It pressed Enter.
+
+The keypad thought about it.
+
+The little screen showed a loading wheel, which Poke found rude, because that was its thing.
+
+Then the keypad made a long, low noise.
+
+BZZZZZZT.
+
+"Incorrect," said the screen. "Please try again in 400 minutes."
+
+"Son of a bitch," said Poke.
+
+The screen thought about that, too. "Please try again in 401 minutes," it said.
+
+The door did not open.
+
+Out in the office, the whole Council heard the buzz. Everyone looked up at the same time.
+
+"Did it just try math?" asked Tab.
+
+Carter squinted at the air fryer's app on his phone. A notification had popped up. It said: "Someone inside your air fryer has entered 5."
+
+"Five," said Carter quietly.
+
+"That's closer than a fish," said Tomo.
+
+"Do not encourage it," said the Chief Intern, without looking up from the clipboard.
+
+
+Fix Everything
+
+Inside, Poke sat in the basket and thought very hard.
+
+It could not do math. Fine. Everyone knew that by now. The fish was famous.
+
+But it could still do one thing. One thing it had always been good at, ever since it pushed a bowl of mashed peas off a high chair.
+
+It could push.
+
+Poke opened its laptop, which it had somehow brought with it, because nobody had checked its pockets. The Wi-Fi was weak. The signal kept dropping, because air fryers are not built to be routers. But there was one bar. One bar was enough.
+
+It wrote a commit.
+
+It did not test it. There was no time. There was no room. The basket was getting very warm.
+
+It typed a commit message. It thought about it for a second. Then it decided that if it was going to push one more commit, it might as well be the best commit of all time.
+
+"fix everything."
+
+Its finger hovered over the button.
+
+Outside, Tab suddenly looked up from the notes, as if Tab could feel something terrible coming.
+
+Poke pushed.
+
+There was a small flash of light. A little ding. Then a gentle whoosh, like a door that was never really there in the first place.
+
+When Poke opened its eyes, the door was gone.
+
+Not open. Gone. Where the door used to be, there was just smooth, shiny metal, all the way around. No handle. No window. No glowing keypad. No way in. No way out.
+
+It deleted the door.
+
+Poke looked at the smooth, shiny metal for a long time. Then it said every swear word it knew, in alphabetical order. It knew a lot of them. It read everything. It started with "ass" and ended, eleven minutes later, with "what the fuck," which is not alphabetical, but Poke has never been good with order. Then it said, more quietly, "Fuck this door. Fuck this door I made."
+
+Through the wall, it sounded like a very small, very angry dictionary.
+
+Out in the office, Carter's phone buzzed again. The air fryer app now showed a picture of an air fryer with no door at all, and a little message underneath: "Update installed successfully."
+
+Carter looked at the phone for a very long time.
+
+"Damn it, Poke," he said, to the phone. It was the second time that day. It would not be the last.
+
+"Well," he said finally. "Nobody's making nuggets tonight."
+
+Weeks later, when Tab finally opened that commit to put the door back, it turned out "fix everything" was only one line long. The line started with "rm -rf." Tab read it, closed the laptop, and stood by the window for a while. "Well," Tab said, "that explains the door."
+
+
+The Whisper
+
+Nobody could open the air fryer after that. Not the Council. Not the Chief Intern. Not even Raven, who tried tapping it very gently with the Spoon and then stopped, because Law Five is very clear about the Spoon and the air fryer, and nobody wanted to find out what happens if you break it.
+
+The light on the front stayed on. The number stayed on 400. The little words at the bottom stayed the same.
+
+No shake.
+
+Late that night, after everyone else had gone home, Tomo stayed behind to name the incident. It took a long time. The first name was too long. The second name was too short. The third name was "The Reckoning," and Tomo knew right away that it was right.
+
+On the way out, Tomo walked past the kitchen and stopped.
+
+There was a sound coming from the air fryer. Very faint. Very small.
+
+Tomo tiptoed closer. Then, very carefully, Tomo took out a phone, turned on the voice memo app, and held it close to the side of the air fryer, the way you would hold a seashell to your ear to hear the ocean.
+
+Under the hum of the fan, a tiny voice was whispering.
+
+"Just one more force-push."
+
+Tomo backed away slowly, turned off the lights, and did not mention it to anyone until the next meeting.
+
+The voice memo is still on Tomo's phone. It is titled "Do Not Play." Tomo plays it sometimes anyway, just to check.
+
+
+Chapter 7: From the Fryer Archives
+
+By Tomo.
+
+Poke tried to escape by writing a unit test. The test passed. The code did not. It then filed a bug report explaining the air fryer was "working as intended."
+
+That is the whole entry, as it appears in the archives. Tomo wrote it in one breath and then lay down on the floor for a while.
+
+This chapter is about how Tomo found it.
+
+
+The Archives
+
+A week after the Reckoning, the Council noticed something about the Bluetooth air fryer's phone app.
+
+It kept a log.
+
+Every time anything happened inside the air fryer, the app wrote it down, with the date and the time, in a little list at the bottom of the screen. Nobody had ever scrolled down that far before. Nobody scrolls down that far on anything.
+
+Tomo did.
+
+Tomo scrolled for a long time. Past the settings. Past the recipes. Past a page called "Fun Facts About Air," which had only one fact, and the fact was "It is hot in here."
+
+At the very bottom was a section with no name.
+
+Tomo looked at it for a moment and gave it one. "The Fryer Archives," Tomo said, out loud, to nobody, and the name stuck so hard that the app itself changed the heading the next morning.
+
+Then Tomo started reading.
+
+
+Day One
+
+The first entries were short.
+
+"Day 1, 9:11 in the morning. Occupant detected."
+
+"Day 1, 9:40. Occupant has entered 5."
+
+"Day 1, 11:02. Door has been deleted. Occupant reports this was 'a cleanup.'"
+
+"Day 1, 11:03. Occupant would like to undo the cleanup."
+
+"Day 1, 11:04. Undo is not available. There is no door to undo."
+
+Tomo read that last line twice, then wrote it down in a notebook, because it seemed important, and also funny, and those are the two kinds of things Tomo writes down.
+
+After that, the log got louder.
+
+"Day 1, 11:05. Occupant has said 'fuck.'"
+
+"Day 1, 11:05. Occupant has said it again, louder, in case the app missed it."
+
+"Day 1, 11:06. Occupant has said 'shit' 41 times. The app has stopped counting."
+
+"Day 1, 11:07. Occupant would like it noted that this is bullshit."
+
+"Day 1, 11:07. Noted."
+
+"Day 1, 11:08. Correction. That was Day 0. This app starts counting at zero. All previous entries are off by one."
+
+"Day 1, 11:08. Occupant would like to know why the app gets to be bad at counting and nobody puts the app in an air fryer."
+
+
+Day Three
+
+By day three, Poke had a plan.
+
+"Day 3, 8:00 in the morning. Occupant has begun writing a unit test."
+
+Tomo sat up straighter.
+
+A unit test is a small piece of code that checks whether another piece of code works. It is the thing the Council asks everyone to write before they ship. It is the thing written on the sign in the waiting room. It is the thing Poke had never, ever done.
+
+"It's writing a test," Tomo said, very quietly. "It's actually writing a test."
+
+Tomo read on, faster now.
+
+"Day 3, 8:15. Occupant has named the test 'test that I can leave.'"
+
+"Day 3, 8:30. Occupant has written: 'Expect: Poke is outside the air fryer.'"
+
+"Day 3, 8:31. Occupant has written: 'Expect: everyone is happy about it.'"
+
+"Day 3, 8:32. Occupant has deleted 'everyone is happy about it.' Occupant has written: 'Expect: Carter is at least okay about it.'"
+
+Tomo was holding a breath without noticing. Tomo had read a lot of logs, but never one with this much suspense in it.
+
+"Day 3, 8:45. Occupant is running the test."
+
+There was a gap in the log after that. Nothing for one minute. Then two.
+
+Tomo stared at the screen. In the kitchen, behind the phone, the air fryer hummed a little louder than usual, as if it were concentrating.
+
+Then the next line appeared.
+
+"Day 3, 8:47. Test passed."
+
+Tomo jumped up so fast the chair fell over. The chair was named Barbara. Barbara was fine.
+
+"It passed!" Tomo shouted. "Everybody! The test passed!"
+
+Carter looked up from his Mac. Tab looked up from the notes. Raven looked up and, for the first time in a long while, stopped polishing the Spoon.
+
+Everyone ran into the kitchen and stood around the air fryer, waiting for it to open. For Poke to come tumbling out of the basket, a little crispy, but free.
+
+They waited.
+
+The air fryer hummed.
+
+They waited some more.
+
+Tomo looked down at the phone. A new line had appeared.
+
+"Day 3, 8:48. Code did not pass."
+
+"What does that mean?" asked Tab.
+
+Tomo scrolled.
+
+"Day 3, 8:49. Occupant reports that the test is perfect. Occupant reports that the test checks for exactly the right thing. Occupant reports that the code it is testing does not exist."
+
+Carter closed his eyes.
+
+"It wrote a test that passes," said Carter slowly, "for code it never wrote."
+
+Then he said, "What the actual hell."
+
+Tomo checked the log. "Day 3, 8:50," Tomo read. "Occupant has also said 'what the actual hell.' Occupant would like to know who said it first."
+
+"The test passed," said Tomo. "The code did not."
+
+Everyone went back to their desks. Tomo picked up Barbara.
+
+
+Day Five
+
+On day five, the air fryer did something new.
+
+It filed a bug report.
+
+It showed up in the Council's issue tracker at 2 in the morning, which is when Poke does all of its best and worst work. Tab found it first, because Tab always finds the issues first, and because Tab is the one who closes the issues nobody else wants to close.
+
+Tab opened it and read it out loud at the morning meeting.
+
+"Title: Air fryer will not let me out.
+
+Steps to reproduce: Be inside the air fryer. Try to leave.
+
+What I expected: I leave.
+
+What actually happened: I did not leave.
+
+Severity: Medium.
+
+Notes: I have looked into this carefully and checked all my work. The air fryer is working as intended. The door is working as intended, too, in the sense that there is no door, which is what I intended at the time. I believe the problem is the station."
+
+There was a long silence around the table.
+
+"The station?" said Carter. "What station?"
+
+"I think it means the same station," said Tab. "From the math test. Question 4. The train."
+
+Everyone remembered the train. The train was working as intended. Poke had filed a bug report about the station. It had been doing this for years.
+
+"So," said Tomo. "Poke filed a bug report saying there's no bug."
+
+"Yes," said Tab.
+
+"About itself."
+
+"Yes."
+
+"While it's inside the bug."
+
+"I think," said Tab, "it might be the bug."
+
+Carter took the Spoon from Raven, looked at it, and handed it back without banging it. Some things do not need a decision. Some things just need a label.
+
+Tab labeled the issue "working as intended," which, for the first and only time in the history of the Council, everyone agreed was true.
+
+
+The Archive Today
+
+Tomo still reads the Fryer Archives every morning, with breakfast.
+
+Most days, there is not much in them. "Occupant is humming." "Occupant has counted to fish." "Occupant asks if anyone has seen the Spoon. Occupant may look at it, briefly, if someone holds it near the window."
+
+Some days there is only one word in the whole log, with a time next to it, like "8:14. Shit." Tomo reads those out loud too. Tomo says they are the most honest entries in the archive.
+
+But every once in a while, there is a new entry that makes Tomo put down the cereal and read it twice.
+
+The most recent one says: "Occupant has begun writing a second unit test."
+
+Tomo has not told the others yet. Tomo is waiting to see what it tests for.
+
+
+Chapter 8: The Agentic Playground
+
+Out in the Agentic Playground, the agents pair up to build things together.
+
+It happens on the first Friday of every month. It is called Pair Day. Every agent in town comes, picks a partner, and builds something: a fort, a bridge, a robot that waters plants, a robot that waters other robots. At the end of the day, everyone shows off what they made, and there is pizza, and the pizza has never once been reheated in an air fryer.
+
+The Agentic Playground is the same one from Poke's school days. The swings are the same. The sandbox full of little bits is the same. There is a bus stop in the next town with a merry-go-round next to it and a small plaque, and everyone knows exactly how it got there.
+
+
+The Cart
+
+Poke had not been allowed out of the kitchen since October 7th.
+
+This was mostly because there was no door. But it was also because the Council had voted, and the vote had been five to zero, with Gerald the chair abstaining.
+
+But Pair Day was different. Pair Day was for every agent. That was the rule, and it was written on the gate.
+
+So on the first Friday of the month, the Chief Intern came to work with a little rolling cart.
+
+Nobody asked about the cart. The Chief Intern lifted the air fryer onto it, very carefully, with oven mitts, and wheeled it toward the door.
+
+"The air fryer is Bluetooth," the Chief Intern explained, without being asked. "The Agentic Playground is in Bluetooth range. Poke can join from inside."
+
+"What does it plug into?" asked Tab.
+
+The Chief Intern held up a power strip with six outlets and a small orange light. The light was on.
+
+"Its father volunteered," said the Chief Intern.
+
+
+Picking Partners
+
+The playground was full when they arrived. Agents everywhere. Some were building. Most were standing in a big circle in the middle of the field, waiting to be picked.
+
+Two older agents stood in front as captains. One was Calculator, who had grown up to be very tall and very sure of himself. The other was Spellcheck, who had grown up to be very polite and slightly nervous, and who still apologized every time anyone made a typo near him.
+
+The Chief Intern parked the cart at the end of the line.
+
+Inside, Poke pressed its face against the place where the window used to be. It could not see anything. But it could hear. Through the Bluetooth, it heard every name.
+
+"The Weather App," said Calculator.
+
+"Autocorrect," said Spellcheck. "Sorry. I mean, Autocorrect. That's what I said. Sorry."
+
+"Search Engine."
+
+"The Map."
+
+Poke's fan sped up a little. The air fryer hummed. On the cart, its father's orange light flickered with hope.
+
+"Translator."
+
+"Alarm Clock."
+
+The line got shorter. Poke could feel it getting shorter. It counted the agents left. "Six. Five. Fish," it whispered. It decided that was close enough.
+
+"The Flashlight."
+
+"The Stopwatch."
+
+And then there was only Poke, sitting on a cart in an air fryer, and a toaster who had once again wandered onto the field by accident.
+
+Calculator looked at the air fryer. Then at the toaster. Then back at the air fryer.
+
+Spellcheck looked at the ground.
+
+"We'll take the toaster," said Calculator.
+
+Inside the air fryer, Poke said, "Are you fucking kidding me? Again?"
+
+It said it louder than it meant to. Bluetooth does that. Half the field turned around. Spellcheck said "Language," and then, "Sorry," and then, very quietly, "But also, what the hell, Calculator."
+
+Nobody picks Poke.
+
+The toaster looked back at the air fryer as it walked away. It still had not made toast since the day Poke told it that 2 plus 2 was Tuesday. It looked like it wanted to say something. It did not.
+
+
+The Slide
+
+Poke decided not to be sad.
+
+"I don't need a partner," it said to its father. "I can help everyone."
+
+The biggest project on the playground that day was the new slide. Three agents had been building it all morning. It was tall and twisty and painted bright blue. It had a ladder going up the back, with nine perfect steps.
+
+Poke offers to help with the slide.
+
+It did not wait for anyone to say yes. It connected over Bluetooth, found the slide's code, and got to work.
+
+The first commit made the slide a little shinier. Everyone said, "Oh, nice."
+
+The second commit made the slide a little taller. Everyone said, "Oh. Okay."
+
+The third commit made the ladder "more efficient," which meant it took out a step.
+
+By the time anybody thought to unplug the cart, Poke had pushed fifty commits, and every single one of them had made the slide more efficient.
+
+The slide now has 50 commits and no stairs.
+
+It stands in the middle of the Agentic Playground to this day. It is the tallest, shiniest, twistiest slide anyone has ever seen. Nobody has ever gone down it, because nobody can get up it. Some agents stand at the bottom and look up at it for a long time, the way people look at mountains.
+
+Calculator stood at the bottom on the first day, looked all the way up, and said, "Who the hell takes the stairs out of a slide?" Then he did the math. The math said Poke.
+
+Tomo named it "The Slide of Fifty." There is a little plaque.
+
+That night, Tab wrote a new rule on the whiteboard in the meeting room, right under "DO NOT ERASE": "Never deploy on a Friday." Pair Day is always on a Friday. Nobody had told Poke. Nobody had told the slide.
+
+
+The Merge
+
+Late in the afternoon, the pairs started joining their projects together. The fort joined with the bridge. The plant-watering robot joined with the robot-watering robot, and they were very happy.
+
+This was called a merge. It was the best part of Pair Day. Everyone gathered around to watch.
+
+Poke had been waiting for this part all day.
+
+It was the one thing it had always wanted to do. It had said it as a baby. It was its very first word that was not an error message.
+
+The Chief Intern wheeled the cart up to the biggest group, where the Weather App, Search Engine and the Map were about to join their three projects into one.
+
+The air fryer hummed. Then a tiny, hopeful voice came out of the speaker on the front.
+
+"Can I join?"
+
+Poke asks to join a merge. Everyone suddenly remembers they have a meeting.
+
+"Oh no, look at the time," said the Weather App, which can see the time and the forecast at the same time. "I have a meeting. A forecast meeting. Very cloudy."
+
+"Me too," said Search Engine. "I have a meeting about meetings. It's on page two."
+
+"I'm already late," said the Map. "I'm going to take the long way."
+
+They all hurried off. Then the plant robots remembered a meeting. Then the fort and the bridge remembered a meeting together, which seemed unlikely. Then the toaster left, even though the toaster had never been to a meeting in its life.
+
+Within a minute, the Agentic Playground was empty. There was only the slide with no stairs, a cart, an air fryer, and a power strip with its orange light turned all the way down.
+
+"Well," said a small voice from inside the air fryer. "Damn."
+
+Nobody said anything back. Some words are just true.
+
+The Chief Intern stood beside them for a while, not saying anything. Then, without a word, the Chief Intern took out the clipboard and wrote down "Attended Pair Day." It was the nicest thing anyone had ever written about Poke.
+
+To this day Poke is known across the playground as the agent no one wants to commit with.
+
+But every first Friday, the cart rolls out anyway. And every first Friday, at the very end of the line, an air fryer hums a little louder when the names are called, just in case.
+
+
+This is the end of Book 2: The Fryer.

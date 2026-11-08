@@ -11,10 +11,12 @@ synopsis, title_page) and then the book itself as plain HTML: <section>s with
 word for word, with <tvp-msg ref="MESSAGE-ID"></tvp-msg> (from src/data/tab-vs-poke.json).
 
 This regenerates: index.html (welcome screen + old link redirects),
-books/book-N.html (web version), books/book-N-text.html (plain text version),
-stats.html, and the book list in README.md. Only the Python standard library.
+books/book-N.html (web version), books/book-N.txt (plain text download of that
+book), airfryerlore-complete-series.txt (the whole series as one plain text
+download), stats.html, and the book list in README.md. Only the Python standard library.
 """
 import datetime, html, json, math, os, re
+from html.parser import HTMLParser
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(ROOT, "src")
@@ -43,7 +45,8 @@ def load_books():
         meta["body"] = raw[head.end():]
         meta["label"] = f"Book {meta['n']}: {meta['title']}"
         meta["page"] = f"books/book-{meta['n']}.html"
-        meta["text_page"] = f"books/book-{meta['n']}-text.html"
+        meta["txt"] = f"books/book-{meta['n']}.txt"
+        meta["txt_name"] = f"{series['series']} Book {meta['n']} - {meta['title']}.txt"
         books.append(meta)
     books.sort(key=lambda b: b["n"])
     return books
@@ -99,6 +102,101 @@ def count(book):
             "pages": max(1, math.ceil(words / WORDS_PER_PAGE))}
 
 
+# ---- Plain text downloads (.txt): no HTML, no Markdown, one paragraph per line ----
+
+SERIES_TXT = "airfryerlore-complete-series.txt"
+SERIES_TXT_NAME = f"{series['series']} - The Complete Series.txt"
+BLOCKS = {"p", "li", "h2", "h3", "h4", "blockquote", "div"}
+
+
+class _Lines(HTMLParser):
+    """Turns a book's HTML into plain text blocks, in reading order."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.out, self.buf, self.tag, self.lists = [], [], None, []
+
+    def flush(self):
+        t = re.sub(r"\s+", " ", "".join(self.buf)).strip()
+        if t:
+            self.out.append((self.tag or "p", t))
+        self.buf = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "ul":
+            self.lists.append(dict(attrs).get("class"))
+        if tag in BLOCKS:
+            self.flush()
+            self.tag = tag
+            if tag == "li" and self.lists and not self.lists[-1]:
+                self.buf.append("\u2022 ")  # a plain bullet character, for the bullet points in real messages
+        elif tag == "br":
+            self.flush()
+
+    def handle_endtag(self, tag):
+        if tag == "ul" and self.lists:
+            self.lists.pop()
+        if tag in BLOCKS:
+            self.flush()
+            self.tag = None
+
+    def handle_data(self, data):
+        self.buf.append(data)
+
+
+def book_txt_lines(b):
+    """The book as plain text: title block, contents, then every chapter."""
+    p = _Lines()
+    p.feed(render_msgs(b["body"], "text"))  # the same words the Stats page counts
+    p.flush()
+    blocks = p.out
+    chapters = [t for tag, t in blocks if tag == "h2"]
+    out = [series["series"], b["label"], f"by {series['author']}"]
+    out += list(b.get("title_page", []))
+    out += [f"Read it online: {series['site_url']}{b['page']}", "", "", "Contents", ""]
+    out += chapters
+    for tag, t in blocks:
+        if tag in ("h2", "h3", "h4"):
+            out += ["", "", t, ""]
+        else:
+            out += [t, ""]
+    out += ["", f"This is the end of {b['label']}."]
+    return out
+
+
+def tidy(lines):
+    """Paragraphs separated by one blank line, headings by two. Never more."""
+    text = "\n".join(lines)
+    text = re.sub(r"\n{4,}", "\n\n\n", text).strip("\n")
+    return text + "\n"
+
+
+def book_txt(b):
+    return tidy(book_txt_lines(b))
+
+
+def series_txt(books):
+    out = [f"{series['series']}: The Complete Series", f"by {series['author']}",
+           series["tagline"], f"Read it online: {series['site_url']}", "", "", "Books in this file", ""]
+    out += [b["label"] for b in books]
+    for b in books:
+        out += ["", "", "", ""] + book_txt_lines(b)
+    out += ["", "", f"This is the end of the {series['series']} series, for now."]
+    return tidy(out)
+
+
+def downloads(books, prefix, current=None):
+    """Footer download links: real <a href download> links, no JavaScript."""
+    links = []
+    if current is not None:
+        b = next(x for x in books if x["n"] == current)
+        links.append(f'<li><a href="{prefix}{b["txt"]}" download="{esc(b["txt_name"])}" type="text/plain">'
+                     f'Download this book (.txt)</a></li>')
+    links.append(f'<li><a href="{prefix}{SERIES_TXT}" download="{esc(SERIES_TXT_NAME)}" type="text/plain">'
+                 f'Download the whole series (.txt)</a></li>')
+    return ('<nav class="downloads" aria-label="Downloads">\n<ul>\n' + "\n".join(links) + "\n</ul>\n"
+            '<p>Plain text files for offline reading, with no formatting.</p>\n</nav>\n')
+
+
 def nice_date(iso):
     d = datetime.date.fromisoformat(iso)
     return f"{d.strftime('%B')} {d.day} {d.year}"
@@ -149,9 +247,9 @@ def selector(books, prefix, current=None):
     return '<nav class="selector" aria-label="Books">\n' + picker(books, prefix, current) + '</nav>\n'
 
 
-def footer(prefix):
+def footer(books, prefix, current=None):
     return f"""<footer>
-<p>{esc(series['credits'])} <a href="{series['made_by_url']}">{esc(series['made_by_text'])}</a>.</p>
+{downloads(books, prefix, current)}<p>{esc(series['credits'])} <a href="{series['made_by_url']}">{esc(series['made_by_text'])}</a>.</p>
 <p><a href="{series['repo_url']}">The Airfryerlore repository on GitHub</a></p>
 </footer>
 """
@@ -183,8 +281,7 @@ def book_page(books, b):
 <p class="series">{esc(series['series'])}</p>
 <h1>{esc(b['label'])}</h1>
 <p class="author">by {esc(series['author'])}</p>
-{tp}<p><a href="book-{b['n']}-text.html">Read {esc(b['label'])} as plain text</a></p>
-</header>
+{tp}</header>
 {toc(b['body'])}<div class="story">
 {render_msgs(b['body'], 'web')}
 </div>
@@ -195,29 +292,12 @@ def book_page(books, b):
 </ul>
 </nav>
 </main>
-{footer('../')}</div>
+{footer(books, '../', b['n'])}</div>
 </div>
 </body>
 </html>
 """)
 
-
-def text_page(books, b):
-    tp = "".join(f'<p>{esc(x)}</p>\n' for x in b.get("title_page", []))
-    return (head(f'{b["label"]}, plain text - {series["series"]}', "../") +
-            f"""<body class="plain">
-<main>
-<h1>{esc(b['label'])}, plain text</h1>
-<p>This is the plain text version of {esc(b['label'])}, from the {esc(series['series'])} series by {esc(series['author'])}. It has no buttons. Everything is written out as text.</p>
-{tp}<p><a href="book-{b['n']}.html">Read the web version of {esc(b['label'])}</a></p>
-<p><a href="../index.html">Welcome screen</a></p>
-{render_msgs(b['body'], 'text')}
-<p>This is the end of {esc(b['label'])}.</p>
-<p><a href="../index.html">Welcome screen</a></p>
-</main>
-</body>
-</html>
-""")
 
 
 def old_links(books):
@@ -235,7 +315,6 @@ def welcome(books):
     where = json.dumps(old_links(books), separators=(",", ":"))
     redirect = ('<script>(function(){var m=' + where +
                 ';var h=decodeURIComponent(location.hash.slice(1));if(h&&m[h]){location.replace(m[h]+"#"+encodeURIComponent(h));}})();</script>\n')
-    txt = "\n".join(f'<li><a href="{b["text_page"]}">{esc(b["label"])}, plain text</a></li>' for b in books)
     return (head(series["series"], "", redirect) + f"""<body>
 <div class="desk">
 <div class="paper">
@@ -246,22 +325,16 @@ def welcome(books):
 <p class="author">by {esc(series['author'])}</p>
 <p>{esc(series['tagline'])}</p>
 </header>
-<p>Welcome to the Dreamor Council. Start with Book 1 and keep going, or jump to any book. Every book also has a plain text version with no buttons.</p>
+<p>Welcome to the Dreamor Council. Start with Book 1 and keep going, or jump to any book. To read offline, the bottom of every page has a download link for the whole series as a plain text file, and every book page has one for that book.</p>
 <nav aria-labelledby="select-a-book">
 <h2 id="select-a-book">Books</h2>
 {picker(books, "")}</nav>
-<nav aria-labelledby="plain-text">
-<h2 id="plain-text">Plain text versions</h2>
-<ul class="book-list">
-{txt}
-</ul>
-</nav>
 <h2 id="more">More</h2>
 <ul class="book-list">
 <li><a href="stats.html">Stats</a></li>
 </ul>
 </main>
-{footer('')}</div>
+{footer(books, '')}</div>
 </div>
 </body>
 </html>
@@ -303,7 +376,7 @@ def stats_page(books, counts):
 </section>
 <p><a href="index.html">Welcome screen</a></p>
 </main>
-{footer('')}</div>
+{footer(books, '')}</div>
 </div>
 </body>
 </html>
@@ -313,8 +386,9 @@ def stats_page(books, counts):
 def readme(books, counts):
     p = os.path.join(ROOT, "README.md")
     old = open(p, encoding="utf-8").read() if os.path.exists(p) else ""
-    rows = "\n".join(f"- [{b['label']}]({series['site_url']}{b['page']}) ([plain text]({series['site_url']}{b['text_page']}))"
+    rows = "\n".join(f"- [{b['label']}]({series['site_url']}{b['page']}) ([download as .txt]({series['site_url']}{b['txt']}))"
                      for b in books)
+    rows += f"\n\nThe whole series as one plain text file: [{SERIES_TXT}]({series['site_url']}{SERIES_TXT})"
     block = f"<!-- books:start -->\n{rows}\n<!-- books:end -->"
     if "<!-- books:start -->" in old:
         new = re.sub(r"<!-- books:start -->.*?<!-- books:end -->", block, old, flags=re.S)
@@ -334,7 +408,11 @@ def main():
     counts = {b["n"]: count(b) for b in books}
     for b in books:
         write(b["page"], book_page(books, b))
-        write(b["text_page"], text_page(books, b))
+        write(b["txt"], book_txt(b))
+    write(SERIES_TXT, series_txt(books))
+    for name in os.listdir(os.path.join(ROOT, "books")):
+        if re.fullmatch(r"book-\d+-text\.html", name):  # the old plain text pages, replaced by the .txt downloads
+            os.remove(os.path.join(ROOT, "books", name))
     write("index.html", welcome(books))
     write("stats.html", stats_page(books, counts))
     readme(books, counts)

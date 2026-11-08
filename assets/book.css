@@ -70,4 +70,7 @@ body.plain{background:var(--paper)}
 body.plain main{padding:1.5rem 1.25rem 3rem}
 body.plain h1{font-size:1.6rem;line-height:1.25}
 body.plain h2{margin-top:2.5rem}
+footer .downloads ul{list-style:none;padding:0;margin:0 0 .5rem}
+footer .downloads li{margin:.55rem 0}
+footer .downloads a{font-weight:bold}
 @media print{.selector,.end-nav{display:none}.paper{box-shadow:none}}
