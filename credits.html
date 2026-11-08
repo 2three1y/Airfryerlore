@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Credits - Airfryerlore</title>
+<meta name="description" content="The true(ish) stories of Poke, the Bluetooth air fryer, and the Dreamor Council.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Credits - Airfryerlore">
+<meta property="og:description" content="The true(ish) stories of Poke, the Bluetooth air fryer, and the Dreamor Council.">
+<link rel="stylesheet" href="assets/book.css">
+</head>
+<body>
+<div class="desk">
+<div class="selector">
+<div class="book-pick" id="book-pick" hidden>
+<label for="pick">Choose a book</label>
+<select id="pick">
+<option value="" selected>Choose a book…</option>
+<option value="books/book-1.html">Book 1: The Start</option>
+<option value="books/book-2.html">Book 2: The Fryer</option>
+<option value="books/book-3.html">Book 3: The Spoon</option>
+<option value="books/book-4.html">Book 4: Tab vs Poke</option>
+<option value="books/book-5.html">Book 5: The Bidding War</option>
+</select>
+</div>
+<script>(function(){
+// Fork Lab's picker (2three1y/forklab home.js): choosing a book opens it right away. No Read button.
+var w=document.getElementById("book-pick");if(!w)return;w.hidden=false;
+var pick=document.getElementById("pick");
+pick.addEventListener("change",function(){ if(pick.value) location.href=pick.value; });
+// Coming back with the Back button: reset to how the page started ("Choose a book…", or this book on a book page).
+window.addEventListener("pageshow",function(){ for(var i=0;i<pick.options.length;i++) pick.options[i].selected=pick.options[i].defaultSelected; });
+})();</script>
+<noscript>
+<ul class="book-list">
+<li><a href="books/book-1.html" title="Goes to Book 1: The Start">Book 1: The Start</a></li>
+<li><a href="books/book-2.html" title="Goes to Book 2: The Fryer">Book 2: The Fryer</a></li>
+<li><a href="books/book-3.html" title="Goes to Book 3: The Spoon">Book 3: The Spoon</a></li>
+<li><a href="books/book-4.html" title="Goes to Book 4: Tab vs Poke">Book 4: Tab vs Poke</a></li>
+<li><a href="books/book-5.html" title="Goes to Book 5: The Bidding War">Book 5: The Bidding War</a></li>
+</ul>
+</noscript>
+</div>
+<div class="paper">
+<main>
+<h1>Credits</h1>
+<p>made by <a href="https://2three1y.github.io/" title="Opens Chaotic Carter&#x27;s website">Chaotic Carter</a>. written w the Dreamor Council: Carter, Tomo and Tab.</p>
+<p><a href="index.html" title="Goes to the welcome screen">Welcome screen</a></p>
+</main>
+<footer>
+<ul class="footer-links">
+<li><a href="stats.html" title="Goes to Stats">Stats</a></li>
+<li><a href="roadmap.html" title="Goes to Roadmap">Roadmap</a></li>
+<li><a href="https://github.com/2three1y/Airfryerlore" title="Opens the GitHub repo">GitHub</a></li>
+<li><a href="credits.html" title="Goes to Credits">Credits</a></li>
+</ul>
+</footer>
+</div>
+</div>
+</body>
+</html>

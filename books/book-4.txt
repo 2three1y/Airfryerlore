@@ -419,3 +419,14 @@ That is Book 5.
 
 
 This is the end of Book 4: Tab vs Poke.
+
+
+Keep reading
+
+Previous book: Book 3: The Spoon. Download it at https://2three1y.github.io/Airfryerlore/books/book-3.txt
+
+Read Book 3 on the web at https://2three1y.github.io/Airfryerlore/books/book-3.html
+
+Next book: Book 5: The Bidding War. Download it at https://2three1y.github.io/Airfryerlore/books/book-5.txt
+
+Read Book 5 on the web at https://2three1y.github.io/Airfryerlore/books/book-5.html

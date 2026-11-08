@@ -15,14 +15,14 @@ body{margin:0;background:var(--desk);color:var(--ink);
 main{max-width:65ch;margin:0 auto}
 a{color:var(--link);text-underline-offset:.18em}
 a:focus-visible,button:focus-visible{outline:3px solid var(--link);outline-offset:3px}
-/* Book picker ("Choose a book"): Fork Lab's label + native select, same look (2three1y/forklab style.css) */
+/* Book picker ("Choose a book") and the Download options picker ("Pick ur format"): Fork Lab's label + native select, same look (2three1y/forklab style.css) */
 .selector{margin:0 0 1rem}
-.book-pick{--accent:#1d4ed8;--card:#ffffff;--fg:#1b1b1f;margin:.75rem 0}
-@media (prefers-color-scheme:dark){.book-pick{--accent:#93b4ff;--card:#1f1f26;--fg:#f1f0ec}}
-.book-pick[hidden]{display:none}
-.book-pick label{display:block;font-weight:600;margin:.6rem 0 .25rem}
-.book-pick select{font:inherit;min-height:44px;min-width:44px;padding:.45rem .9rem;border-radius:.6rem;border:2px solid var(--accent);background:var(--card);color:var(--fg);cursor:pointer;max-width:100%}
-.book-pick select:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.book-pick,.download-pick{--accent:#1d4ed8;--card:#ffffff;--fg:#1b1b1f;margin:.75rem 0}
+@media (prefers-color-scheme:dark){.book-pick,.download-pick{--accent:#93b4ff;--card:#1f1f26;--fg:#f1f0ec}}
+.book-pick[hidden],.download-pick[hidden]{display:none}
+.book-pick label,.download-pick label{display:block;font-weight:600;margin:.6rem 0 .25rem}
+.book-pick select,.download-pick select{font:inherit;min-height:44px;min-width:44px;padding:.45rem .9rem;border-radius:.6rem;border:2px solid var(--accent);background:var(--card);color:var(--fg);cursor:pointer;max-width:100%}
+.book-pick select:focus-visible,.download-pick select:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 .book-list a{display:inline-flex;align-items:center;min-height:44px}
 .book-list a[aria-current="page"]{font-weight:bold;text-decoration:underline}
 /* Title page */
@@ -63,14 +63,22 @@ blockquote{margin:1rem 1.5em;font-style:italic}
 .msg-text ul{margin:.2rem 0;padding-left:1.2em}
 /* End of book */
 .end-nav{margin-top:4rem;padding-top:2rem;border-top:1px solid var(--rule);text-align:center}
-footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--rule);color:var(--muted);font-size:.9rem;text-align:center}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--rule);color:var(--muted);font-size:.9em;text-align:center}
 section+section{margin-top:0}
 /* Plain text versions */
 body.plain{background:var(--paper)}
 body.plain main{padding:1.5rem 1.25rem 3rem}
 body.plain h1{font-size:1.6rem;line-height:1.25}
 body.plain h2{margin-top:2.5rem}
-footer .downloads ul{list-style:none;padding:0;margin:0 0 .5rem}
-footer .downloads li{margin:.55rem 0}
-footer .downloads a{font-weight:bold}
+.downloads{margin-top:3rem}
+.downloads ul{list-style:none;padding:0;margin:0 0 .5rem}
+.downloads li{margin:.55rem 0}
+.downloads a{font-weight:bold;display:inline-flex;align-items:center;min-height:44px}
+.footer-links{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;justify-content:center;gap:0 1.25rem}
+.footer-links a{display:inline-flex;align-items:center;min-height:44px;min-width:44px;justify-content:center}
+.download-pick button{font:inherit;font-weight:600;min-height:44px;min-width:44px;padding:.45rem .9rem;margin:.5rem .25rem 0;border-radius:.6rem;border:2px solid var(--accent);background:var(--accent);color:var(--card);cursor:pointer}
+.download-pick #braille-choice{margin:.5rem 0 0}
+.download-pick #braille-choice label{display:inline-flex;align-items:center;min-height:44px;cursor:pointer}
+.download-pick input[type=checkbox]{width:1.4em;height:1.4em;margin:0 .4rem 0 0;vertical-align:middle;accent-color:var(--accent);cursor:pointer}
+.download-pick button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 @media print{.selector,.end-nav{display:none}.paper{box-shadow:none}}

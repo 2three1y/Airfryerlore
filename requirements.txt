@@ -1,0 +1,2 @@
+# Needed to run build.py (the .docx downloads). The .brf downloads also need liblouis: apt install liblouis-bin
+python-docx>=1.1

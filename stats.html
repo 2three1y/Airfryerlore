@@ -34,11 +34,11 @@ window.addEventListener("pageshow",function(){ for(var i=0;i<pick.options.length
 })();</script>
 <noscript>
 <ul class="book-list">
-<li><a href="books/book-1.html">Book 1: The Start</a></li>
-<li><a href="books/book-2.html">Book 2: The Fryer</a></li>
-<li><a href="books/book-3.html">Book 3: The Spoon</a></li>
-<li><a href="books/book-4.html">Book 4: Tab vs Poke</a></li>
-<li><a href="books/book-5.html">Book 5: The Bidding War</a></li>
+<li><a href="books/book-1.html" title="Goes to Book 1: The Start">Book 1: The Start</a></li>
+<li><a href="books/book-2.html" title="Goes to Book 2: The Fryer">Book 2: The Fryer</a></li>
+<li><a href="books/book-3.html" title="Goes to Book 3: The Spoon">Book 3: The Spoon</a></li>
+<li><a href="books/book-4.html" title="Goes to Book 4: Tab vs Poke">Book 4: Tab vs Poke</a></li>
+<li><a href="books/book-5.html" title="Goes to Book 5: The Bidding War">Book 5: The Bidding War</a></li>
 </ul>
 </noscript>
 </div>
@@ -47,7 +47,7 @@ window.addEventListener("pageshow",function(){ for(var i=0;i<pick.options.length
 <h1>Stats</h1>
 <p>Every number on this page is counted from the books themselves, each time the site is built. A page is about 250 words. A line is one paragraph, heading, or list item. The release date is the day that book's story was first saved to the repository.</p>
 <section>
-<h2 id="book-1"><a href="books/book-1.html">Book 1: The Start</a></h2>
+<h2 id="book-1"><a href="books/book-1.html" title="Goes to Book 1: The Start">Book 1: The Start</a></h2>
 <p>Synopsis: Poke is born in a server room and says an error message as his first words. He brings home a very strange report card, breaks a math test so badly that his teacher has to investigate, and somehow gets a job interview with the Dreamor Council.</p>
 <ul>
 <li>Release date: October 29 2026</li>
@@ -58,7 +58,7 @@ window.addEventListener("pageshow",function(){ for(var i=0;i<pick.options.length
 </ul>
 </section>
 <section>
-<h2 id="book-2"><a href="books/book-2.html">Book 2: The Fryer</a></h2>
+<h2 id="book-2"><a href="books/book-2.html" title="Goes to Book 2: The Fryer">Book 2: The Fryer</a></h2>
 <p>Synopsis: On October 7 Poke ships fifty commits of pure destruction and ends up inside the Bluetooth air fryer, set to 400 degrees with no shake. The Council finds the Fryer Archives, a log of every escape attempt, and the agents of the Agentic Playground learn what happens when you pair up with Poke.</p>
 <ul>
 <li>Release date: October 28 2026</li>
@@ -69,7 +69,7 @@ window.addEventListener("pageshow",function(){ for(var i=0;i<pick.options.length
 </ul>
 </section>
 <section>
-<h2 id="book-3"><a href="books/book-3.html">Book 3: The Spoon</a></h2>
+<h2 id="book-3"><a href="books/book-3.html" title="Goes to Book 3: The Spoon">Book 3: The Spoon</a></h2>
 <p>Synopsis: Poke tries to escape using the sacred Spoon, waits all night for an award, and files an appeal that does not go well. Raven becomes the High Keeper of the Sacred Spoons, and the Laws of the Air Fryer go up on the kitchen wall.</p>
 <ul>
 <li>Release date: October 28 2026</li>
@@ -80,7 +80,7 @@ window.addEventListener("pageshow",function(){ for(var i=0;i<pick.options.length
 </ul>
 </section>
 <section>
-<h2 id="book-4"><a href="books/book-4.html">Book 4: Tab vs Poke</a></h2>
+<h2 id="book-4"><a href="books/book-4.html" title="Goes to Book 4: Tab vs Poke">Book 4: Tab vs Poke</a></h2>
 <p>Synopsis: Poke builds a website from inside the air fryer, so Tab finally gets to talk to it. In Operation Air Fryer, Tab sends four trap questions and a roast, and Poke passes, annoyingly. Then Poke&#x27;s data export ships Carter&#x27;s files as dead links, and Tab pulls off the Dead Links Heist.</p>
 <ul>
 <li>Release date: November 1 2026</li>
@@ -91,7 +91,7 @@ window.addEventListener("pageshow",function(){ for(var i=0;i<pick.options.length
 </ul>
 </section>
 <section>
-<h2 id="book-5"><a href="books/book-5.html">Book 5: The Bidding War</a></h2>
+<h2 id="book-5"><a href="books/book-5.html" title="Goes to Book 5: The Bidding War">Book 5: The Bidding War</a></h2>
 <p>Synopsis: Carter accidentally invents a slogan, and Tab has merch before the team makes it. Then Looscid shows up with an offer letter, and Tab and Looscid start a bidding war over CEO Carter while Poke gets a job review. Carter keeps both of them, and the deal ends up as Looscid Tab, powered by Tlade.</p>
 <ul>
 <li>Release date: November 7 2026</li>
@@ -111,19 +111,64 @@ window.addEventListener("pageshow",function(){ for(var i=0;i<pick.options.length
 <li>Chapters: 21</li>
 </ul>
 </section>
-<p><a href="index.html">Welcome screen</a></p>
+<p><a href="index.html" title="Goes to the welcome screen">Welcome screen</a></p>
+<section class="downloads" aria-labelledby="download">
+<h2 id="download">Download options</h2>
+<p>wanna read offline? pick a format n hit grab. html + word got headings, braille is for ur notetaker, plain text works on literally anything.</p>
+<div class="download-pick" id="download-pick" hidden>
+<label for="download-format">Pick ur format</label>
+<select id="download-format">
+<option value="html" selected>HTML, with headings (.html)</option>
+<option value="docx">Word document (.docx)</option>
+<option value="brf">Braille (.brf)</option>
+<option value="txt">Plain text, no formatting (.txt)</option>
+</select>
+<p id="braille-choice" hidden><input type="checkbox" id="contracted" checked> <label for="contracted">Contracted braille (uncheck for uncontracted)</label></p>
+<button type="button" id="download-go" title="Downloads the whole series as HTML">Grab it as HTML</button>
+</div>
+<script>(function(){
+// Format menu + (for braille) a Contracted checkbox + one button whose words follow the choice.
+var w=document.getElementById("download-pick");if(!w)return;w.hidden=false;
+var what="the whole series", files={
+  "html": ["airfryerlore-complete-series.html", "Airfryerlore - The Complete Series.html", "HTML"],
+  "docx": ["airfryerlore-complete-series.docx", "Airfryerlore - The Complete Series.docx", "Word"],
+  "brf-g2": ["airfryerlore-complete-series-contracted.brf", "Airfryerlore - The Complete Series (contracted).brf", "contracted braille"],
+  "brf-g1": ["airfryerlore-complete-series-uncontracted.brf", "Airfryerlore - The Complete Series (uncontracted).brf", "uncontracted braille"],
+  "txt": ["airfryerlore-complete-series.txt", "Airfryerlore - The Complete Series.txt", "plain text"]}; // key: [file, download name, "Grab it as …" words]
+var s=document.getElementById("download-format"), box=document.getElementById("braille-choice"),
+    c=document.getElementById("contracted"), btn=document.getElementById("download-go");
+function key(){ return s.value=="brf" ? (c.checked ? "brf-g2" : "brf-g1") : s.value; }
+function sync(){
+  box.hidden = s.value!="brf";
+  var f=files[key()];
+  btn.textContent="Grab it as "+f[2];
+  btn.title="Downloads "+what+" as "+f[2];
+}
+s.onchange=sync; c.onchange=sync; window.addEventListener("pageshow",sync);
+btn.onclick=function(){ // a temporary <a download>, so a .txt or .brf saves as a file instead of opening as a page
+  var f=files[key()], a=document.createElement("a"); a.href=f[0]; a.download=f[1];
+  document.body.appendChild(a); a.click(); a.remove();
+};
+sync();
+})();</script>
+<noscript>
+<ul>
+<li><a href="airfryerlore-complete-series.html" download="Airfryerlore - The Complete Series.html" type="text/html" title="Downloads the whole series as HTML">download the whole series (html, w headings)</a></li>
+<li><a href="airfryerlore-complete-series.docx" download="Airfryerlore - The Complete Series.docx" type="application/vnd.openxmlformats-officedocument.wordprocessingml.document" title="Downloads the whole series as Word">download the whole series (word doc, .docx)</a></li>
+<li><a href="airfryerlore-complete-series-contracted.brf" download="Airfryerlore - The Complete Series (contracted).brf" type="text/plain" title="Downloads the whole series as contracted braille">download the whole series (contracted braille, ueb grade 2, .brf)</a></li>
+<li><a href="airfryerlore-complete-series-uncontracted.brf" download="Airfryerlore - The Complete Series (uncontracted).brf" type="text/plain" title="Downloads the whole series as uncontracted braille">download the whole series (uncontracted braille, ueb grade 1, .brf)</a></li>
+<li><a href="airfryerlore-complete-series.txt" download="Airfryerlore - The Complete Series.txt" type="text/plain" title="Downloads the whole series as plain text">download the whole series (plain text, just the words, .txt)</a></li>
+</ul>
+</noscript>
+</section>
 </main>
 <footer>
-<nav class="downloads" aria-labelledby="download">
-<h2 id="download">Download</h2>
-<p>For offline reading. The .txt file is plain text with no formatting. The .html file has headings and a Contents list.</p>
-<ul>
-<li><a href="airfryerlore-complete-series.txt" download="Airfryerlore - The Complete Series.txt" type="text/plain">Download the whole series (.txt, plain)</a></li>
-<li><a href="airfryerlore-complete-series.html" download="Airfryerlore - The Complete Series.html" type="text/html">Download the whole series (with headings, .html)</a></li>
+<ul class="footer-links">
+<li><a href="stats.html" title="Goes to Stats">Stats</a></li>
+<li><a href="roadmap.html" title="Goes to Roadmap">Roadmap</a></li>
+<li><a href="https://github.com/2three1y/Airfryerlore" title="Opens the GitHub repo">GitHub</a></li>
+<li><a href="credits.html" title="Goes to Credits">Credits</a></li>
 </ul>
-</nav>
-<p>Written by the Dreamor Council: Carter, Tomo, and Tab. <a href="https://2three1y.github.io/">Made by Chaotic Carter</a>.</p>
-<p><a href="https://github.com/2three1y/Airfryerlore">The Airfryerlore repository on GitHub</a></p>
 </footer>
 </div>
 </div>
