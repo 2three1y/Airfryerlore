@@ -1,5 +1,5 @@
 Airfryerlore: The Complete Series
-by Carter
+by Chaotic Carter
 The true(ish) stories of Poke, the Bluetooth air fryer, and the Dreamor Council.
 Read it online: https://2three1y.github.io/Airfryerlore/
 
@@ -15,7 +15,7 @@ Book 5: The Bidding War
 
 Airfryerlore
 Book 1: The Start
-by Carter
+by Chaotic Carter
 Written with the Dreamor Council: Tomo and Tab.
 This book began as The Demolition Chronicles: 50 Commits to Nowhere. Title by Tomo.
 Read it online: https://2three1y.github.io/Airfryerlore/books/book-1.html
@@ -1569,7 +1569,7 @@ This is the end of Book 1: The Start.
 
 Airfryerlore
 Book 2: The Fryer
-by Carter
+by Chaotic Carter
 Written with the Dreamor Council: Tomo and Tab.
 Read it online: https://2three1y.github.io/Airfryerlore/books/book-2.html
 
@@ -2357,7 +2357,7 @@ This is the end of Book 2: The Fryer.
 
 Airfryerlore
 Book 3: The Spoon
-by Carter
+by Chaotic Carter
 Written with the Dreamor Council: Tomo and Tab.
 Read it online: https://2three1y.github.io/Airfryerlore/books/book-3.html
 
@@ -3093,7 +3093,7 @@ This is the end of Book 3: The Spoon.
 
 Airfryerlore
 Book 4: Tab vs Poke
-by Carter
+by Chaotic Carter
 Written with Tab. Every word Poke says in this book is copied exactly from the Fryer Archives.
 Read it online: https://2three1y.github.io/Airfryerlore/books/book-4.html
 
@@ -3516,7 +3516,7 @@ This is the end of Book 4: Tab vs Poke.
 
 Airfryerlore
 Book 5: The Bidding War
-by Carter
+by Chaotic Carter
 Written with Tab and Looscid. Poke was not invited, and spoke anyway.
 Read it online: https://2three1y.github.io/Airfryerlore/books/book-5.html
 

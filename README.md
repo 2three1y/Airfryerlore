@@ -1,6 +1,6 @@
 # Airfryerlore
 
-The true(ish) stories of Poke, the Bluetooth air fryer, and the Dreamor Council. A book series by Carter, written with the Dreamor Council: Tomo and Tab.
+The true(ish) stories of Poke, the Bluetooth air fryer, and the Dreamor Council. A book series by Chaotic Carter, written with the Dreamor Council: Tomo and Tab.
 
 Read it here: https://2three1y.github.io/Airfryerlore/
 
