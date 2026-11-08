@@ -33,9 +33,12 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--link);outline-offse
 .title-page .author{font-style:italic;font-size:1.15rem;margin:0 0 2rem}
 .title-page p{margin:.4rem 0;color:var(--muted)}
 /* Contents */
-.toc h2,.end-nav h2{text-align:center;font-variant:small-caps;letter-spacing:.15em;font-weight:normal}
-.toc ul,.book-list,.end-nav ul{list-style:none;padding:0}
-.toc li,.book-list li,.end-nav li{margin:.55rem 0}
+.toc h2,.end-nav h2,.book-nav h2{text-align:center;font-variant:small-caps;letter-spacing:.15em;font-weight:normal}
+.toc ul,.book-list,.end-nav ul,.book-nav ul{list-style:none;padding:0}
+.toc li,.book-list li,.end-nav li,.book-nav li{margin:.55rem 0}
+/* Previous / Next book at the top of a book page (the same links come again at the end) */
+.book-nav{text-align:center;margin:0 0 2.5rem}
+.book-nav a{display:inline-flex;align-items:center;min-height:44px}
 .toc{margin-bottom:3rem}
 /* Chapters */
 h1,h2,h3{font-family:inherit}
@@ -81,4 +84,4 @@ body.plain h2{margin-top:2.5rem}
 .download-pick #braille-choice label{display:inline-flex;align-items:center;min-height:44px;cursor:pointer}
 .download-pick input[type=checkbox]{width:1.4em;height:1.4em;margin:0 .4rem 0 0;vertical-align:middle;accent-color:var(--accent);cursor:pointer}
 .download-pick button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
-@media print{.selector,.end-nav{display:none}.paper{box-shadow:none}}
+@media print{.selector,.book-nav,.end-nav{display:none}.paper{box-shadow:none}}

@@ -689,12 +689,14 @@ def book_page(books, b):
     i = books.index(b)
     prev = books[i - 1] if i > 0 else None
     nxt = books[i + 1] if i + 1 < len(books) else None
-    ends = []
+    hops = []  # Previous / Next book, shown at the top and again at the end of every book page
     if prev:
-        ends.append(f'<li><a href="book-{prev["n"]}.html">Previous book: {esc(prev["label"])}</a></li>')
+        hops.append(f'<li><a href="book-{prev["n"]}.html">Previous book: {esc(prev["label"])}</a></li>')
     if nxt:
-        ends.append(f'<li><a href="book-{nxt["n"]}.html">Next book: {esc(nxt["label"])}</a></li>')
-    ends.append('<li><a href="../index.html">Welcome screen</a></li>')
+        hops.append(f'<li><a href="book-{nxt["n"]}.html">Next book: {esc(nxt["label"])}</a></li>')
+    ends = hops + ['<li><a href="../index.html">Welcome screen</a></li>']
+    top = ('<nav class="book-nav" aria-labelledby="book-to-book">\n<h2 id="book-to-book">Book to book</h2>\n<ul>\n' +
+           "\n".join(hops) + '\n</ul>\n</nav>\n')
     tp = "".join(f'<p>{esc(x)}</p>\n' for x in b.get("title_page", []))
     return (head(f'{b["label"]} - {series["series"]}', "../") +
             f"""<body>
@@ -706,7 +708,7 @@ def book_page(books, b):
 <h1>{esc(b['label'])}</h1>
 <p class="author">by {esc(series['author'])}</p>
 {tp}</header>
-{toc(b['body'])}<div class="story">
+{top}{toc(b['body'])}<div class="story">
 {render_msgs(b['body'], 'web')}
 </div>
 <nav class="end-nav" aria-labelledby="keep-reading">

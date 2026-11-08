@@ -4,7 +4,7 @@ The true(ish) stories of Poke, the Bluetooth air fryer, and the Dreamor Council.
 
 Read it here: https://2three1y.github.io/Airfryerlore/
 
-The welcome screen has one "Choose a book" picker, the same style as Fork Lab: a "Choose a book" label and a menu (VoiceOver on iPhone reads it as a pop up button). Choose a book and it opens right away, no Read button. Without JavaScript a plain list of the book links shows instead. The welcome screen also links to the Stats page. Every book page has the same picker at the top, with that book already chosen, and every book ends with links to the previous book, the next book, and the welcome screen.
+The welcome screen has one "Choose a book" picker, the same style as Fork Lab: a "Choose a book" label and a menu (VoiceOver on iPhone reads it as a pop up button). Choose a book and it opens right away, no Read button. Without JavaScript a plain list of the book links shows instead. The welcome screen also links to the Stats page. Every book page has the same picker at the top, with that book already chosen, right under the book title a short "Book to book" part with Previous book and Next book links, so you can hop book to book without the menu, and every book ends with links to the previous book, the next book, and the welcome screen.
 
 ## Footer, Roadmap and Credits
 
