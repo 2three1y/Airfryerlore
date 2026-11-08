@@ -300,28 +300,13 @@ def head(title, prefix, extra=""):
 """
 
 
-MENU_JS = """<script>(function(){
-var w=document.getElementById("book-menu");if(!w)return;
-var b=document.getElementById("book-menu-button"),l=document.getElementById("book-menu-list");
-var a=[].slice.call(l.querySelectorAll("a"));
-w.hidden=false;
-function go(i){a[(i+a.length)%a.length].focus();}
-function open(i){l.hidden=false;b.setAttribute("aria-expanded","true");
-if(i==null){i=0;for(var k=0;k<a.length;k++){if(a[k].hasAttribute("aria-current"))i=k;}}go(i);}
-function close(back){if(l.hidden)return;l.hidden=true;b.setAttribute("aria-expanded","false");if(back)b.focus();}
-b.addEventListener("click",function(){if(l.hidden)open();else close(true);});
-b.addEventListener("keydown",function(e){
-if(e.key==="ArrowDown"){e.preventDefault();open();}
-else if(e.key==="ArrowUp"){e.preventDefault();open(a.length-1);}});
-l.addEventListener("keydown",function(e){var i=a.indexOf(document.activeElement);
-if(e.key==="ArrowDown"){e.preventDefault();go(i+1);}
-else if(e.key==="ArrowUp"){e.preventDefault();go(i-1);}
-else if(e.key==="Home"){e.preventDefault();go(0);}
-else if(e.key==="End"){e.preventDefault();go(a.length-1);}});
-document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!l.hidden){e.preventDefault();close(true);}});
-document.addEventListener("pointerdown",function(e){if(!w.contains(e.target))close(false);});
-document.addEventListener("click",function(e){if(!w.contains(e.target))close(false);});
-w.addEventListener("focusout",function(e){if(e.relatedTarget&&!w.contains(e.relatedTarget))close(false);});
+PICK_JS = """<script>(function(){
+// Fork Lab's picker (2three1y/forklab home.js): choosing a book opens it right away. No Read button.
+var w=document.getElementById("book-pick");if(!w)return;w.hidden=false;
+var pick=document.getElementById("pick");
+pick.addEventListener("change",function(){ if(pick.value) location.href=pick.value; });
+// Coming back with the Back button: reset to how the page started ("Choose a book…", or this book on a book page).
+window.addEventListener("pageshow",function(){ for(var i=0;i<pick.options.length;i++) pick.options[i].selected=pick.options[i].defaultSelected; });
 })();</script>"""
 
 
@@ -333,20 +318,26 @@ def book_links(books, prefix, current):
     return "\n".join(rows)
 
 
-def picker(books, prefix, current=None):
-    """The book menu: a "Choose a book" menu pop-up button. Tapping it opens the 5 books
-    right below it as plain links; tapping one opens that book. The small script right after it
-    shows the button and runs the menu (focus to the first or current book, arrow keys, Escape,
-    tap outside). Without JavaScript the button stays hidden and the <noscript> links show instead."""
-    links = book_links(books, prefix, current)
-    return ('<div class="book-menu" id="book-menu" hidden>\n'
-            '<button type="button" id="book-menu-button" aria-haspopup="menu" aria-expanded="false">Choose a book</button>\n'
-            '<ul class="book-menu-list" id="book-menu-list" hidden>\n' + links + '\n</ul>\n</div>\n' +
-            MENU_JS + '\n<noscript>\n<ul class="book-list">\n' + links + '\n</ul>\n</noscript>\n')
+def picker(books, prefix, current=None, hint=False):
+    """The book picker, copied from Fork Lab: a visible "Choose a book" label, then a native
+    <select> (iPhone VoiceOver reads it as a pop up button). The first option is "Choose a book…",
+    or on a book page that book is already chosen. Choosing a book opens it right away; there is
+    no Read button. The small script right after it shows the picker and runs it. Without
+    JavaScript the picker stays hidden and the <noscript> list of book links shows instead."""
+    first = ' selected' if current is None else ''
+    opts = [f'<option value=""{first}>Choose a book…</option>']
+    for b in books:
+        sel = ' selected' if current == b["n"] else ''
+        opts.append(f'<option value="{prefix}{b["page"]}"{sel}>{esc(b["label"])}</option>')
+    say = '<p>Choose a book from the menu and it opens right away.</p>\n' if hint else ''
+    return ('<div class="book-pick" id="book-pick" hidden>\n' + say +
+            '<label for="pick">Choose a book</label>\n<select id="pick">\n' + "\n".join(opts) +
+            '\n</select>\n</div>\n' + PICK_JS + '\n<noscript>\n<ul class="book-list">\n' +
+            book_links(books, prefix, current) + '\n</ul>\n</noscript>\n')
 
 
 def selector(books, prefix, current=None):
-    """The book menu at the top of a book page (and the stats page)."""
+    """The book picker at the top of a book page (and the stats page)."""
     return '<div class="selector">\n' + picker(books, prefix, current) + '</div>\n'
 
 
@@ -430,7 +421,7 @@ def welcome(books):
 </header>
 <p>Welcome to the Dreamor Council. Start with Book 1 and keep going, or jump to any book. To read offline, the Download section at the bottom of this page has the whole series as one file, and every book page has a Download section for that book.</p>
 <h2 id="select-a-book">Books</h2>
-{picker(books, "")}
+{picker(books, "", hint=True)}
 <h2 id="more">More</h2>
 <ul class="book-list">
 <li><a href="stats.html">Stats</a></li>

@@ -15,21 +15,15 @@ body{margin:0;background:var(--desk);color:var(--ink);
 main{max-width:65ch;margin:0 auto}
 a{color:var(--link);text-underline-offset:.18em}
 a:focus-visible,button:focus-visible{outline:3px solid var(--link);outline-offset:3px}
-/* Book menu ("Choose a book"): a menu pop-up button with the books right below it */
+/* Book picker ("Choose a book"): Fork Lab's label + native select, same look (2three1y/forklab style.css) */
 .selector{margin:0 0 1rem}
-.book-menu{position:relative;display:inline-block;margin:.75rem 0}
-.book-menu[hidden],.book-menu-list[hidden]{display:none}
-.book-menu button{font:inherit;font-size:1rem;color:var(--ink);background:var(--paper);cursor:pointer;
- border:1px solid var(--rule);border-radius:999px;padding:.5rem 1.1rem;min-height:44px;min-width:44px;box-shadow:var(--shadow)}
-.book-menu button::after{content:"";display:inline-block;margin-left:.6rem;vertical-align:.15em;
- border:.32em solid transparent;border-top-color:currentColor;border-bottom:0}
-.book-menu button[aria-expanded="true"]::after{border-top:0;border-bottom:.32em solid currentColor}
-.book-menu-list{position:absolute;z-index:10;top:calc(100% + .35rem);left:0;margin:0;padding:.35rem;list-style:none;
- width:max-content;max-width:calc(100vw - 2rem);background:var(--paper);border:1px solid var(--rule);border-radius:12px;box-shadow:var(--shadow)}
-.book-menu-list li{margin:0}
-.book-menu-list a{display:flex;align-items:center;min-height:44px;padding:.35rem .9rem;border-radius:8px;text-decoration:none;color:var(--ink)}
-.book-menu-list a:hover,.book-menu-list a:focus-visible{background:var(--desk);text-decoration:underline}
-.book-menu-list a[aria-current="page"]{font-weight:bold;color:var(--link)}
+.book-pick{--accent:#1d4ed8;--card:#ffffff;--fg:#1b1b1f;margin:.75rem 0}
+@media (prefers-color-scheme:dark){.book-pick{--accent:#93b4ff;--card:#1f1f26;--fg:#f1f0ec}}
+.book-pick[hidden]{display:none}
+.book-pick label{display:block;font-weight:600;margin:.6rem 0 .25rem}
+.book-pick select{font:inherit;min-height:44px;min-width:44px;padding:.45rem .9rem;border-radius:.6rem;border:2px solid var(--accent);background:var(--card);color:var(--fg);cursor:pointer;max-width:100%}
+.book-pick select:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.book-list a{display:inline-flex;align-items:center;min-height:44px}
 .book-list a[aria-current="page"]{font-weight:bold;text-decoration:underline}
 /* Title page */
 .title-page{text-align:center;padding:3rem 0 3.5rem;margin-bottom:2rem;border-bottom:1px solid var(--rule);min-height:55vh;
