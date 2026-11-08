@@ -14,16 +14,22 @@ body{margin:0;background:var(--desk);color:var(--ink);
 .paper{background:var(--paper);box-shadow:var(--shadow);border-radius:3px;padding:2.5rem clamp(1.25rem,5vw,3.25rem) 2rem;margin-top:.75rem}
 main{max-width:65ch;margin:0 auto}
 a{color:var(--link);text-underline-offset:.18em}
-a:focus-visible,button:focus-visible,select:focus-visible{outline:3px solid var(--link);outline-offset:3px}
-/* Book menu ("Choose a book") */
+a:focus-visible,button:focus-visible{outline:3px solid var(--link);outline-offset:3px}
+/* Book menu ("Choose a book"): a menu pop-up button with the books right below it */
 .selector{margin:0 0 1rem}
-.picker{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem .6rem;margin:.75rem 0}
-.picker[hidden]{display:none}
-.picker label{font-size:.95rem;letter-spacing:.04em}
-.picker select,.picker button{font:inherit;font-size:1rem;color:var(--ink);background:var(--paper);
- border:1px solid var(--rule);border-radius:999px;padding:.5rem 1rem;min-height:44px;box-shadow:var(--shadow)}
-.picker select{max-width:100%}
-.picker button{cursor:pointer}
+.book-menu{position:relative;display:inline-block;margin:.75rem 0}
+.book-menu[hidden],.book-menu-list[hidden]{display:none}
+.book-menu button{font:inherit;font-size:1rem;color:var(--ink);background:var(--paper);cursor:pointer;
+ border:1px solid var(--rule);border-radius:999px;padding:.5rem 1.1rem;min-height:44px;min-width:44px;box-shadow:var(--shadow)}
+.book-menu button::after{content:"";display:inline-block;margin-left:.6rem;vertical-align:.15em;
+ border:.32em solid transparent;border-top-color:currentColor;border-bottom:0}
+.book-menu button[aria-expanded="true"]::after{border-top:0;border-bottom:.32em solid currentColor}
+.book-menu-list{position:absolute;z-index:10;top:calc(100% + .35rem);left:0;margin:0;padding:.35rem;list-style:none;
+ width:max-content;max-width:calc(100vw - 2rem);background:var(--paper);border:1px solid var(--rule);border-radius:12px;box-shadow:var(--shadow)}
+.book-menu-list li{margin:0}
+.book-menu-list a{display:flex;align-items:center;min-height:44px;padding:.35rem .9rem;border-radius:8px;text-decoration:none;color:var(--ink)}
+.book-menu-list a:hover,.book-menu-list a:focus-visible{background:var(--desk);text-decoration:underline}
+.book-menu-list a[aria-current="page"]{font-weight:bold;color:var(--link)}
 .book-list a[aria-current="page"]{font-weight:bold;text-decoration:underline}
 /* Title page */
 .title-page{text-align:center;padding:3rem 0 3.5rem;margin-bottom:2rem;border-bottom:1px solid var(--rule);min-height:55vh;

@@ -12,19 +12,40 @@
 </head>
 <body>
 <div class="desk">
-<nav class="selector" aria-label="Books">
-<form class="picker" id="book-picker-form" method="get" action="#" hidden>
-<label for="book-picker">Choose a book</label>
-<select id="book-picker" name="book">
-<option value="../books/book-1.html">Book 1: The Start</option>
-<option value="../books/book-2.html" selected>Book 2: The Fryer</option>
-<option value="../books/book-3.html">Book 3: The Spoon</option>
-<option value="../books/book-4.html">Book 4: Tab vs Poke</option>
-<option value="../books/book-5.html">Book 5: The Bidding War</option>
-</select>
-<button type="submit">Read</button>
-</form>
-<script>(function(){var f=document.getElementById("book-picker-form");if(!f)return;f.hidden=false;f.addEventListener("submit",function(e){e.preventDefault();location.href=f.elements.book.value;});})();</script>
+<div class="selector">
+<div class="book-menu" id="book-menu" hidden>
+<button type="button" id="book-menu-button" aria-haspopup="menu" aria-expanded="false">Choose a book</button>
+<ul class="book-menu-list" id="book-menu-list" hidden>
+<li><a href="../books/book-1.html">Book 1: The Start</a></li>
+<li><a href="../books/book-2.html" aria-current="page">Book 2: The Fryer</a></li>
+<li><a href="../books/book-3.html">Book 3: The Spoon</a></li>
+<li><a href="../books/book-4.html">Book 4: Tab vs Poke</a></li>
+<li><a href="../books/book-5.html">Book 5: The Bidding War</a></li>
+</ul>
+</div>
+<script>(function(){
+var w=document.getElementById("book-menu");if(!w)return;
+var b=document.getElementById("book-menu-button"),l=document.getElementById("book-menu-list");
+var a=[].slice.call(l.querySelectorAll("a"));
+w.hidden=false;
+function go(i){a[(i+a.length)%a.length].focus();}
+function open(i){l.hidden=false;b.setAttribute("aria-expanded","true");
+if(i==null){i=0;for(var k=0;k<a.length;k++){if(a[k].hasAttribute("aria-current"))i=k;}}go(i);}
+function close(back){if(l.hidden)return;l.hidden=true;b.setAttribute("aria-expanded","false");if(back)b.focus();}
+b.addEventListener("click",function(){if(l.hidden)open();else close(true);});
+b.addEventListener("keydown",function(e){
+if(e.key==="ArrowDown"){e.preventDefault();open();}
+else if(e.key==="ArrowUp"){e.preventDefault();open(a.length-1);}});
+l.addEventListener("keydown",function(e){var i=a.indexOf(document.activeElement);
+if(e.key==="ArrowDown"){e.preventDefault();go(i+1);}
+else if(e.key==="ArrowUp"){e.preventDefault();go(i-1);}
+else if(e.key==="Home"){e.preventDefault();go(0);}
+else if(e.key==="End"){e.preventDefault();go(a.length-1);}});
+document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!l.hidden){e.preventDefault();close(true);}});
+document.addEventListener("pointerdown",function(e){if(!w.contains(e.target))close(false);});
+document.addEventListener("click",function(e){if(!w.contains(e.target))close(false);});
+w.addEventListener("focusout",function(e){if(e.relatedTarget&&!w.contains(e.relatedTarget))close(false);});
+})();</script>
 <noscript>
 <ul class="book-list">
 <li><a href="../books/book-1.html">Book 1: The Start</a></li>
@@ -34,7 +55,7 @@
 <li><a href="../books/book-5.html">Book 5: The Bidding War</a></li>
 </ul>
 </noscript>
-</nav>
+</div>
 <div class="paper">
 <main>
 <header class="title-page">

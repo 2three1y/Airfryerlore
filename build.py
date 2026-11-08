@@ -300,33 +300,54 @@ def head(title, prefix, extra=""):
 """
 
 
-PICKER_JS = ('<script>(function(){var f=document.getElementById("book-picker-form");if(!f)return;'
-             'f.hidden=false;f.addEventListener("submit",function(e){e.preventDefault();'
-             'location.href=f.elements.book.value;});})();</script>')
+MENU_JS = """<script>(function(){
+var w=document.getElementById("book-menu");if(!w)return;
+var b=document.getElementById("book-menu-button"),l=document.getElementById("book-menu-list");
+var a=[].slice.call(l.querySelectorAll("a"));
+w.hidden=false;
+function go(i){a[(i+a.length)%a.length].focus();}
+function open(i){l.hidden=false;b.setAttribute("aria-expanded","true");
+if(i==null){i=0;for(var k=0;k<a.length;k++){if(a[k].hasAttribute("aria-current"))i=k;}}go(i);}
+function close(back){if(l.hidden)return;l.hidden=true;b.setAttribute("aria-expanded","false");if(back)b.focus();}
+b.addEventListener("click",function(){if(l.hidden)open();else close(true);});
+b.addEventListener("keydown",function(e){
+if(e.key==="ArrowDown"){e.preventDefault();open();}
+else if(e.key==="ArrowUp"){e.preventDefault();open(a.length-1);}});
+l.addEventListener("keydown",function(e){var i=a.indexOf(document.activeElement);
+if(e.key==="ArrowDown"){e.preventDefault();go(i+1);}
+else if(e.key==="ArrowUp"){e.preventDefault();go(i-1);}
+else if(e.key==="Home"){e.preventDefault();go(0);}
+else if(e.key==="End"){e.preventDefault();go(a.length-1);}});
+document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!l.hidden){e.preventDefault();close(true);}});
+document.addEventListener("pointerdown",function(e){if(!w.contains(e.target))close(false);});
+document.addEventListener("click",function(e){if(!w.contains(e.target))close(false);});
+w.addEventListener("focusout",function(e){if(e.relatedTarget&&!w.contains(e.relatedTarget))close(false);});
+})();</script>"""
+
+
+def book_links(books, prefix, current):
+    rows = []
+    for b in books:
+        cur = ' aria-current="page"' if current == b["n"] else ""
+        rows.append(f'<li><a href="{prefix}{b["page"]}"{cur}>{esc(b["label"])}</a></li>')
+    return "\n".join(rows)
 
 
 def picker(books, prefix, current=None):
-    """The book menu: a native <select> (the iPhone picker) plus a Read button.
-    The small script right after it shows it and opens the chosen book.
-    Without JavaScript the menu stays hidden and the <noscript> links show instead."""
-    opts = []
-    for b in books:
-        sel = " selected" if current == b["n"] else ""
-        opts.append(f'<option value="{prefix}{b["page"]}"{sel}>{esc(b["label"])}</option>')
-    links = []
-    for b in books:
-        cur = ' aria-current="page"' if current == b["n"] else ""
-        links.append(f'<li><a href="{prefix}{b["page"]}"{cur}>{esc(b["label"])}</a></li>')
-    return ('<form class="picker" id="book-picker-form" method="get" action="#" hidden>\n'
-            '<label for="book-picker">Choose a book</label>\n'
-            '<select id="book-picker" name="book">\n' + "\n".join(opts) + '\n</select>\n'
-            '<button type="submit">Read</button>\n</form>\n' + PICKER_JS + '\n'
-            '<noscript>\n<ul class="book-list">\n' + "\n".join(links) + '\n</ul>\n</noscript>\n')
+    """The book menu: a "Choose a book" menu pop-up button. Tapping it opens the 5 books
+    right below it as plain links; tapping one opens that book. The small script right after it
+    shows the button and runs the menu (focus to the first or current book, arrow keys, Escape,
+    tap outside). Without JavaScript the button stays hidden and the <noscript> links show instead."""
+    links = book_links(books, prefix, current)
+    return ('<div class="book-menu" id="book-menu" hidden>\n'
+            '<button type="button" id="book-menu-button" aria-haspopup="menu" aria-expanded="false">Choose a book</button>\n'
+            '<ul class="book-menu-list" id="book-menu-list" hidden>\n' + links + '\n</ul>\n</div>\n' +
+            MENU_JS + '\n<noscript>\n<ul class="book-list">\n' + links + '\n</ul>\n</noscript>\n')
 
 
 def selector(books, prefix, current=None):
     """The book menu at the top of a book page (and the stats page)."""
-    return '<nav class="selector" aria-label="Books">\n' + picker(books, prefix, current) + '</nav>\n'
+    return '<div class="selector">\n' + picker(books, prefix, current) + '</div>\n'
 
 
 def footer(books, prefix, current=None):
@@ -408,9 +429,8 @@ def welcome(books):
 <p>{esc(series['tagline'])}</p>
 </header>
 <p>Welcome to the Dreamor Council. Start with Book 1 and keep going, or jump to any book. To read offline, the Download section at the bottom of this page has the whole series as one file, and every book page has a Download section for that book.</p>
-<nav aria-labelledby="select-a-book">
 <h2 id="select-a-book">Books</h2>
-{picker(books, "")}</nav>
+{picker(books, "")}
 <h2 id="more">More</h2>
 <ul class="book-list">
 <li><a href="stats.html">Stats</a></li>
